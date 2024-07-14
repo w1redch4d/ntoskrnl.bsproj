@@ -1,0 +1,11 @@
+last_change = 2024-07-14T14:50:29.871790Z
+addr = 0x2029e0
+size = 0x57
+type = "_QWORD *"
+
+[header]
+last_change = 2024-07-14T14:50:29.871790Z
+addr = 0x2029e0
+type = "_QWORD *"
+
+[header.args]

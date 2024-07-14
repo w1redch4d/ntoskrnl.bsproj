@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x0]
+name = "anonymous_0"
+offset = 0x0
+type = "struct _LARGE_INTEGER::$824E624842C29B0A9DF85A636208834D"
+size = 0x8
+
+[members.0x1]
+name = "u"
+offset = 0x1
+type = "struct _LARGE_INTEGER::$824E624842C29B0A9DF85A636208834D"
+size = 0x8
+
+[members.0x2]
+name = "QuadPart"
+offset = 0x2
+type = "LONGLONG"
+size = 0x8

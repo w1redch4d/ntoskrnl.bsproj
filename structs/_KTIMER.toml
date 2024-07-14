@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KTIMER"
+size = 0x40
+
+[members.0x0]
+name = "Header"
+offset = 0x0
+type = "_DISPATCHER_HEADER"
+size = 0x18
+
+[members.0x18]
+name = "DueTime"
+offset = 0x18
+type = "_ULARGE_INTEGER"
+size = 0x8
+
+[members.0x20]
+name = "TimerListEntry"
+offset = 0x20
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x30]
+name = "Dpc"
+offset = 0x30
+type = "_KDPC *"
+size = 0x8
+
+[members.0x38]
+name = "Processor"
+offset = 0x38
+type = "unsigned short"
+size = 0x2
+
+[members.0x3a]
+name = "TimerType"
+offset = 0x3a
+type = "unsigned short"
+size = 0x2
+
+[members.0x3c]
+name = "Period"
+offset = 0x3c
+type = "unsigned int"
+size = 0x4

@@ -1,0 +1,99 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_GENERAL_LOOKASIDE_POOL"
+size = 0x60
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$60E8A10C53829A6D3131D8B285338153"
+size = 0x10
+
+[members.0x10]
+name = "Depth"
+offset = 0x10
+type = "unsigned short"
+size = 0x2
+
+[members.0x12]
+name = "MaximumDepth"
+offset = 0x12
+type = "unsigned short"
+size = 0x2
+
+[members.0x14]
+name = "TotalAllocates"
+offset = 0x14
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "___u4"
+offset = 0x18
+type = "$9D02AA4AC86E49CEAF084B97B97744B1"
+size = 0x4
+
+[members.0x1c]
+name = "TotalFrees"
+offset = 0x1c
+type = "unsigned int"
+size = 0x4
+
+[members.0x20]
+name = "___u6"
+offset = 0x20
+type = "$4290DA71080BA5C562B380EC38D3C295"
+size = 0x4
+
+[members.0x24]
+name = "Type"
+offset = 0x24
+type = "_POOL_TYPE"
+size = 0x4
+
+[members.0x28]
+name = "Tag"
+offset = 0x28
+type = "unsigned int"
+size = 0x4
+
+[members.0x2c]
+name = "Size"
+offset = 0x2c
+type = "unsigned int"
+size = 0x4
+
+[members.0x30]
+name = "___u10"
+offset = 0x30
+type = "$1202F1CE9F61399A177A72C831B7F70E"
+size = 0x8
+
+[members.0x38]
+name = "___u11"
+offset = 0x38
+type = "$2C0B5C34625B6665B95D29438DEE1BAC"
+size = 0x8
+
+[members.0x40]
+name = "ListEntry"
+offset = 0x40
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x50]
+name = "LastTotalAllocates"
+offset = 0x50
+type = "unsigned int"
+size = 0x4
+
+[members.0x54]
+name = "___u14"
+offset = 0x54
+type = "$BA67176EA55FA2D963EA02A98A2C99D2"
+size = 0x4
+
+[members.0x58]
+name = "Future"
+offset = 0x58
+type = "unsigned int[2]"
+size = 0x8

@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$15D1686C1B6B91F828FF4FDCD9195D5F"
+size = 0x4
+
+[members.0x0]
+name = "MutantType"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "QueueControlFlags"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "_bf_2"
+offset = 0x2
+type = "char"
+size = 0x1
+
+[members.0x3]
+name = "DebugActive"
+offset = 0x3
+type = "unsigned char"
+size = 0x1

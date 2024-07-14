@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$34248A84B98EBB2D47BB9FC41093285E"
+size = 0x8
+
+[members.0x0]
+name = "BpbRetpolineExitSpecCtrl"
+offset = 0x0
+type = "unsigned short"
+size = 0x2
+
+[members.0x2]
+name = "BpbTrappedRetpolineExitSpecCtrl"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "BpbTrappedBpbState"
+offset = 0x4
+type = "unsigned short"
+size = 0x2
+
+[members.0x6]
+name = "BpbRetpolineState"
+offset = 0x6
+type = "unsigned char"
+size = 0x1
+
+[members.0x7]
+name = "PrcbPad12b"
+offset = 0x7
+type = "unsigned char"
+size = 0x1

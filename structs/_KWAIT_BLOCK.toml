@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KWAIT_BLOCK"
+size = 0x30
+
+[members.0x0]
+name = "WaitListEntry"
+offset = 0x0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x10]
+name = "WaitType"
+offset = 0x10
+type = "unsigned char"
+size = 0x1
+
+[members.0x11]
+name = "BlockState"
+offset = 0x11
+type = "volatile unsigned char"
+size = 0x1
+
+[members.0x12]
+name = "WaitKey"
+offset = 0x12
+type = "unsigned short"
+size = 0x2
+
+[members.0x14]
+name = "SpareLong"
+offset = 0x14
+type = "int"
+size = 0x4
+
+[members.0x18]
+name = "___u5"
+offset = 0x18
+type = "$7282BFE866C989AE960A9E4ED78AEFA8"
+size = 0x8
+
+[members.0x20]
+name = "Object"
+offset = 0x20
+type = "void *"
+size = 0x8
+
+[members.0x28]
+name = "SparePtr"
+offset = 0x28
+type = "void *"
+size = 0x8

@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "C_SCOPE_TABLE"
+size = 0x10
+
+[members.0x0]
+name = "Begin"
+offset = 0x0
+type = ""
+size = 0x4
+
+[members.0x4]
+name = "End"
+offset = 0x4
+type = ""
+size = 0x4
+
+[members.0x8]
+name = "Handler"
+offset = 0x8
+type = ""
+size = 0x4
+
+[members.0xc]
+name = "Target"
+offset = 0xc
+type = ""
+size = 0x4

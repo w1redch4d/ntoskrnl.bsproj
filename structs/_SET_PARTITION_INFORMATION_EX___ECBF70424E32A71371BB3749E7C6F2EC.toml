@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SET_PARTITION_INFORMATION_EX::$ECBF70424E32A71371BB3749E7C6F2EC"
+size = 0x70
+
+[members.0x0]
+name = "Mbr"
+offset = 0x0
+type = "SET_PARTITION_INFORMATION_MBR"
+size = 0x1
+
+[members.0x1]
+name = "Gpt"
+offset = 0x1
+type = "SET_PARTITION_INFORMATION_GPT"
+size = 0x70

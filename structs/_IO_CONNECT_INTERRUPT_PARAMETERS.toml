@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_IO_CONNECT_INTERRUPT_PARAMETERS"
+size = 0x50
+
+[members.0x0]
+name = "Version"
+offset = 0x0
+type = "ULONG"
+size = 0x4
+
+[members.0x8]
+name = "anonymous_0"
+offset = 0x8
+type = "union _IO_CONNECT_INTERRUPT_PARAMETERS::$2E6CC9919A7A4E65C2869C27AF9F4E89"
+size = 0x48

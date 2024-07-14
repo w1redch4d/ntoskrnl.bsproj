@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$AC117747BC554509E8A831DF3432CA7F"
+size = 0x18
+
+[members.0x0]
+name = "HashEntry"
+offset = 0x0
+type = "_RTL_DYNAMIC_HASH_TABLE_ENTRY"
+size = 0x18
+
+[members.0x1]
+name = "CurEntry"
+offset = 0x1
+type = "_LIST_ENTRY *"
+size = 0x8

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$13C47006537A9EA1190DE83D2FE804F8"
+size = 0x10
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$1478958CD18659349EECCFF09CEBE206"
+size = 0x8
+
+[members.0x8]
+name = "___u1"
+offset = 0x8
+type = "$AD692F4A89EA78C5264F0F0E205C500F"
+size = 0x8

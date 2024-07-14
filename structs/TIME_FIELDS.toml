@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "TIME_FIELDS"
+size = 0x10
+
+[members.0x0]
+name = "Year"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x2]
+name = "Month"
+offset = 0x2
+type = "short"
+size = 0x2
+
+[members.0x4]
+name = "Day"
+offset = 0x4
+type = "short"
+size = 0x2
+
+[members.0x6]
+name = "Hour"
+offset = 0x6
+type = "short"
+size = 0x2
+
+[members.0x8]
+name = "Minute"
+offset = 0x8
+type = "short"
+size = 0x2
+
+[members.0xa]
+name = "Second"
+offset = 0xa
+type = "short"
+size = 0x2
+
+[members.0xc]
+name = "Milliseconds"
+offset = 0xc
+type = "short"
+size = 0x2
+
+[members.0xe]
+name = "Weekday"
+offset = 0xe
+type = "short"
+size = 0x2

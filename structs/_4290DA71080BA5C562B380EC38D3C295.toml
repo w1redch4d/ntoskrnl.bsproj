@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$4290DA71080BA5C562B380EC38D3C295"
+size = 0x4
+
+[members.0x0]
+name = "FreeMisses"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x1]
+name = "FreeHits"
+offset = 0x1
+type = "unsigned int"
+size = 0x4

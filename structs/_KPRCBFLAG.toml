@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KPRCBFLAG"
+size = 0x4
+
+[members.0x0]
+name = "PrcbFlags"
+offset = 0x0
+type = "volatile int"
+size = 0x4
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$2E071D4BB428BF4BD31886DCE390AEC5"
+size = 0x4

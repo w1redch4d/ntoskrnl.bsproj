@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KDESCRIPTOR"
+size = 0x10
+
+[members.0x0]
+name = "Pad"
+offset = 0x0
+type = "unsigned short[3]"
+size = 0x6
+
+[members.0x6]
+name = "Limit"
+offset = 0x6
+type = "unsigned short"
+size = 0x2
+
+[members.0x8]
+name = "Base"
+offset = 0x8
+type = "void *"
+size = 0x8

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$AB35347129CE6ACDD88E37965D6574BC"
+size = 0x2c
+
+[members.0x0]
+name = "InitialPrivilegeSet"
+offset = 0x0
+type = "_INITIAL_PRIVILEGE_SET"
+size = 0x2c
+
+[members.0x1]
+name = "PrivilegeSet"
+offset = 0x1
+type = "_PRIVILEGE_SET"
+size = 0x14

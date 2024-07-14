@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_NT_TIB"
+size = 0x38
+
+[members.0x0]
+name = "ExceptionList"
+offset = 0x0
+type = "_EXCEPTION_REGISTRATION_RECORD *"
+size = 0x8
+
+[members.0x8]
+name = "StackBase"
+offset = 0x8
+type = "void *"
+size = 0x8
+
+[members.0x10]
+name = "StackLimit"
+offset = 0x10
+type = "void *"
+size = 0x8
+
+[members.0x18]
+name = "SubSystemTib"
+offset = 0x18
+type = "void *"
+size = 0x8
+
+[members.0x20]
+name = "___u4"
+offset = 0x20
+type = "$7A727655067EA29DD1B3C3F7D79CBFD1"
+size = 0x8
+
+[members.0x28]
+name = "ArbitraryUserPointer"
+offset = 0x28
+type = "void *"
+size = 0x8
+
+[members.0x30]
+name = "Self"
+offset = 0x30
+type = "_NT_TIB *"
+size = 0x8

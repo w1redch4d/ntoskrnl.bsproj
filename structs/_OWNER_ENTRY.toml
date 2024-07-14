@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_OWNER_ENTRY"
+size = 0x10
+
+[members.0x0]
+name = "OwnerThread"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "___u1"
+offset = 0x8
+type = "$D62EF80B429CC51D9E93E12FE70E96B0"
+size = 0x4

@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_RTL_BALANCED_LINKS"
+size = 0x20
+
+[members.0x0]
+name = "Parent"
+offset = 0x0
+type = "_RTL_BALANCED_LINKS *"
+size = 0x8
+
+[members.0x8]
+name = "LeftChild"
+offset = 0x8
+type = "_RTL_BALANCED_LINKS *"
+size = 0x8
+
+[members.0x10]
+name = "RightChild"
+offset = 0x10
+type = "_RTL_BALANCED_LINKS *"
+size = 0x8
+
+[members.0x18]
+name = "Balance"
+offset = 0x18
+type = "char"
+size = 0x1
+
+[members.0x19]
+name = "Reserved"
+offset = 0x19
+type = "unsigned char[3]"
+size = 0x3

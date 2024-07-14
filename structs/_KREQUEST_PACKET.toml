@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KREQUEST_PACKET"
+size = 0x20
+
+[members.0x0]
+name = "CurrentPacket"
+offset = 0x0
+type = "void *[3]"
+size = 0x18
+
+[members.0x18]
+name = "WorkerRoutine"
+offset = 0x18
+type = "void (__fastcall *)(void *, void *, void *, void *)"
+size = 0x8

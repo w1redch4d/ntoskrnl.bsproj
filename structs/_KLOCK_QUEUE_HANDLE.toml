@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KLOCK_QUEUE_HANDLE"
+size = 0x18
+
+[members.0x0]
+name = "LockQueue"
+offset = 0x0
+type = "_KSPIN_LOCK_QUEUE"
+size = 0x10
+
+[members.0x10]
+name = "OldIrql"
+offset = 0x10
+type = "unsigned char"
+size = 0x1

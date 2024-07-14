@@ -1,0 +1,346 @@
+[AUDIT_EVENT_TYPE]
+name = "AUDIT_EVENT_TYPE"
+
+[CREATE_FILE_TYPE]
+name = "CREATE_FILE_TYPE"
+
+[EX_POOL_PRIORITY]
+name = "EX_POOL_PRIORITY"
+
+[FILE_INFORMATION_CLASS]
+name = "FILE_INFORMATION_CLASS"
+
+[FS_INFORMATION_CLASS]
+name = "FS_INFORMATION_CLASS"
+
+[KBUGCHECK_CALLBACK_REASON]
+name = "KBUGCHECK_CALLBACK_REASON"
+
+[KINTERRUPT_MODE]
+name = "KINTERRUPT_MODE"
+
+[MEMORY_CACHING_TYPE]
+name = "MEMORY_CACHING_TYPE"
+
+[PARTITION_STYLE]
+name = "PARTITION_STYLE"
+
+[PCW_REGISTRATION_FLAGS]
+name = "PCW_REGISTRATION_FLAGS"
+
+[POOL_TYPE]
+name = "POOL_TYPE"
+
+[SECTION_INHERIT]
+name = "SECTION_INHERIT"
+
+[SECURITY_IMPERSONATION_LEVEL]
+name = "SECURITY_IMPERSONATION_LEVEL"
+
+[SE_ADT_PARAMETER_TYPE]
+name = "SE_ADT_PARAMETER_TYPE"
+
+[TABLE_SEARCH_RESULT]
+name = "TABLE_SEARCH_RESULT"
+
+[TOKEN_TYPE]
+name = "TOKEN_TYPE"
+
+[WAIT_TYPE]
+name = "WAIT_TYPE"
+
+[WORK_QUEUE_TYPE]
+name = "WORK_QUEUE_TYPE"
+
+[_KCLOCK_TIMER_DEADLINE_TYPE]
+name = "_KCLOCK_TIMER_DEADLINE_TYPE"
+
+[_KCLOCK_TIMER_ONE_SHOT_STATE]
+name = "_KCLOCK_TIMER_ONE_SHOT_STATE"
+
+[_KHETERO_CPU_QOS]
+name = "_KHETERO_CPU_QOS"
+
+[_POOL_TYPE]
+name = "_POOL_TYPE"
+
+[_PROCESSOR_CACHE_TYPE]
+name = "_PROCESSOR_CACHE_TYPE"
+
+[_PROC_HYPERVISOR_STATE]
+name = "_PROC_HYPERVISOR_STATE"
+
+[_SECURITY_IMPERSONATION_LEVEL]
+name = "_SECURITY_IMPERSONATION_LEVEL"
+
+[AUDIT_EVENT_TYPE.members]
+AuditEventObjectAccess = 0x0
+AuditEventDirectoryServiceAccess = 0x1
+
+[CREATE_FILE_TYPE.members]
+CreateFileTypeNone = 0x0
+CreateFileTypeNamedPipe = 0x1
+CreateFileTypeMailslot = 0x2
+
+[EX_POOL_PRIORITY.members]
+LowPoolPriority = 0x0
+LowPoolPrioritySpecialPoolOverrun = 0x8
+LowPoolPrioritySpecialPoolUnderrun = 0x9
+NormalPoolPriority = 0x10
+NormalPoolPrioritySpecialPoolOverrun = 0x18
+NormalPoolPrioritySpecialPoolUnderrun = 0x19
+HighPoolPriority = 0x20
+HighPoolPrioritySpecialPoolOverrun = 0x28
+HighPoolPrioritySpecialPoolUnderrun = 0x29
+
+[FILE_INFORMATION_CLASS.members]
+FileDirectoryInformation = 0x1
+FileFullDirectoryInformation = 0x2
+FileBothDirectoryInformation = 0x3
+FileBasicInformation = 0x4
+FileStandardInformation = 0x5
+FileInternalInformation = 0x6
+FileEaInformation = 0x7
+FileAccessInformation = 0x8
+FileNameInformation = 0x9
+FileRenameInformation = 0xa
+FileLinkInformation = 0xb
+FileNamesInformation = 0xc
+FileDispositionInformation = 0xd
+FilePositionInformation = 0xe
+FileFullEaInformation = 0xf
+FileModeInformation = 0x10
+FileAlignmentInformation = 0x11
+FileAllInformation = 0x12
+FileAllocationInformation = 0x13
+FileEndOfFileInformation = 0x14
+FileAlternateNameInformation = 0x15
+FileStreamInformation = 0x16
+FilePipeInformation = 0x17
+FilePipeLocalInformation = 0x18
+FilePipeRemoteInformation = 0x19
+FileMailslotQueryInformation = 0x1a
+FileMailslotSetInformation = 0x1b
+FileCompressionInformation = 0x1c
+FileObjectIdInformation = 0x1d
+FileCompletionInformation = 0x1e
+FileMoveClusterInformation = 0x1f
+FileQuotaInformation = 0x20
+FileReparsePointInformation = 0x21
+FileNetworkOpenInformation = 0x22
+FileAttributeTagInformation = 0x23
+FileTrackingInformation = 0x24
+FileIdBothDirectoryInformation = 0x25
+FileIdFullDirectoryInformation = 0x26
+FileValidDataLengthInformation = 0x27
+FileShortNameInformation = 0x28
+FileIoCompletionNotificationInformation = 0x29
+FileIoStatusBlockRangeInformation = 0x2a
+FileIoPriorityHintInformation = 0x2b
+FileSfioReserveInformation = 0x2c
+FileSfioVolumeInformation = 0x2d
+FileHardLinkInformation = 0x2e
+FileProcessIdsUsingFileInformation = 0x2f
+FileNormalizedNameInformation = 0x30
+FileNetworkPhysicalNameInformation = 0x31
+FileIdGlobalTxDirectoryInformation = 0x32
+FileIsRemoteDeviceInformation = 0x33
+FileUnusedInformation = 0x34
+FileNumaNodeInformation = 0x35
+FileStandardLinkInformation = 0x36
+FileRemoteProtocolInformation = 0x37
+FileRenameInformationBypassAccessCheck = 0x38
+FileLinkInformationBypassAccessCheck = 0x39
+FileVolumeNameInformation = 0x3a
+FileIdInformation = 0x3b
+FileIdExtdDirectoryInformation = 0x3c
+FileReplaceCompletionInformation = 0x3d
+FileHardLinkFullIdInformation = 0x3e
+FileIdExtdBothDirectoryInformation = 0x3f
+FileDispositionInformationEx = 0x40
+FileRenameInformationEx = 0x41
+FileRenameInformationExBypassAccessCheck = 0x42
+FileDesiredStorageClassInformation = 0x43
+FileStatInformation = 0x44
+FileMemoryPartitionInformation = 0x45
+FileStatLxInformation = 0x46
+FileCaseSensitiveInformation = 0x47
+FileLinkInformationEx = 0x48
+FileLinkInformationExBypassAccessCheck = 0x49
+FileStorageReserveIdInformation = 0x4a
+FileCaseSensitiveInformationForceAccessCheck = 0x4b
+FileMaximumInformation = 0x4c
+
+[FS_INFORMATION_CLASS.members]
+FileFsVolumeInformation = 0x1
+FileFsLabelInformation = 0x2
+FileFsSizeInformation = 0x3
+FileFsDeviceInformation = 0x4
+FileFsAttributeInformation = 0x5
+FileFsControlInformation = 0x6
+FileFsFullSizeInformation = 0x7
+FileFsObjectIdInformation = 0x8
+FileFsDriverPathInformation = 0x9
+FileFsVolumeFlagsInformation = 0xa
+FileFsSectorSizeInformation = 0xb
+FileFsDataCopyInformation = 0xc
+FileFsMetadataSizeInformation = 0xd
+FileFsFullSizeInformationEx = 0xe
+FileFsMaximumInformation = 0xf
+
+[KBUGCHECK_CALLBACK_REASON.members]
+KbCallbackInvalid = 0x0
+KbCallbackReserved1 = 0x1
+KbCallbackSecondaryDumpData = 0x2
+KbCallbackDumpIo = 0x3
+KbCallbackAddPages = 0x4
+KbCallbackSecondaryMultiPartDumpData = 0x5
+KbCallbackRemovePages = 0x6
+KbCallbackTriageDumpData = 0x7
+
+[KINTERRUPT_MODE.members]
+LevelSensitive = 0x0
+Latched = 0x1
+
+[MEMORY_CACHING_TYPE.members]
+MmNonCached = 0x0
+MmCached = 0x1
+MmWriteCombined = 0x2
+MmHardwareCoherentCached = 0x3
+MmNonCachedUnordered = 0x4
+MmUSWCCached = 0x5
+MmMaximumCacheType = 0x6
+
+[PARTITION_STYLE.members]
+PARTITION_STYLE_MBR = 0x0
+PARTITION_STYLE_GPT = 0x1
+PARTITION_STYLE_RAW = 0x2
+
+[PCW_REGISTRATION_FLAGS.members]
+PcwRegistrationNone = 0x0
+PcwRegistrationSiloNeutral = 0x1
+
+[POOL_TYPE.members]
+NonPagedPool = 0x0
+PagedPool = 0x1
+NonPagedPoolMustSucceed = 0x2
+DontUseThisType = 0x3
+NonPagedPoolCacheAligned = 0x4
+PagedPoolCacheAligned = 0x5
+NonPagedPoolCacheAlignedMustS = 0x6
+MaxPoolType = 0x7
+NonPagedPoolSession = 0x20
+PagedPoolSession = 0x21
+NonPagedPoolMustSucceedSession = 0x22
+DontUseThisTypeSession = 0x23
+NonPagedPoolCacheAlignedSession = 0x24
+PagedPoolCacheAlignedSession = 0x25
+NonPagedPoolCacheAlignedMustSSession = 0x26
+NonPagedPoolNx = 0x200
+NonPagedPoolNxCacheAligned = 0x204
+NonPagedPoolSessionNx = 0x220
+
+[SECURITY_IMPERSONATION_LEVEL.members]
+SecurityAnonymous = 0x0
+SecurityIdentification = 0x1
+SecurityImpersonation = 0x2
+SecurityDelegation = 0x3
+
+[SE_ADT_PARAMETER_TYPE.members]
+SeAdtParmTypeNone = 0x0
+SeAdtParmTypeString = 0x1
+SeAdtParmTypeFileSpec = 0x2
+SeAdtParmTypeUlong = 0x3
+SeAdtParmTypeSid = 0x4
+SeAdtParmTypeLogonId = 0x5
+SeAdtParmTypeNoLogonId = 0x6
+SeAdtParmTypeAccessMask = 0x7
+SeAdtParmTypePrivs = 0x8
+SeAdtParmTypeObjectTypes = 0x9
+SeAdtParmTypeHexUlong = 0xa
+SeAdtParmTypePtr = 0xb
+SeAdtParmTypeTime = 0xc
+SeAdtParmTypeGuid = 0xd
+SeAdtParmTypeLuid = 0xe
+SeAdtParmTypeHexInt64 = 0xf
+SeAdtParmTypeStringList = 0x10
+SeAdtParmTypeSidList = 0x11
+SeAdtParmTypeDuration = 0x12
+SeAdtParmTypeUserAccountControl = 0x13
+SeAdtParmTypeNoUac = 0x14
+SeAdtParmTypeMessage = 0x15
+SeAdtParmTypeDateTime = 0x16
+SeAdtParmTypeSockAddr = 0x17
+SeAdtParmTypeSD = 0x18
+SeAdtParmTypeLogonHours = 0x19
+SeAdtParmTypeLogonIdNoSid = 0x1a
+SeAdtParmTypeUlongNoConv = 0x1b
+SeAdtParmTypeSockAddrNoPort = 0x1c
+SeAdtParmTypeAccessReason = 0x1d
+SeAdtParmTypeStagingReason = 0x1e
+SeAdtParmTypeResourceAttribute = 0x1f
+SeAdtParmTypeClaims = 0x20
+SeAdtParmTypeLogonIdAsSid = 0x21
+SeAdtParmTypeMultiSzString = 0x22
+SeAdtParmTypeLogonIdEx = 0x23
+
+[TABLE_SEARCH_RESULT.members]
+TableEmptyTree = 0x0
+TableFoundNode = 0x1
+TableInsertAsLeft = 0x2
+TableInsertAsRight = 0x3
+
+[WAIT_TYPE.members]
+WaitAll = 0x0
+WaitAny = 0x1
+WaitNotification = 0x2
+WaitDequeue = 0x3
+
+[WORK_QUEUE_TYPE.members]
+CriticalWorkQueue = 0x0
+DelayedWorkQueue = 0x1
+HyperCriticalWorkQueue = 0x2
+NormalWorkQueue = 0x3
+BackgroundWorkQueue = 0x4
+RealTimeWorkQueue = 0x5
+SuperCriticalWorkQueue = 0x6
+MaximumWorkQueue = 0x7
+CustomPriorityWorkQueue = 0x20
+
+[_KCLOCK_TIMER_DEADLINE_TYPE.members]
+KClockTimerKTimerExpirationNonHr = 0x0
+KClockTimerKTimerExpirationPseudoHr = 0x1
+KClockTimerKTimer2ExpirationHr = 0x2
+KClockTimerQuantumEnd = 0x3
+KClockTimerGroupSchedulingGenerationEnd = 0x4
+KClockTimerIdlePromotion = 0x5
+KClockTimerBamQosHysteresisEnd = 0x6
+KClockTimerMax = 0x7
+
+[_KCLOCK_TIMER_ONE_SHOT_STATE.members]
+KClockTimerOneShotUnarmed = 0x0
+KClockTimerOneShotArmed = 0x1
+KClockTimerOneShotRearmRequired = 0x2
+KClockTimerOneShotInvalid = 0x3
+
+[_KHETERO_CPU_QOS.members]
+KHeteroCpuQosDefault = 0x0
+KHeteroCpuQosMedium = 0x1
+KHeteroCpuQosLow = 0x2
+KHeteroCpuQosMultimedia = 0x3
+KHeteroCpuQosDeadline = 0x4
+KHeteroCpuQosEco = 0x5
+KHeteroCpuQosUtility = 0x6
+KHeteroCpuQosDynamic = 0x7
+
+[_PROCESSOR_CACHE_TYPE.members]
+CacheUnified = 0x0
+CacheInstruction = 0x1
+CacheData = 0x2
+CacheTrace = 0x3
+
+[_PROC_HYPERVISOR_STATE.members]
+ProcHypervisorNone = 0x0
+ProcHypervisorPresent = 0x1
+ProcHypervisorPower = 0x2
+ProcHypervisorHvCounters = 0x3

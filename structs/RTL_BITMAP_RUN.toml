@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "RTL_BITMAP_RUN"
+size = 0x8
+
+[members.0x0]
+name = "StartingIndex"
+offset = 0x0
+type = "ULONG"
+size = 0x4
+
+[members.0x4]
+name = "NumberOfBits"
+offset = 0x4
+type = "ULONG"
+size = 0x4

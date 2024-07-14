@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_CLFS_MGMT_CLIENT_REGISTRATION"
+size = 0x38
+
+[members.0x0]
+name = "Version"
+offset = 0x0
+type = "ULONG"
+size = 0x4
+
+[members.0x8]
+name = "AdvanceTailCallback"
+offset = 0x8
+type = "PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK"
+size = 0x8
+
+[members.0x10]
+name = "AdvanceTailCallbackData"
+offset = 0x10
+type = "PVOID"
+size = 0x8
+
+[members.0x18]
+name = "LogGrowthCompleteCallback"
+offset = 0x18
+type = "PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK"
+size = 0x8
+
+[members.0x20]
+name = "LogGrowthCompleteCallbackData"
+offset = 0x20
+type = "PVOID"
+size = 0x8
+
+[members.0x28]
+name = "LogUnpinnedCallback"
+offset = 0x28
+type = "PCLFS_CLIENT_LOG_UNPINNED_CALLBACK"
+size = 0x8
+
+[members.0x30]
+name = "LogUnpinnedCallbackData"
+offset = 0x30
+type = "PVOID"
+size = 0x8

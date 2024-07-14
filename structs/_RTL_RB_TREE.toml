@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_RTL_RB_TREE"
+size = 0x10
+
+[members.0x0]
+name = "Root"
+offset = 0x0
+type = "_RTL_BALANCED_NODE *"
+size = 0x8
+
+[members.0x8]
+name = "___u1"
+offset = 0x8
+type = "$10B50A2518B073654E2CE9EC97616E98"
+size = 0x8

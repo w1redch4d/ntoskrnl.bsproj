@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$7A727655067EA29DD1B3C3F7D79CBFD1"
+size = 0x8
+
+[members.0x0]
+name = "FiberData"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x1]
+name = "Version"
+offset = 0x1
+type = "unsigned int"
+size = 0x4

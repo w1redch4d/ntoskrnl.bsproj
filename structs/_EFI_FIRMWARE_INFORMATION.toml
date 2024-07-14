@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_EFI_FIRMWARE_INFORMATION"
+size = 0x38
+
+[members.0x0]
+name = "FirmwareVersion"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "VirtualEfiRuntimeServices"
+offset = 0x8
+type = "_VIRTUAL_EFI_RUNTIME_SERVICES *"
+size = 0x8
+
+[members.0x10]
+name = "SetVirtualAddressMapStatus"
+offset = 0x10
+type = "int"
+size = 0x4
+
+[members.0x14]
+name = "MissedMappingsCount"
+offset = 0x14
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "FirmwareResourceList"
+offset = 0x18
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x28]
+name = "EfiMemoryMap"
+offset = 0x28
+type = "void *"
+size = 0x8
+
+[members.0x30]
+name = "EfiMemoryMapSize"
+offset = 0x30
+type = "unsigned int"
+size = 0x4
+
+[members.0x34]
+name = "EfiMemoryMapDescriptorSize"
+offset = 0x34
+type = "unsigned int"
+size = 0x4

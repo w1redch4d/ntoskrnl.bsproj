@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_CACHE_DESCRIPTOR"
+size = 0xc
+
+[members.0x0]
+name = "Level"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "Associativity"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "LineSize"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "Size"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Type"
+offset = 0x8
+type = "_PROCESSOR_CACHE_TYPE"
+size = 0x4

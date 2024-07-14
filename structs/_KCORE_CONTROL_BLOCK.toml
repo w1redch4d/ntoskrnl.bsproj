@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KCORE_CONTROL_BLOCK"
+size = 0x48
+
+[members.0x0]
+name = "ProcessorCount"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "ScanStartIndex"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "Spare"
+offset = 0x2
+type = "unsigned char[6]"
+size = 0x6
+
+[members.0x8]
+name = "Prcbs"
+offset = 0x8
+type = "_KPRCB *[8]"
+size = 0x40

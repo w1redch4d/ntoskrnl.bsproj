@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$130FE6DD2988B5149B5CF6FA6DA1B2D0"
+size = 0x8
+
+[members.0x0]
+name = "Busy"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$18E3EACC1E717291AA7C720ECCD5C45C"
+size = 0x8

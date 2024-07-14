@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$FB07AA5C7C51C76EF49B4D35992E2177"
+size = 0x18
+
+[members.0x0]
+name = "DmaWaitEntry"
+offset = 0x0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x10]
+name = "NumberOfChannels"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x14]
+name = "_bf_14"
+offset = 0x14
+type = "int"
+size = 0x4

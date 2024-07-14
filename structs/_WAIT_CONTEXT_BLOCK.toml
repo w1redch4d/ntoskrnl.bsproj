@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_WAIT_CONTEXT_BLOCK"
+size = 0x48
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$D70BDBF978292670075F655093B8FFD9"
+size = 0x18
+
+[members.0x18]
+name = "DeviceRoutine"
+offset = 0x18
+type = "_IO_ALLOCATION_ACTION (__fastcall *)(_DEVICE_OBJECT *, _IRP *, void *, void *)"
+size = 0x8
+
+[members.0x20]
+name = "DeviceContext"
+offset = 0x20
+type = "void *"
+size = 0x8
+
+[members.0x28]
+name = "NumberOfMapRegisters"
+offset = 0x28
+type = "unsigned int"
+size = 0x4
+
+[members.0x30]
+name = "DeviceObject"
+offset = 0x30
+type = "void *"
+size = 0x8
+
+[members.0x38]
+name = "CurrentIrp"
+offset = 0x38
+type = "void *"
+size = 0x8
+
+[members.0x40]
+name = "BufferChainingDpc"
+offset = 0x40
+type = "_KDPC *"
+size = 0x8

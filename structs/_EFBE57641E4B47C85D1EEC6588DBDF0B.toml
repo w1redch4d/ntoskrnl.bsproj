@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$EFBE57641E4B47C85D1EEC6588DBDF0B"
+size = 0x8
+
+[members.0x0]
+name = "idxRecord"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "cidContainer"
+offset = 0x4
+type = "unsigned int"
+size = 0x4

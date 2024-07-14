@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$24E81F9F14F77C2D24EEC53A9BC45943"
+size = 0x18
+
+[members.0x0]
+name = "KernelRoutine"
+offset = 0x0
+type = "void (__fastcall *)(_KAPC *, void (__fastcall **)(void *, void *, void *), void **, void **, void **)"
+size = 0x8
+
+[members.0x8]
+name = "RundownRoutine"
+offset = 0x8
+type = "void (__fastcall *)(_KAPC *)"
+size = 0x8
+
+[members.0x10]
+name = "NormalRoutine"
+offset = 0x10
+type = "void (__fastcall *)(void *, void *, void *)"
+size = 0x8

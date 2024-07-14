@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_GROUP_AFFINITY"
+size = 0x10
+
+[members.0x0]
+name = "Mask"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "Group"
+offset = 0x8
+type = "unsigned short"
+size = 0x2
+
+[members.0xa]
+name = "Reserved"
+offset = 0xa
+type = "unsigned short[3]"
+size = 0x6

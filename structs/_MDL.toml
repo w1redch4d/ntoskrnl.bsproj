@@ -1,0 +1,63 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_MDL"
+size = 0x30
+
+[members.0x0]
+name = "Next"
+offset = 0x0
+type = "_MDL *"
+size = 0x8
+
+[members.0x8]
+name = "Size"
+offset = 0x8
+type = "short"
+size = 0x2
+
+[members.0xa]
+name = "MdlFlags"
+offset = 0xa
+type = "short"
+size = 0x2
+
+[members.0xc]
+name = "AllocationProcessorNumber"
+offset = 0xc
+type = "unsigned short"
+size = 0x2
+
+[members.0xe]
+name = "Reserved"
+offset = 0xe
+type = "unsigned short"
+size = 0x2
+
+[members.0x10]
+name = "Process"
+offset = 0x10
+type = "_EPROCESS *"
+size = 0x8
+
+[members.0x18]
+name = "MappedSystemVa"
+offset = 0x18
+type = "void *"
+size = 0x8
+
+[members.0x20]
+name = "StartVa"
+offset = 0x20
+type = "void *"
+size = 0x8
+
+[members.0x28]
+name = "ByteCount"
+offset = 0x28
+type = "unsigned int"
+size = 0x4
+
+[members.0x2c]
+name = "ByteOffset"
+offset = 0x2c
+type = "unsigned int"
+size = 0x4

@@ -1,0 +1,69 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$652A6E14BF5BFC7E610B1DECF7CB46DB"
+size = 0x4
+
+[members.0x0]
+name = "Lock"
+offset = 0x0
+type = "volatile int"
+size = 0x4
+
+[members.0x1]
+name = "LockNV"
+offset = 0x1
+type = "int"
+size = 0x4
+
+[members.0x2]
+name = "__s2"
+offset = 0x2
+type = "$08481D05807C14C022C64127DBCB0DC5"
+size = 0x4
+
+[members.0x3]
+name = "__s3"
+offset = 0x3
+type = "$BDD1DEEA9085FB2031C94E38C028AF9F"
+size = 0x4
+
+[members.0x4]
+name = "__s4"
+offset = 0x4
+type = "$02F1E2651E9D26351CD44793F2F78E1F"
+size = 0x4
+
+[members.0x5]
+name = "__s5"
+offset = 0x5
+type = "$E9B6E411B508381891F0374539EA7718"
+size = 0x4
+
+[members.0x6]
+name = "__s6"
+offset = 0x6
+type = "$82359CCE575330AAB08AF0894BC28AE0"
+size = 0x4
+
+[members.0x7]
+name = "__s7"
+offset = 0x7
+type = "$15D1686C1B6B91F828FF4FDCD9195D5F"
+size = 0x4
+
+[members.0x8]
+name = "__s8"
+offset = 0x8
+type = "$E2EE4CA74305DC1015C145013FDA09CF"
+size = 0x4
+
+[members.0x9]
+name = "__s9"
+offset = 0x9
+type = "$4C0D29959C2537B70A4EE9FE3BDDA353"
+size = 0x4
+
+[members.0xa]
+name = "__s10"
+offset = 0xa
+type = "$4B94A638C9572C40F7312179A2B431F6"
+size = 0x2

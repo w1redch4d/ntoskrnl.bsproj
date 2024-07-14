@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$C11F024F64BD56052A3B1C939D857BCE"
+size = 0x4
+
+[members.0x0]
+name = "TargetInfoAsUlong"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$82623AFB470F8517B6D8F9E43441C7E1"
+size = 0x4

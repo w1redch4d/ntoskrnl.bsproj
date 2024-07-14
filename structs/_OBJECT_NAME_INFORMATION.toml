@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_OBJECT_NAME_INFORMATION"
+size = 0x10
+
+[members.0x0]
+name = "Name"
+offset = 0x0
+type = "_UNICODE_STRING"
+size = 0x10

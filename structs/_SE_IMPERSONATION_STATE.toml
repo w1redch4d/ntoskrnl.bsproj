@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SE_IMPERSONATION_STATE"
+size = 0x10
+
+[members.0x0]
+name = "Token"
+offset = 0x0
+type = "PACCESS_TOKEN"
+size = 0x8
+
+[members.0x8]
+name = "CopyOnOpen"
+offset = 0x8
+type = "BOOLEAN"
+size = 0x1
+
+[members.0x9]
+name = "EffectiveOnly"
+offset = 0x9
+type = "BOOLEAN"
+size = 0x1
+
+[members.0xc]
+name = "Level"
+offset = 0xc
+type = "SECURITY_IMPERSONATION_LEVEL"
+size = 0x4

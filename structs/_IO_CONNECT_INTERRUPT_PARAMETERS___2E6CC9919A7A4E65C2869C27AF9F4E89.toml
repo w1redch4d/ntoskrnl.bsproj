@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_IO_CONNECT_INTERRUPT_PARAMETERS::$2E6CC9919A7A4E65C2869C27AF9F4E89"
+size = 0x48
+
+[members.0x0]
+name = "FullySpecified"
+offset = 0x0
+type = "IO_CONNECT_INTERRUPT_FULLY_SPECIFIED_PARAMETERS"
+size = 0x48
+
+[members.0x1]
+name = "LineBased"
+offset = 0x1
+type = "IO_CONNECT_INTERRUPT_LINE_BASED_PARAMETERS"
+size = 0x30
+
+[members.0x2]
+name = "MessageBased"
+offset = 0x2
+type = "IO_CONNECT_INTERRUPT_MESSAGE_BASED_PARAMETERS"
+size = 0x38

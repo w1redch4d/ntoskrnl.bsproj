@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_CM_PARTIAL_RESOURCE_DESCRIPTOR"
+size = 0x14
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "ShareDisposition"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "Flags"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "u"
+offset = 0x4
+type = "$0696E2F948B29B15537D6538BC2B3EB9"
+size = 0x10

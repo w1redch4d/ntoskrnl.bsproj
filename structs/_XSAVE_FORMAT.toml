@@ -1,0 +1,99 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_XSAVE_FORMAT"
+size = 0x200
+
+[members.0x0]
+name = "ControlWord"
+offset = 0x0
+type = "unsigned short"
+size = 0x2
+
+[members.0x2]
+name = "StatusWord"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "TagWord"
+offset = 0x4
+type = "unsigned char"
+size = 0x1
+
+[members.0x5]
+name = "Reserved1"
+offset = 0x5
+type = "unsigned char"
+size = 0x1
+
+[members.0x6]
+name = "ErrorOpcode"
+offset = 0x6
+type = "unsigned short"
+size = 0x2
+
+[members.0x8]
+name = "ErrorOffset"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "ErrorSelector"
+offset = 0xc
+type = "unsigned short"
+size = 0x2
+
+[members.0xe]
+name = "Reserved2"
+offset = 0xe
+type = "unsigned short"
+size = 0x2
+
+[members.0x10]
+name = "DataOffset"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x14]
+name = "DataSelector"
+offset = 0x14
+type = "unsigned short"
+size = 0x2
+
+[members.0x16]
+name = "Reserved3"
+offset = 0x16
+type = "unsigned short"
+size = 0x2
+
+[members.0x18]
+name = "_MxCsr"
+offset = 0x18
+type = "unsigned int"
+size = 0x4
+
+[members.0x1c]
+name = "MxCsr_Mask"
+offset = 0x1c
+type = "unsigned int"
+size = 0x4
+
+[members.0x20]
+name = "FloatRegisters"
+offset = 0x20
+type = "_M128A[8]"
+size = 0x80
+
+[members.0xa0]
+name = "XmmRegisters"
+offset = 0xa0
+type = "_M128A[16]"
+size = 0x100
+
+[members.0x1a0]
+name = "Reserved4"
+offset = 0x1a0
+type = "unsigned char[96]"
+size = 0x60

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$10B50A2518B073654E2CE9EC97616E98"
+size = 0x8
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$7D93978C745EB1C2D28075BAF55422B4"
+size = 0x1
+
+[members.0x1]
+name = "Min"
+offset = 0x1
+type = "_RTL_BALANCED_NODE *"
+size = 0x8

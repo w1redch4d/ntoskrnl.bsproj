@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_CREATE_DISK"
+size = 0x18
+
+[members.0x0]
+name = "PartitionStyle"
+offset = 0x0
+type = "PARTITION_STYLE"
+size = 0x4
+
+[members.0x4]
+name = "anonymous_0"
+offset = 0x4
+type = "union _CREATE_DISK::$E6D8F73FA11FE79B0BBE7B30BDE20C7B"
+size = 0x14

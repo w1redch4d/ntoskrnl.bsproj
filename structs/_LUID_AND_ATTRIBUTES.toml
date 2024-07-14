@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_LUID_AND_ATTRIBUTES"
+size = 0xc
+
+[members.0x0]
+name = "Luid"
+offset = 0x0
+type = "_LUID"
+size = 0x8
+
+[members.0x8]
+name = "Attributes"
+offset = 0x8
+type = "unsigned int"
+size = 0x4

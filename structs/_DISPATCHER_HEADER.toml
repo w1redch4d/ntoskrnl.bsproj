@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_DISPATCHER_HEADER"
+size = 0x18
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$652A6E14BF5BFC7E610B1DECF7CB46DB"
+size = 0x4
+
+[members.0x4]
+name = "SignalState"
+offset = 0x4
+type = "int"
+size = 0x4
+
+[members.0x8]
+name = "WaitListHead"
+offset = 0x8
+type = "_LIST_ENTRY"
+size = 0x10

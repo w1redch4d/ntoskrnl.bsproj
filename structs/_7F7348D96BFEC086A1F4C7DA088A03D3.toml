@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$7F7348D96BFEC086A1F4C7DA088A03D3"
+size = 0x10
+
+[members.0x0]
+name = "Raw"
+offset = 0x0
+type = "$69138CE2BB6A34B6EE0EDED588F41203"
+size = 0x10
+
+[members.0x1]
+name = "Translated"
+offset = 0x1
+type = "$A4C8F98C438ECB53B11C8817B10C66B5"
+size = 0x10

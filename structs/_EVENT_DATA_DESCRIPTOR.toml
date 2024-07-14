@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_EVENT_DATA_DESCRIPTOR"
+size = 0x10
+
+[members.0x0]
+name = "Ptr"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "Size"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "___u2"
+offset = 0xc
+type = "$31319C9564A180E1FA8E53D6EBE60872"
+size = 0x4

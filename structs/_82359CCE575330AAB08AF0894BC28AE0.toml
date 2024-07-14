@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$82359CCE575330AAB08AF0894BC28AE0"
+size = 0x4
+
+[members.0x0]
+name = "ThreadType"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "_bf_1"
+offset = 0x1
+type = "char"
+size = 0x1
+
+[members.0x2]
+name = "ThreadControlFlags"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "QueueReserved"
+offset = 0x3
+type = "unsigned char"
+size = 0x1

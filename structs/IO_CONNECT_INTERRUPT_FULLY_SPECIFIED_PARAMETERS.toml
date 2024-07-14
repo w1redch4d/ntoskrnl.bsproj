@@ -1,0 +1,81 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "IO_CONNECT_INTERRUPT_FULLY_SPECIFIED_PARAMETERS"
+size = 0x48
+
+[members.0x0]
+name = "PhysicalDeviceObject"
+offset = 0x0
+type = "PDEVICE_OBJECT"
+size = 0x8
+
+[members.0x8]
+name = "InterruptObject"
+offset = 0x8
+type = "PKINTERRUPT *"
+size = 0x8
+
+[members.0x10]
+name = "ServiceRoutine"
+offset = 0x10
+type = "PKSERVICE_ROUTINE"
+size = 0x8
+
+[members.0x18]
+name = "ServiceContext"
+offset = 0x18
+type = "PVOID"
+size = 0x8
+
+[members.0x20]
+name = "SpinLock"
+offset = 0x20
+type = "PKSPIN_LOCK"
+size = 0x8
+
+[members.0x28]
+name = "SynchronizeIrql"
+offset = 0x28
+type = "KIRQL"
+size = 0x1
+
+[members.0x29]
+name = "FloatingSave"
+offset = 0x29
+type = "BOOLEAN"
+size = 0x1
+
+[members.0x2a]
+name = "ShareVector"
+offset = 0x2a
+type = "BOOLEAN"
+size = 0x1
+
+[members.0x2c]
+name = "Vector"
+offset = 0x2c
+type = "ULONG"
+size = 0x4
+
+[members.0x30]
+name = "Irql"
+offset = 0x30
+type = "KIRQL"
+size = 0x1
+
+[members.0x34]
+name = "InterruptMode"
+offset = 0x34
+type = "KINTERRUPT_MODE"
+size = 0x4
+
+[members.0x38]
+name = "ProcessorEnableMask"
+offset = 0x38
+type = "KAFFINITY"
+size = 0x8
+
+[members.0x40]
+name = "Group"
+offset = 0x40
+type = "USHORT"
+size = 0x2

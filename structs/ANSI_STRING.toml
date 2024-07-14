@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "ANSI_STRING"
+size = 0x10
+
+[members.0x0]
+name = "Length"
+offset = 0x0
+type = "unsigned short"
+size = 0x2
+
+[members.0x2]
+name = "MaximumLength"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x8]
+name = "Buffer"
+offset = 0x8
+type = "char *"
+size = 0x8

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$78392C2BA742610E3BFB172EAD7248B1"
+size = 0x10
+
+[members.0x0]
+name = "I386"
+offset = 0x0
+type = "_I386_LOADER_BLOCK"
+size = 0x10
+
+[members.0x1]
+name = "Arm"
+offset = 0x1
+type = "_ARM_LOADER_BLOCK"
+size = 0x4

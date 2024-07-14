@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$82623AFB470F8517B6D8F9E43441C7E1"
+size = 0x4
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "Importance"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "Number"
+offset = 0x2
+type = "volatile unsigned short"
+size = 0x2

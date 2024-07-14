@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$D2803ED815AA658F1D637140EB195AB4"
+size = 0x1
+
+[members.0x0]
+name = "InProgressFlags"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$B5CD178F87BE184A5118D4920C61026E"
+size = 0x1

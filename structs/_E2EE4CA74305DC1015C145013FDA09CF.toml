@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$E2EE4CA74305DC1015C145013FDA09CF"
+size = 0x4
+
+[members.0x0]
+name = "gap0"
+offset = 0x0
+type = "_BYTE"
+size = 0x1
+
+[members.0x1]
+name = "_bf_1"
+offset = 0x1
+type = "char"
+size = 0x1
+
+[members.0x2]
+name = "DpcActive"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "_bf_3"
+offset = 0x3
+type = "char"
+size = 0x1

@@ -1,0 +1,87 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_ERESOURCE"
+size = 0x68
+
+[members.0x0]
+name = "SystemResourcesList"
+offset = 0x0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x10]
+name = "OwnerTable"
+offset = 0x10
+type = "_OWNER_ENTRY *"
+size = 0x8
+
+[members.0x18]
+name = "ActiveCount"
+offset = 0x18
+type = "short"
+size = 0x2
+
+[members.0x1a]
+name = "___u3"
+offset = 0x1a
+type = "$6B6FDF1548AFAFD54C6FAB98FFD236C0"
+size = 0x2
+
+[members.0x20]
+name = "SharedWaiters"
+offset = 0x20
+type = "void *"
+size = 0x8
+
+[members.0x28]
+name = "ExclusiveWaiters"
+offset = 0x28
+type = "void *"
+size = 0x8
+
+[members.0x30]
+name = "OwnerEntry"
+offset = 0x30
+type = "_OWNER_ENTRY"
+size = 0x10
+
+[members.0x40]
+name = "ActiveEntries"
+offset = 0x40
+type = "unsigned int"
+size = 0x4
+
+[members.0x44]
+name = "ContentionCount"
+offset = 0x44
+type = "unsigned int"
+size = 0x4
+
+[members.0x48]
+name = "NumberOfSharedWaiters"
+offset = 0x48
+type = "unsigned int"
+size = 0x4
+
+[members.0x4c]
+name = "NumberOfExclusiveWaiters"
+offset = 0x4c
+type = "unsigned int"
+size = 0x4
+
+[members.0x50]
+name = "Reserved2"
+offset = 0x50
+type = "void *"
+size = 0x8
+
+[members.0x58]
+name = "___u12"
+offset = 0x58
+type = "$FA8F2364BE4EE7049C389A9C36002332"
+size = 0x8
+
+[members.0x60]
+name = "SpinLock"
+offset = 0x60
+type = "unsigned long long"
+size = 0x8

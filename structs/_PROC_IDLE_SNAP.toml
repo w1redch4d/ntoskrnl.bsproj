@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_PROC_IDLE_SNAP"
+size = 0x10
+
+[members.0x0]
+name = "Time"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "Idle"
+offset = 0x8
+type = "unsigned long long"
+size = 0x8

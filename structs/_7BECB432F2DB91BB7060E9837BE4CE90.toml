@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$7BECB432F2DB91BB7060E9837BE4CE90"
+size = 0x4
+
+[members.0x0]
+name = "DpcRequestSummary"
+offset = 0x0
+type = "volatile int"
+size = 0x4
+
+[members.0x1]
+name = "DpcRequestSlot"
+offset = 0x1
+type = "short[2]"
+size = 0x4
+
+[members.0x2]
+name = "__s2"
+offset = 0x2
+type = "$A14E8C9598FEC320F05702613B784A64"
+size = 0x4
+
+[members.0x3]
+name = "__s3"
+offset = 0x3
+type = "$C2B1BBD72665033ED409DE50807293E4"
+size = 0x4

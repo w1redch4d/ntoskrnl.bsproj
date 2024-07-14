@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "UUID"
+size = 0x10
+
+[members.0x0]
+name = "Data1"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "Data2"
+offset = 0x4
+type = "unsigned short"
+size = 0x2
+
+[members.0x6]
+name = "Data3"
+offset = 0x6
+type = "unsigned short"
+size = 0x2
+
+[members.0x8]
+name = "Data4"
+offset = 0x8
+type = "unsigned char[8]"
+size = 0x8

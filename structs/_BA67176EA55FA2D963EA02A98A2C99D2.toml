@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$BA67176EA55FA2D963EA02A98A2C99D2"
+size = 0x4
+
+[members.0x0]
+name = "LastAllocateMisses"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x1]
+name = "LastAllocateHits"
+offset = 0x1
+type = "unsigned int"
+size = 0x4

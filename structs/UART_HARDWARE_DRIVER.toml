@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "UART_HARDWARE_DRIVER"
+size = 0x28
+
+[members.0x0]
+name = "InitializePort"
+offset = 0x0
+type = "UART_INITIALIZE_PORT"
+size = 0x8
+
+[members.0x8]
+name = "SetBaud"
+offset = 0x8
+type = "UART_SET_BAUD"
+size = 0x8
+
+[members.0x10]
+name = "GetByte"
+offset = 0x10
+type = "UART_GET_BYTE"
+size = 0x8
+
+[members.0x18]
+name = "PutByte"
+offset = 0x18
+type = "UART_PUT_BYTE"
+size = 0x8
+
+[members.0x20]
+name = "RxReady"
+offset = 0x20
+type = "UART_RX_READY"
+size = 0x8

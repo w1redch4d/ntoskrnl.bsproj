@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$A68B3007D5DA0803669645789F7A1509"
+size = 0xc
+
+[members.0x0]
+name = "Start"
+offset = 0x0
+type = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x8]
+name = "Length48"
+offset = 0x8
+type = "unsigned int"
+size = 0x4

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$31319C9564A180E1FA8E53D6EBE60872"
+size = 0x4
+
+[members.0x0]
+name = "Reserved"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$0C5828C8BB62FF2F1199CF985F8D6E45"
+size = 0x4

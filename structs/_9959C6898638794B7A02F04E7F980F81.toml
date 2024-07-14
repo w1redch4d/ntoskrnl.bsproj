@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$9959C6898638794B7A02F04E7F980F81"
+size = 0x2
+
+[members.0x0]
+name = "ReservedLowFlags"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "WaiterPriority"
+offset = 0x1
+type = "unsigned char"
+size = 0x1

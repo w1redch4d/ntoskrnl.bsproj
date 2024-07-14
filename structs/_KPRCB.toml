@@ -1,0 +1,1947 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KPRCB"
+size = 0xbf00
+
+[members.0x0]
+name = "_MxCsr"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "LegacyNumber"
+offset = 0x4
+type = "unsigned char"
+size = 0x1
+
+[members.0x5]
+name = "ReservedMustBeZero"
+offset = 0x5
+type = "unsigned char"
+size = 0x1
+
+[members.0x6]
+name = "InterruptRequest"
+offset = 0x6
+type = "unsigned char"
+size = 0x1
+
+[members.0x7]
+name = "IdleHalt"
+offset = 0x7
+type = "unsigned char"
+size = 0x1
+
+[members.0x8]
+name = "CurrentThread"
+offset = 0x8
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x10]
+name = "NextThread"
+offset = 0x10
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x18]
+name = "IdleThread"
+offset = 0x18
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x20]
+name = "NestingLevel"
+offset = 0x20
+type = "unsigned char"
+size = 0x1
+
+[members.0x21]
+name = "ClockOwner"
+offset = 0x21
+type = "unsigned char"
+size = 0x1
+
+[members.0x22]
+name = "___u10"
+offset = 0x22
+type = "$B137EB06C295D44A0C04F3CFD8FD4313"
+size = 0x1
+
+[members.0x23]
+name = "IdleState"
+offset = 0x23
+type = "unsigned char"
+size = 0x1
+
+[members.0x24]
+name = "Number"
+offset = 0x24
+type = "unsigned int"
+size = 0x4
+
+[members.0x28]
+name = "RspBase"
+offset = 0x28
+type = "unsigned long long"
+size = 0x8
+
+[members.0x30]
+name = "PrcbLock"
+offset = 0x30
+type = "unsigned long long"
+size = 0x8
+
+[members.0x38]
+name = "PriorityState"
+offset = 0x38
+type = "_KPRIORITY_STATE *"
+size = 0x8
+
+[members.0x40]
+name = "CpuType"
+offset = 0x40
+type = "char"
+size = 0x1
+
+[members.0x41]
+name = "CpuID"
+offset = 0x41
+type = "char"
+size = 0x1
+
+[members.0x42]
+name = "___u18"
+offset = 0x42
+type = "$88310E69955DC76FEF86CFA7EEE45395"
+size = 0x2
+
+[members.0x44]
+name = "MHz"
+offset = 0x44
+type = "unsigned int"
+size = 0x4
+
+[members.0x48]
+name = "HalReserved"
+offset = 0x48
+type = "unsigned long long[8]"
+size = 0x40
+
+[members.0x88]
+name = "MinorVersion"
+offset = 0x88
+type = "unsigned short"
+size = 0x2
+
+[members.0x8a]
+name = "MajorVersion"
+offset = 0x8a
+type = "unsigned short"
+size = 0x2
+
+[members.0x8c]
+name = "BuildType"
+offset = 0x8c
+type = "unsigned char"
+size = 0x1
+
+[members.0x8d]
+name = "CpuVendor"
+offset = 0x8d
+type = "unsigned char"
+size = 0x1
+
+[members.0x8e]
+name = "LegacyCoresPerPhysicalProcessor"
+offset = 0x8e
+type = "unsigned char"
+size = 0x1
+
+[members.0x8f]
+name = "LegacyLogicalProcessorsPerCore"
+offset = 0x8f
+type = "unsigned char"
+size = 0x1
+
+[members.0x90]
+name = "TscFrequency"
+offset = 0x90
+type = "unsigned long long"
+size = 0x8
+
+[members.0x98]
+name = "TracepointLog"
+offset = 0x98
+type = "_KPRCB_TRACEPOINT_LOG *"
+size = 0x8
+
+[members.0xa0]
+name = "CoresPerPhysicalProcessor"
+offset = 0xa0
+type = "unsigned int"
+size = 0x4
+
+[members.0xa4]
+name = "LogicalProcessorsPerCore"
+offset = 0xa4
+type = "unsigned int"
+size = 0x4
+
+[members.0xa8]
+name = "PrcbPad04"
+offset = 0xa8
+type = "unsigned long long[3]"
+size = 0x18
+
+[members.0xc0]
+name = "SchedulerSubNode"
+offset = 0xc0
+type = "_KSCHEDULER_SUBNODE *"
+size = 0x8
+
+[members.0xc8]
+name = "GroupSetMember"
+offset = 0xc8
+type = "unsigned long long"
+size = 0x8
+
+[members.0xd0]
+name = "Group"
+offset = 0xd0
+type = "unsigned char"
+size = 0x1
+
+[members.0xd1]
+name = "GroupIndex"
+offset = 0xd1
+type = "unsigned char"
+size = 0x1
+
+[members.0xd2]
+name = "PrcbPad05"
+offset = 0xd2
+type = "unsigned char[2]"
+size = 0x2
+
+[members.0xd4]
+name = "InitialApicId"
+offset = 0xd4
+type = "unsigned int"
+size = 0x4
+
+[members.0xd8]
+name = "ScbOffset"
+offset = 0xd8
+type = "unsigned int"
+size = 0x4
+
+[members.0xdc]
+name = "ApicMask"
+offset = 0xdc
+type = "unsigned int"
+size = 0x4
+
+[members.0xe0]
+name = "AcpiReserved"
+offset = 0xe0
+type = "void *"
+size = 0x8
+
+[members.0xe8]
+name = "CFlushSize"
+offset = 0xe8
+type = "unsigned int"
+size = 0x4
+
+[members.0xec]
+name = "PrcbFlags"
+offset = 0xec
+type = "_KPRCBFLAG"
+size = 0x4
+
+[members.0xf0]
+name = "PrcbPad11"
+offset = 0xf0
+type = "unsigned long long[2]"
+size = 0x10
+
+[members.0x100]
+name = "ProcessorState"
+offset = 0x100
+type = "_KPROCESSOR_STATE"
+size = 0x5c0
+
+[members.0x6c0]
+name = "ExtendedSupervisorState"
+offset = 0x6c0
+type = "_XSAVE_AREA_HEADER *"
+size = 0x8
+
+[members.0x6c8]
+name = "ProcessorSignature"
+offset = 0x6c8
+type = "unsigned int"
+size = 0x4
+
+[members.0x6cc]
+name = "ProcessorFlags"
+offset = 0x6cc
+type = "unsigned int"
+size = 0x4
+
+[members.0x6d0]
+name = "___u48"
+offset = 0x6d0
+type = "$2C3EF16F899C56F639D54F373B74ECCD"
+size = 0x8
+
+[members.0x6d8]
+name = "___u49"
+offset = 0x6d8
+type = "$9F7F127E95F8E23294AC6DBA7EBC47F5"
+size = 0x18
+
+[members.0x6f0]
+name = "LockQueue"
+offset = 0x6f0
+type = "_KSPIN_LOCK_QUEUE[17]"
+size = 0x110
+
+[members.0x800]
+name = "PPLookasideList"
+offset = 0x800
+type = "_PP_LOOKASIDE_LIST[16]"
+size = 0x100
+
+[members.0x900]
+name = "PPNxPagedLookasideList"
+offset = 0x900
+type = "_GENERAL_LOOKASIDE_POOL[32]"
+size = 0xc00
+
+[members.0x1500]
+name = "PPNPagedLookasideList"
+offset = 0x1500
+type = "_GENERAL_LOOKASIDE_POOL[32]"
+size = 0xc00
+
+[members.0x2100]
+name = "PPPagedLookasideList"
+offset = 0x2100
+type = "_GENERAL_LOOKASIDE_POOL[32]"
+size = 0xc00
+
+[members.0x2d00]
+name = "MsrIa32TsxCtrl"
+offset = 0x2d00
+type = "unsigned long long"
+size = 0x8
+
+[members.0x2d08]
+name = "DeferredReadyListHead"
+offset = 0x2d08
+type = "_SINGLE_LIST_ENTRY"
+size = 0x8
+
+[members.0x2d10]
+name = "MmPageFaultCount"
+offset = 0x2d10
+type = "volatile int"
+size = 0x4
+
+[members.0x2d14]
+name = "MmCopyOnWriteCount"
+offset = 0x2d14
+type = "volatile int"
+size = 0x4
+
+[members.0x2d18]
+name = "MmTransitionCount"
+offset = 0x2d18
+type = "volatile int"
+size = 0x4
+
+[members.0x2d1c]
+name = "MmDemandZeroCount"
+offset = 0x2d1c
+type = "volatile int"
+size = 0x4
+
+[members.0x2d20]
+name = "MmPageReadCount"
+offset = 0x2d20
+type = "volatile int"
+size = 0x4
+
+[members.0x2d24]
+name = "MmPageReadIoCount"
+offset = 0x2d24
+type = "volatile int"
+size = 0x4
+
+[members.0x2d28]
+name = "MmDirtyPagesWriteCount"
+offset = 0x2d28
+type = "volatile int"
+size = 0x4
+
+[members.0x2d2c]
+name = "MmDirtyWriteIoCount"
+offset = 0x2d2c
+type = "volatile int"
+size = 0x4
+
+[members.0x2d30]
+name = "MmMappedPagesWriteCount"
+offset = 0x2d30
+type = "volatile int"
+size = 0x4
+
+[members.0x2d34]
+name = "MmMappedWriteIoCount"
+offset = 0x2d34
+type = "volatile int"
+size = 0x4
+
+[members.0x2d38]
+name = "KeSystemCalls"
+offset = 0x2d38
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d3c]
+name = "KeContextSwitches"
+offset = 0x2d3c
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d40]
+name = "PrcbPad40"
+offset = 0x2d40
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d44]
+name = "CcFastReadNoWait"
+offset = 0x2d44
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d48]
+name = "CcFastReadWait"
+offset = 0x2d48
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d4c]
+name = "CcFastReadNotPossible"
+offset = 0x2d4c
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d50]
+name = "CcCopyReadNoWait"
+offset = 0x2d50
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d54]
+name = "CcCopyReadWait"
+offset = 0x2d54
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d58]
+name = "CcCopyReadNoWaitMiss"
+offset = 0x2d58
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d5c]
+name = "IoReadOperationCount"
+offset = 0x2d5c
+type = "volatile int"
+size = 0x4
+
+[members.0x2d60]
+name = "IoWriteOperationCount"
+offset = 0x2d60
+type = "volatile int"
+size = 0x4
+
+[members.0x2d64]
+name = "IoOtherOperationCount"
+offset = 0x2d64
+type = "volatile int"
+size = 0x4
+
+[members.0x2d68]
+name = "IoReadTransferCount"
+offset = 0x2d68
+type = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x2d70]
+name = "IoWriteTransferCount"
+offset = 0x2d70
+type = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x2d78]
+name = "IoOtherTransferCount"
+offset = 0x2d78
+type = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x2d80]
+name = "PacketBarrier"
+offset = 0x2d80
+type = "volatile int"
+size = 0x4
+
+[members.0x2d84]
+name = "TargetCount"
+offset = 0x2d84
+type = "volatile int"
+size = 0x4
+
+[members.0x2d88]
+name = "IpiFrozen"
+offset = 0x2d88
+type = "volatile unsigned int"
+size = 0x4
+
+[members.0x2d8c]
+name = "PrcbPad30"
+offset = 0x2d8c
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d90]
+name = "IsrDpcStats"
+offset = 0x2d90
+type = "void *"
+size = 0x8
+
+[members.0x2d98]
+name = "DeviceInterrupts"
+offset = 0x2d98
+type = "unsigned int"
+size = 0x4
+
+[members.0x2d9c]
+name = "LookasideIrpFloat"
+offset = 0x2d9c
+type = "int"
+size = 0x4
+
+[members.0x2da0]
+name = "InterruptLastCount"
+offset = 0x2da0
+type = "unsigned int"
+size = 0x4
+
+[members.0x2da4]
+name = "InterruptRate"
+offset = 0x2da4
+type = "unsigned int"
+size = 0x4
+
+[members.0x2da8]
+name = "PrcbPad31"
+offset = 0x2da8
+type = "unsigned long long"
+size = 0x8
+
+[members.0x2db0]
+name = "PairPrcb"
+offset = 0x2db0
+type = "_KPRCB *"
+size = 0x8
+
+[members.0x2db8]
+name = "StaticAffinity"
+offset = 0x2db8
+type = "_KSTATIC_AFFINITY_BLOCK"
+size = 0x420
+
+[members.0x31d8]
+name = "DeferredDispatchInterrupts"
+offset = 0x31d8
+type = "_KSOFTWARE_INTERRUPT_BATCH"
+size = 0x110
+
+[members.0x32e8]
+name = "PrcbPad35"
+offset = 0x32e8
+type = "unsigned long long[3]"
+size = 0x18
+
+[members.0x3300]
+name = "InterruptObjectPool"
+offset = 0x3300
+type = "_SLIST_HEADER"
+size = 0x10
+
+[members.0x3310]
+name = "DpcRuntimeHistoryHashTable"
+offset = 0x3310
+type = "_RTL_HASH_TABLE *"
+size = 0x8
+
+[members.0x3318]
+name = "DpcRuntimeHistoryHashTableCleanupDpc"
+offset = 0x3318
+type = "_KDPC *"
+size = 0x8
+
+[members.0x3320]
+name = "CurrentDpcRoutine"
+offset = 0x3320
+type = "void (__fastcall *)(_KDPC *, void *, void *, void *)"
+size = 0x8
+
+[members.0x3328]
+name = "CurrentDpcRuntimeHistoryCached"
+offset = 0x3328
+type = "unsigned long long"
+size = 0x8
+
+[members.0x3330]
+name = "CurrentDpcStartTime"
+offset = 0x3330
+type = "unsigned long long"
+size = 0x8
+
+[members.0x3338]
+name = "DpcDelegateThread"
+offset = 0x3338
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x3340]
+name = "DpcData"
+offset = 0x3340
+type = "_KDPC_DATA[2]"
+size = 0x60
+
+[members.0x33a0]
+name = "DpcStack"
+offset = 0x33a0
+type = "void *"
+size = 0x8
+
+[members.0x33a8]
+name = "MaximumDpcQueueDepth"
+offset = 0x33a8
+type = "int"
+size = 0x4
+
+[members.0x33ac]
+name = "DpcRequestRate"
+offset = 0x33ac
+type = "unsigned int"
+size = 0x4
+
+[members.0x33b0]
+name = "MinimumDpcRate"
+offset = 0x33b0
+type = "unsigned int"
+size = 0x4
+
+[members.0x33b4]
+name = "DpcLastCount"
+offset = 0x33b4
+type = "unsigned int"
+size = 0x4
+
+[members.0x33b8]
+name = "ThreadDpcEnable"
+offset = 0x33b8
+type = "unsigned char"
+size = 0x1
+
+[members.0x33b9]
+name = "QuantumEnd"
+offset = 0x33b9
+type = "volatile unsigned char"
+size = 0x1
+
+[members.0x33ba]
+name = "DpcRoutineActive"
+offset = 0x33ba
+type = "volatile unsigned char"
+size = 0x1
+
+[members.0x33bb]
+name = "IdleSchedule"
+offset = 0x33bb
+type = "volatile unsigned char"
+size = 0x1
+
+[members.0x33bc]
+name = "___u113"
+offset = 0x33bc
+type = "$7BECB432F2DB91BB7060E9837BE4CE90"
+size = 0x4
+
+[members.0x33c0]
+name = "LastTick"
+offset = 0x33c0
+type = "unsigned int"
+size = 0x4
+
+[members.0x33c4]
+name = "ClockInterrupts"
+offset = 0x33c4
+type = "unsigned int"
+size = 0x4
+
+[members.0x33c8]
+name = "ReadyScanTick"
+offset = 0x33c8
+type = "unsigned int"
+size = 0x4
+
+[members.0x33cc]
+name = "SingleDpcSoftTimeLimitTicks"
+offset = 0x33cc
+type = "unsigned int"
+size = 0x4
+
+[members.0x33d0]
+name = "SingleDpcSoftTimeoutEventInfo"
+offset = 0x33d0
+type = "_KSINGLE_DPC_SOFT_TIMEOUT_EVENT_INFO *"
+size = 0x8
+
+[members.0x33d8]
+name = "CumulativeDpcSoftTimeLimitTicks"
+offset = 0x33d8
+type = "unsigned int"
+size = 0x4
+
+[members.0x33dc]
+name = "DpcWatchdogProfileBufferSize"
+offset = 0x33dc
+type = "unsigned int"
+size = 0x4
+
+[members.0x33e0]
+name = "PrcbPad93"
+offset = 0x33e0
+type = "unsigned int[8]"
+size = 0x20
+
+[members.0x3400]
+name = "InterruptObject"
+offset = 0x3400
+type = "void *[256]"
+size = 0x800
+
+[members.0x3c00]
+name = "TimerTable"
+offset = 0x3c00
+type = "_KTIMER_TABLE"
+size = 0x4218
+
+[members.0x7e18]
+name = "PrcbPad92"
+offset = 0x7e18
+type = "unsigned int[10]"
+size = 0x28
+
+[members.0x7e40]
+name = "DpcGate"
+offset = 0x7e40
+type = "_KGATE"
+size = 0x18
+
+[members.0x7e58]
+name = "PrcbPad52"
+offset = 0x7e58
+type = "void *"
+size = 0x8
+
+[members.0x7e60]
+name = "CallDpc"
+offset = 0x7e60
+type = "_KDPC"
+size = 0x40
+
+[members.0x7ea0]
+name = "ClockKeepAlive"
+offset = 0x7ea0
+type = "int"
+size = 0x4
+
+[members.0x7ea4]
+name = "PrcbPad60"
+offset = 0x7ea4
+type = "unsigned char[2]"
+size = 0x2
+
+[members.0x7ea6]
+name = "___u130"
+offset = 0x7ea6
+type = "$130111719B34D0935BAC1457E8C6B909"
+size = 0x2
+
+[members.0x7ea8]
+name = "DpcWatchdogPeriodTicks"
+offset = 0x7ea8
+type = "int"
+size = 0x4
+
+[members.0x7eac]
+name = "DpcWatchdogCount"
+offset = 0x7eac
+type = "int"
+size = 0x4
+
+[members.0x7eb0]
+name = "KeSpinLockOrdering"
+offset = 0x7eb0
+type = "volatile int"
+size = 0x4
+
+[members.0x7eb4]
+name = "DpcWatchdogProfileCumulativeDpcThresholdTicks"
+offset = 0x7eb4
+type = "unsigned int"
+size = 0x4
+
+[members.0x7eb8]
+name = "CachedPtes"
+offset = 0x7eb8
+type = "void *"
+size = 0x8
+
+[members.0x7ec0]
+name = "WaitListHead"
+offset = 0x7ec0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x7ed0]
+name = "WaitLock"
+offset = 0x7ed0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x7ed8]
+name = "ReadySummary"
+offset = 0x7ed8
+type = "unsigned int"
+size = 0x4
+
+[members.0x7edc]
+name = "AffinitizedSelectionMask"
+offset = 0x7edc
+type = "int"
+size = 0x4
+
+[members.0x7ee0]
+name = "QueueIndex"
+offset = 0x7ee0
+type = "unsigned int"
+size = 0x4
+
+[members.0x7ee4]
+name = "NormalPriorityQueueIndex"
+offset = 0x7ee4
+type = "unsigned int"
+size = 0x4
+
+[members.0x7ee8]
+name = "NormalPriorityReadyScanTick"
+offset = 0x7ee8
+type = "unsigned int"
+size = 0x4
+
+[members.0x7eec]
+name = "DpcWatchdogSequenceNumber"
+offset = 0x7eec
+type = "unsigned int"
+size = 0x4
+
+[members.0x7ef0]
+name = "TimerExpirationDpc"
+offset = 0x7ef0
+type = "_KDPC"
+size = 0x40
+
+[members.0x7f30]
+name = "ScbQueue"
+offset = 0x7f30
+type = "_RTL_RB_TREE"
+size = 0x10
+
+[members.0x7f40]
+name = "DispatcherReadyListHead"
+offset = 0x7f40
+type = "_LIST_ENTRY[32]"
+size = 0x200
+
+[members.0x8140]
+name = "InterruptCount"
+offset = 0x8140
+type = "unsigned int"
+size = 0x4
+
+[members.0x8144]
+name = "KernelTime"
+offset = 0x8144
+type = "unsigned int"
+size = 0x4
+
+[members.0x8148]
+name = "UserTime"
+offset = 0x8148
+type = "unsigned int"
+size = 0x4
+
+[members.0x814c]
+name = "DpcTime"
+offset = 0x814c
+type = "unsigned int"
+size = 0x4
+
+[members.0x8150]
+name = "InterruptTime"
+offset = 0x8150
+type = "unsigned int"
+size = 0x4
+
+[members.0x8154]
+name = "AdjustDpcThreshold"
+offset = 0x8154
+type = "unsigned int"
+size = 0x4
+
+[members.0x8158]
+name = "DebuggerSavedIRQL"
+offset = 0x8158
+type = "unsigned char"
+size = 0x1
+
+[members.0x8159]
+name = "GroupSchedulingOverQuota"
+offset = 0x8159
+type = "unsigned char"
+size = 0x1
+
+[members.0x815a]
+name = "DeepSleep"
+offset = 0x815a
+type = "volatile unsigned char"
+size = 0x1
+
+[members.0x815b]
+name = "PrcbPad80"
+offset = 0x815b
+type = "unsigned char"
+size = 0x1
+
+[members.0x815c]
+name = "DpcTimeCount"
+offset = 0x815c
+type = "unsigned int"
+size = 0x4
+
+[members.0x8160]
+name = "DpcTimeLimitTicks"
+offset = 0x8160
+type = "unsigned int"
+size = 0x4
+
+[members.0x8164]
+name = "PeriodicCount"
+offset = 0x8164
+type = "unsigned int"
+size = 0x4
+
+[members.0x8168]
+name = "PeriodicBias"
+offset = 0x8168
+type = "unsigned int"
+size = 0x4
+
+[members.0x816c]
+name = "AvailableTime"
+offset = 0x816c
+type = "unsigned int"
+size = 0x4
+
+[members.0x8170]
+name = "KeExceptionDispatchCount"
+offset = 0x8170
+type = "unsigned int"
+size = 0x4
+
+[members.0x8174]
+name = "ReadyThreadCount"
+offset = 0x8174
+type = "unsigned int"
+size = 0x4
+
+[members.0x8178]
+name = "ReadyQueueExpectedRunTime"
+offset = 0x8178
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8180]
+name = "StartCycles"
+offset = 0x8180
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8188]
+name = "TaggedCycles"
+offset = 0x8188
+type = "unsigned long long[4]"
+size = 0x20
+
+[members.0x81a8]
+name = "AffinitizedCycles"
+offset = 0x81a8
+type = "unsigned long long"
+size = 0x8
+
+[members.0x81b0]
+name = "CyclesByThreadType"
+offset = 0x81b0
+type = "unsigned long long *"
+size = 0x8
+
+[members.0x81b8]
+name = "CpuCycleScalingFactor"
+offset = 0x81b8
+type = "unsigned int"
+size = 0x4
+
+[members.0x81bc]
+name = "PerformanceScoreByClass"
+offset = 0x81bc
+type = "unsigned short[8]"
+size = 0x10
+
+[members.0x81cc]
+name = "EfficiencyScoreByClass"
+offset = 0x81cc
+type = "unsigned short[8]"
+size = 0x10
+
+[members.0x81dc]
+name = "PrcbPad83"
+offset = 0x81dc
+type = "unsigned int[23]"
+size = 0x5c
+
+[members.0x8238]
+name = "NumberOfSecureFaults"
+offset = 0x8238
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8240]
+name = "DpcWatchdogProfileSingleDpcThresholdTicks"
+offset = 0x8240
+type = "unsigned int"
+size = 0x4
+
+[members.0x8244]
+name = "PrcbPad82"
+offset = 0x8244
+type = "int"
+size = 0x4
+
+[members.0x8248]
+name = "CachedStack"
+offset = 0x8248
+type = "void *volatile"
+size = 0x8
+
+[members.0x8250]
+name = "PageColor"
+offset = 0x8250
+type = "unsigned int"
+size = 0x4
+
+[members.0x8254]
+name = "NodeColor"
+offset = 0x8254
+type = "unsigned int"
+size = 0x4
+
+[members.0x8258]
+name = "NodeShiftedColor"
+offset = 0x8258
+type = "unsigned int"
+size = 0x4
+
+[members.0x825c]
+name = "SecondaryColorMask"
+offset = 0x825c
+type = "unsigned int"
+size = 0x4
+
+[members.0x8260]
+name = "PrcbPad81"
+offset = 0x8260
+type = "unsigned char[5]"
+size = 0x5
+
+[members.0x8265]
+name = "SystemWorkKickInProgress"
+offset = 0x8265
+type = "unsigned char"
+size = 0x1
+
+[members.0x8266]
+name = "ExceptionStackActive"
+offset = 0x8266
+type = "unsigned char"
+size = 0x1
+
+[members.0x8267]
+name = "TbFlushListActive"
+offset = 0x8267
+type = "unsigned char"
+size = 0x1
+
+[members.0x8268]
+name = "ExceptionStack"
+offset = 0x8268
+type = "void *"
+size = 0x8
+
+[members.0x8270]
+name = "MmSpinLockOrdering"
+offset = 0x8270
+type = "volatile long long"
+size = 0x8
+
+[members.0x8278]
+name = "CycleTime"
+offset = 0x8278
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8280]
+name = "Cycles"
+offset = 0x8280
+type = "unsigned long long[4][2]"
+size = 0x40
+
+[members.0x82c0]
+name = "CcFastMdlReadNoWait"
+offset = 0x82c0
+type = "unsigned int"
+size = 0x4
+
+[members.0x82c4]
+name = "CcFastMdlReadWait"
+offset = 0x82c4
+type = "unsigned int"
+size = 0x4
+
+[members.0x82c8]
+name = "CcFastMdlReadNotPossible"
+offset = 0x82c8
+type = "unsigned int"
+size = 0x4
+
+[members.0x82cc]
+name = "CcMapDataNoWait"
+offset = 0x82cc
+type = "unsigned int"
+size = 0x4
+
+[members.0x82d0]
+name = "CcMapDataWait"
+offset = 0x82d0
+type = "unsigned int"
+size = 0x4
+
+[members.0x82d4]
+name = "CcPinMappedDataCount"
+offset = 0x82d4
+type = "unsigned int"
+size = 0x4
+
+[members.0x82d8]
+name = "CcPinReadNoWait"
+offset = 0x82d8
+type = "unsigned int"
+size = 0x4
+
+[members.0x82dc]
+name = "CcPinReadWait"
+offset = 0x82dc
+type = "unsigned int"
+size = 0x4
+
+[members.0x82e0]
+name = "CcMdlReadNoWait"
+offset = 0x82e0
+type = "unsigned int"
+size = 0x4
+
+[members.0x82e4]
+name = "CcMdlReadWait"
+offset = 0x82e4
+type = "unsigned int"
+size = 0x4
+
+[members.0x82e8]
+name = "CcLazyWriteHotSpots"
+offset = 0x82e8
+type = "unsigned int"
+size = 0x4
+
+[members.0x82ec]
+name = "CcLazyWriteIos"
+offset = 0x82ec
+type = "unsigned int"
+size = 0x4
+
+[members.0x82f0]
+name = "CcLazyWritePages"
+offset = 0x82f0
+type = "unsigned int"
+size = 0x4
+
+[members.0x82f4]
+name = "CcDataFlushes"
+offset = 0x82f4
+type = "unsigned int"
+size = 0x4
+
+[members.0x82f8]
+name = "CcDataPages"
+offset = 0x82f8
+type = "unsigned int"
+size = 0x4
+
+[members.0x82fc]
+name = "CcLostDelayedWrites"
+offset = 0x82fc
+type = "unsigned int"
+size = 0x4
+
+[members.0x8300]
+name = "CcFastReadResourceMiss"
+offset = 0x8300
+type = "unsigned int"
+size = 0x4
+
+[members.0x8304]
+name = "CcCopyReadWaitMiss"
+offset = 0x8304
+type = "unsigned int"
+size = 0x4
+
+[members.0x8308]
+name = "CcFastMdlReadResourceMiss"
+offset = 0x8308
+type = "unsigned int"
+size = 0x4
+
+[members.0x830c]
+name = "CcMapDataNoWaitMiss"
+offset = 0x830c
+type = "unsigned int"
+size = 0x4
+
+[members.0x8310]
+name = "CcMapDataWaitMiss"
+offset = 0x8310
+type = "unsigned int"
+size = 0x4
+
+[members.0x8314]
+name = "CcPinReadNoWaitMiss"
+offset = 0x8314
+type = "unsigned int"
+size = 0x4
+
+[members.0x8318]
+name = "CcPinReadWaitMiss"
+offset = 0x8318
+type = "unsigned int"
+size = 0x4
+
+[members.0x831c]
+name = "CcMdlReadNoWaitMiss"
+offset = 0x831c
+type = "unsigned int"
+size = 0x4
+
+[members.0x8320]
+name = "CcMdlReadWaitMiss"
+offset = 0x8320
+type = "unsigned int"
+size = 0x4
+
+[members.0x8324]
+name = "CcReadAheadIos"
+offset = 0x8324
+type = "unsigned int"
+size = 0x4
+
+[members.0x8328]
+name = "MmCacheTransitionCount"
+offset = 0x8328
+type = "volatile int"
+size = 0x4
+
+[members.0x832c]
+name = "MmCacheReadCount"
+offset = 0x832c
+type = "volatile int"
+size = 0x4
+
+[members.0x8330]
+name = "MmCacheIoCount"
+offset = 0x8330
+type = "volatile int"
+size = 0x4
+
+[members.0x8334]
+name = "PrcbPad91"
+offset = 0x8334
+type = "unsigned int"
+size = 0x4
+
+[members.0x8338]
+name = "MmInternal"
+offset = 0x8338
+type = "void *"
+size = 0x8
+
+[members.0x8340]
+name = "PowerState"
+offset = 0x8340
+type = "_PROCESSOR_POWER_STATE"
+size = 0x238
+
+[members.0x8578]
+name = "PrcbPad96"
+offset = 0x8578
+type = "unsigned long long[1]"
+size = 0x8
+
+[members.0x8580]
+name = "PrcbPad90"
+offset = 0x8580
+type = "void *"
+size = 0x8
+
+[members.0x8588]
+name = "ScbList"
+offset = 0x8588
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x8598]
+name = "ForceIdleDpc"
+offset = 0x8598
+type = "_KDPC"
+size = 0x40
+
+[members.0x85d8]
+name = "DpcWatchdogDpc"
+offset = 0x85d8
+type = "_KDPC"
+size = 0x40
+
+[members.0x8618]
+name = "PrcbPad98"
+offset = 0x8618
+type = "unsigned long long[8]"
+size = 0x40
+
+[members.0x8658]
+name = "Cache"
+offset = 0x8658
+type = "_CACHE_DESCRIPTOR[5]"
+size = 0x3c
+
+[members.0x8694]
+name = "CacheCount"
+offset = 0x8694
+type = "unsigned int"
+size = 0x4
+
+[members.0x8698]
+name = "CachedCommit"
+offset = 0x8698
+type = "volatile unsigned int"
+size = 0x4
+
+[members.0x869c]
+name = "CachedResidentAvailable"
+offset = 0x869c
+type = "volatile unsigned int"
+size = 0x4
+
+[members.0x86a0]
+name = "WheaInfo"
+offset = 0x86a0
+type = "void *"
+size = 0x8
+
+[members.0x86a8]
+name = "EtwSupport"
+offset = 0x86a8
+type = "void *"
+size = 0x8
+
+[members.0x86b0]
+name = "ExSaPageArray"
+offset = 0x86b0
+type = "void *"
+size = 0x8
+
+[members.0x86b8]
+name = "KeAlignmentFixupCount"
+offset = 0x86b8
+type = "unsigned int"
+size = 0x4
+
+[members.0x86bc]
+name = "PrcbPad95"
+offset = 0x86bc
+type = "unsigned int"
+size = 0x4
+
+[members.0x86c0]
+name = "HypercallPageList"
+offset = 0x86c0
+type = "_SLIST_HEADER"
+size = 0x10
+
+[members.0x86d0]
+name = "StatisticsPage"
+offset = 0x86d0
+type = "unsigned long long *"
+size = 0x8
+
+[members.0x86d8]
+name = "GenerationTarget"
+offset = 0x86d8
+type = "unsigned long long"
+size = 0x8
+
+[members.0x86e0]
+name = "PrcbPad85"
+offset = 0x86e0
+type = "unsigned long long[4]"
+size = 0x20
+
+[members.0x8700]
+name = "HypercallCachedPages"
+offset = 0x8700
+type = "void *"
+size = 0x8
+
+[members.0x8708]
+name = "VirtualApicAssist"
+offset = 0x8708
+type = "void *"
+size = 0x8
+
+[members.0x8710]
+name = "PackageProcessorSet"
+offset = 0x8710
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x8818]
+name = "___u243"
+offset = 0x8818
+type = "$25E640893937CF388D1E3AE27EF09817"
+size = 0x14
+
+[members.0x882c]
+name = "NodeRelativeTopologyIndex"
+offset = 0x882c
+type = "unsigned int[5]"
+size = 0x14
+
+[members.0x8840]
+name = "SharedReadyQueueMask"
+offset = 0x8840
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8848]
+name = "SharedReadyQueue"
+offset = 0x8848
+type = "_KSHARED_READY_QUEUE *"
+size = 0x8
+
+[members.0x8850]
+name = "SharedQueueScanOwner"
+offset = 0x8850
+type = "unsigned int"
+size = 0x4
+
+[members.0x8854]
+name = "ScanSiblingIndex"
+offset = 0x8854
+type = "unsigned int"
+size = 0x4
+
+[members.0x8858]
+name = "CoreControlBlock"
+offset = 0x8858
+type = "_KCORE_CONTROL_BLOCK *"
+size = 0x8
+
+[members.0x8860]
+name = "CoreProcessorSet"
+offset = 0x8860
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8868]
+name = "ScanSiblingMask"
+offset = 0x8868
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8870]
+name = "LLCMask"
+offset = 0x8870
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8878]
+name = "GroupModuleProcessorSet"
+offset = 0x8878
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8880]
+name = "SmtIsolationThread"
+offset = 0x8880
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x8888]
+name = "PrcbPad97"
+offset = 0x8888
+type = "unsigned long long[2]"
+size = 0x10
+
+[members.0x8898]
+name = "ProcessorProfileControlArea"
+offset = 0x8898
+type = "_PROCESSOR_PROFILE_CONTROL_AREA *"
+size = 0x8
+
+[members.0x88a0]
+name = "ProfileEventIndexAddress"
+offset = 0x88a0
+type = "void *"
+size = 0x8
+
+[members.0x88a8]
+name = "DpcWatchdogProfile"
+offset = 0x88a8
+type = "void **"
+size = 0x8
+
+[members.0x88b0]
+name = "DpcWatchdogProfileCurrentEmptyCapture"
+offset = 0x88b0
+type = "void **"
+size = 0x8
+
+[members.0x88b8]
+name = "SchedulerAssist"
+offset = 0x88b8
+type = "void *"
+size = 0x8
+
+[members.0x88c0]
+name = "SynchCounters"
+offset = 0x88c0
+type = "_SYNCH_COUNTERS"
+size = 0xb8
+
+[members.0x8978]
+name = "PrcbPad94"
+offset = 0x8978
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8980]
+name = "FsCounters"
+offset = 0x8980
+type = "_FILESYSTEM_DISK_COUNTERS"
+size = 0x10
+
+[members.0x8990]
+name = "VendorString"
+offset = 0x8990
+type = "unsigned char[13]"
+size = 0xd
+
+[members.0x899d]
+name = "PrcbPad100"
+offset = 0x899d
+type = "unsigned char[3]"
+size = 0x3
+
+[members.0x89a0]
+name = "FeatureBits"
+offset = 0x89a0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x89a8]
+name = "UpdateSignature"
+offset = 0x89a8
+type = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x89b0]
+name = "PteBitCache"
+offset = 0x89b0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x89b8]
+name = "PteBitOffset"
+offset = 0x89b8
+type = "unsigned int"
+size = 0x4
+
+[members.0x89bc]
+name = "PrcbPad105"
+offset = 0x89bc
+type = "unsigned int"
+size = 0x4
+
+[members.0x89c0]
+name = "Context"
+offset = 0x89c0
+type = "_CONTEXT *"
+size = 0x8
+
+[members.0x89c8]
+name = "ContextFlagsInit"
+offset = 0x89c8
+type = "unsigned int"
+size = 0x4
+
+[members.0x89cc]
+name = "PrcbPad115"
+offset = 0x89cc
+type = "unsigned int"
+size = 0x4
+
+[members.0x89d0]
+name = "ExtendedState"
+offset = 0x89d0
+type = "_XSAVE_AREA *"
+size = 0x8
+
+[members.0x89d8]
+name = "IsrStack"
+offset = 0x89d8
+type = "void *"
+size = 0x8
+
+[members.0x89e0]
+name = "EntropyTimingState"
+offset = 0x89e0
+type = "_KENTROPY_TIMING_STATE"
+size = 0x158
+
+[members.0x8b38]
+name = "StibpPairingTrace"
+offset = 0x8b38
+type = "$8A980C0CC9608CC3620036A06A337053"
+size = 0x38
+
+[members.0x8b70]
+name = "AbSelfIoBoostsList"
+offset = 0x8b70
+type = "_SINGLE_LIST_ENTRY"
+size = 0x8
+
+[members.0x8b78]
+name = "AbPropagateBoostsList"
+offset = 0x8b78
+type = "_SINGLE_LIST_ENTRY"
+size = 0x8
+
+[members.0x8b80]
+name = "AbDpc"
+offset = 0x8b80
+type = "_KDPC"
+size = 0x40
+
+[members.0x8bc0]
+name = "IoIrpStackProfilerCurrent"
+offset = 0x8bc0
+type = "_IOP_IRP_STACK_PROFILER"
+size = 0x54
+
+[members.0x8c14]
+name = "IoIrpStackProfilerPrevious"
+offset = 0x8c14
+type = "_IOP_IRP_STACK_PROFILER"
+size = 0x54
+
+[members.0x8c68]
+name = "SecureFault"
+offset = 0x8c68
+type = "_KSECURE_FAULT_INFORMATION"
+size = 0x18
+
+[members.0x8c80]
+name = "LocalSharedReadyQueue"
+offset = 0x8c80
+type = "_KSHARED_READY_QUEUE *"
+size = 0x8
+
+[members.0x8c88]
+name = "PrcbPad125"
+offset = 0x8c88
+type = "unsigned long long[7]"
+size = 0x38
+
+[members.0x8cc0]
+name = "TimerExpirationTraceCount"
+offset = 0x8cc0
+type = "unsigned int"
+size = 0x4
+
+[members.0x8cc4]
+name = "PrcbPad127"
+offset = 0x8cc4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8cc8]
+name = "TimerExpirationTrace"
+offset = 0x8cc8
+type = "_KTIMER_EXPIRATION_TRACE[16]"
+size = 0x100
+
+[members.0x8dc8]
+name = "PrcbPad128"
+offset = 0x8dc8
+type = "unsigned long long[7]"
+size = 0x38
+
+[members.0x8e00]
+name = "ClockTimerState"
+offset = 0x8e00
+type = "_KCLOCK_TIMER_STATE"
+size = 0x518
+
+[members.0x9318]
+name = "PrcbPad129"
+offset = 0x9318
+type = "unsigned char[40]"
+size = 0x28
+
+[members.0x9340]
+name = "Mailbox"
+offset = 0x9340
+type = "_REQUEST_MAILBOX *"
+size = 0x8
+
+[members.0x9348]
+name = "PrcbPad130"
+offset = 0x9348
+type = "unsigned long long[7]"
+size = 0x38
+
+[members.0x9380]
+name = "McheckContext"
+offset = 0x9380
+type = "_MACHINE_CHECK_CONTEXT[2]"
+size = 0xa0
+
+[members.0x9420]
+name = "TransitionShadowStack"
+offset = 0x9420
+type = "unsigned long long"
+size = 0x8
+
+[members.0x9428]
+name = "KernelShadowStackInitial"
+offset = 0x9428
+type = "unsigned long long"
+size = 0x8
+
+[members.0x9430]
+name = "IstShadowStacksTable"
+offset = 0x9430
+type = "unsigned long long *"
+size = 0x8
+
+[members.0x9438]
+name = "CachedShadowStack"
+offset = 0x9438
+type = "void *"
+size = 0x8
+
+[members.0x9440]
+name = "SelfmapLockHandle"
+offset = 0x9440
+type = "_KLOCK_QUEUE_HANDLE[4]"
+size = 0x60
+
+[members.0x94a0]
+name = "PrcbPad134a"
+offset = 0x94a0
+type = "unsigned long long[4]"
+size = 0x20
+
+[members.0x94c0]
+name = "DieProcessorSet"
+offset = 0x94c0
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x95c8]
+name = "CoresPerPhysicalDie"
+offset = 0x95c8
+type = "unsigned int"
+size = 0x4
+
+[members.0x95cc]
+name = "LogicalProcessorsPerModule"
+offset = 0x95cc
+type = "unsigned int"
+size = 0x4
+
+[members.0x95d0]
+name = "FreezeForRecoveryDpc"
+offset = 0x95d0
+type = "_KDPC"
+size = 0x40
+
+[members.0x9610]
+name = "ModuleProcessorSet"
+offset = 0x9610
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x9718]
+name = "LocalCoreControlBlock"
+offset = 0x9718
+type = "_KCORE_CONTROL_BLOCK"
+size = 0x48
+
+[members.0x9760]
+name = "PrcbPad138"
+offset = 0x9760
+type = "unsigned char[1824]"
+size = 0x720
+
+[members.0x9e80]
+name = "KernelDirectoryTableBase"
+offset = 0x9e80
+type = "unsigned long long"
+size = 0x8
+
+[members.0x9e88]
+name = "RspBaseShadow"
+offset = 0x9e88
+type = "unsigned long long"
+size = 0x8
+
+[members.0x9e90]
+name = "UserRspShadow"
+offset = 0x9e90
+type = "unsigned long long"
+size = 0x8
+
+[members.0x9e98]
+name = "ShadowFlags"
+offset = 0x9e98
+type = "unsigned int"
+size = 0x4
+
+[members.0x9e9c]
+name = "PrcbPad138b"
+offset = 0x9e9c
+type = "unsigned int"
+size = 0x4
+
+[members.0x9ea0]
+name = "PrcbPad138c"
+offset = 0x9ea0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x9ea8]
+name = "PrcbPad138d"
+offset = 0x9ea8
+type = "unsigned short"
+size = 0x2
+
+[members.0x9eaa]
+name = "VerwSelector"
+offset = 0x9eaa
+type = "unsigned short"
+size = 0x2
+
+[members.0x9eac]
+name = "DbgMceNestingLevel"
+offset = 0x9eac
+type = "unsigned int"
+size = 0x4
+
+[members.0x9eb0]
+name = "DbgMceFlags"
+offset = 0x9eb0
+type = "unsigned int"
+size = 0x4
+
+[members.0x9eb4]
+name = "PrcbPad139b"
+offset = 0x9eb4
+type = "unsigned int"
+size = 0x4
+
+[members.0x9eb8]
+name = "CacheProcessorSet"
+offset = 0x9eb8
+type = "_KAFFINITY_EX[5]"
+size = 0x528
+
+[members.0xa3e0]
+name = "PrcbPad140"
+offset = 0xa3e0
+type = "unsigned long long[340]"
+size = 0xaa0
+
+[members.0xae80]
+name = "PrcbPad140a"
+offset = 0xae80
+type = "unsigned long long[8]"
+size = 0x40
+
+[members.0xaec0]
+name = "PrcbPad141"
+offset = 0xaec0
+type = "unsigned long long[512]"
+size = 0x1000
+
+[members.0xbec0]
+name = "RequestMailbox"
+offset = 0xbec0
+type = "_REQUEST_MAILBOX[1]"
+size = 0x40

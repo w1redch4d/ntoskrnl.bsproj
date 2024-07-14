@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$E9368C31ACCED5B55EDA581ACCB91C72"
+size = 0x38
+
+[members.0x0]
+name = "EfiInformation"
+offset = 0x0
+type = "_EFI_FIRMWARE_INFORMATION"
+size = 0x38
+
+[members.0x1]
+name = "PcatInformation"
+offset = 0x1
+type = "_PCAT_FIRMWARE_INFORMATION"
+size = 0x4

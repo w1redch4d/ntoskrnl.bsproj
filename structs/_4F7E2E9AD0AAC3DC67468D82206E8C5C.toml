@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$4F7E2E9AD0AAC3DC67468D82206E8C5C"
+size = 0x58
+
+[members.0x0]
+name = "Overlay"
+offset = 0x0
+type = "$16FE942C4CBDF8EC152C3318BB4A3874"
+size = 0x58
+
+[members.0x1]
+name = "Apc"
+offset = 0x1
+type = "_KAPC"
+size = 0x58
+
+[members.0x2]
+name = "CompletionKey"
+offset = 0x2
+type = "void *"
+size = 0x8

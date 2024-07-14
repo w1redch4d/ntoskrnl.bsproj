@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$D70BDBF978292670075F655093B8FFD9"
+size = 0x18
+
+[members.0x0]
+name = "WaitQueueEntry"
+offset = 0x0
+type = "_KDEVICE_QUEUE_ENTRY"
+size = 0x18
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$FB07AA5C7C51C76EF49B4D35992E2177"
+size = 0x18

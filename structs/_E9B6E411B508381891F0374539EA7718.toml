@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$E9B6E411B508381891F0374539EA7718"
+size = 0x4
+
+[members.0x0]
+name = "QueueType"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "Timer2Flags"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "QueueSize"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "Timer2RelativeId"
+offset = 0x3
+type = "unsigned char"
+size = 0x1

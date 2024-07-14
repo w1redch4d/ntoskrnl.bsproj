@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KCLOCK_TIMER_DEADLINE_ENTRY"
+size = 0x10
+
+[members.0x0]
+name = "DueTime"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "TolerableDelay"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "___u2"
+offset = 0xc
+type = "$CE75DB885226D39F124D3879F0DBAC5E"
+size = 0x1

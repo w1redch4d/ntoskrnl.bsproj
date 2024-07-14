@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KSEMAPHORE"
+size = 0x20
+
+[members.0x0]
+name = "Header"
+offset = 0x0
+type = "_DISPATCHER_HEADER"
+size = 0x18
+
+[members.0x18]
+name = "Limit"
+offset = 0x18
+type = "int"
+size = 0x4

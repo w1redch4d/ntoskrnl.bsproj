@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$971F41BB11FAC5722FDA36EC0F8EDA06"
+size = 0x18
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$24E81F9F14F77C2D24EEC53A9BC45943"
+size = 0x18
+
+[members.0x1]
+name = "Reserved"
+offset = 0x1
+type = "void *[3]"
+size = 0x18

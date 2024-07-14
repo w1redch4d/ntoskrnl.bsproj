@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KMUTANT"
+size = 0x38
+
+[members.0x0]
+name = "Header"
+offset = 0x0
+type = "_DISPATCHER_HEADER"
+size = 0x18
+
+[members.0x18]
+name = "MutantListEntry"
+offset = 0x18
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x28]
+name = "OwnerThread"
+offset = 0x28
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x30]
+name = "___u3"
+offset = 0x30
+type = "$E50D106E3418F25B9A25C3CC438859DF"
+size = 0x1
+
+[members.0x31]
+name = "ApcDisable"
+offset = 0x31
+type = "unsigned char"
+size = 0x1

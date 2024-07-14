@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$AD692F4A89EA78C5264F0F0E205C500F"
+size = 0x8
+
+[members.0x0]
+name = "UserApcContext"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x1]
+name = "IoRing"
+offset = 0x1
+type = "_IORING_OBJECT *"
+size = 0x8

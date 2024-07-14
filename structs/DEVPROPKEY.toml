@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "DEVPROPKEY"
+size = 0x14
+
+[members.0x0]
+name = "fmtid"
+offset = 0x0
+type = "_GUID"
+size = 0x10
+
+[members.0x10]
+name = "pid"
+offset = 0x10
+type = "unsigned int"
+size = 0x4

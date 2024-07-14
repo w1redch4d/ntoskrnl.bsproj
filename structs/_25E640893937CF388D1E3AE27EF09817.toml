@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$25E640893937CF388D1E3AE27EF09817"
+size = 0x14
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$2CAFE3728FA39B45DF8FC71175F64CB1"
+size = 0x14
+
+[members.0x1]
+name = "TopologyId"
+offset = 0x1
+type = "unsigned int[5]"
+size = 0x14

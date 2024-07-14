@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x0]
+name = "Count"
+offset = 0x0
+type = "unsigned short"
+size = 0x2
+
+[members.0x2]
+name = "Size"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "Reserved"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "___u3"
+offset = 0x8
+type = "$B38C3B1372D6E954799962D5DD404846"
+size = 0x100

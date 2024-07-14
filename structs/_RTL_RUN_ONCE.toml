@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_RTL_RUN_ONCE"
+size = 0x8
+
+[members.0x0]
+name = "Ptr"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x1]
+name = "Value"
+offset = 0x1
+type = "unsigned long long"
+size = 0x8
+
+[members.0x2]
+name = "__s2"
+offset = 0x2
+type = "$8E288E94E66B1B910FE30A14EC5FDF27"
+size = 0x8

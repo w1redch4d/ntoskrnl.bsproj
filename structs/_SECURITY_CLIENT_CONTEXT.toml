@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SECURITY_CLIENT_CONTEXT"
+size = 0x48
+
+[members.0x0]
+name = "SecurityQos"
+offset = 0x0
+type = "_SECURITY_QUALITY_OF_SERVICE"
+size = 0xc
+
+[members.0x10]
+name = "ClientToken"
+offset = 0x10
+type = "void *"
+size = 0x8
+
+[members.0x18]
+name = "DirectlyAccessClientToken"
+offset = 0x18
+type = "unsigned char"
+size = 0x1
+
+[members.0x19]
+name = "DirectAccessEffectiveOnly"
+offset = 0x19
+type = "unsigned char"
+size = 0x1
+
+[members.0x1a]
+name = "ServerIsRemote"
+offset = 0x1a
+type = "unsigned char"
+size = 0x1
+
+[members.0x1c]
+name = "ClientTokenControl"
+offset = 0x1c
+type = "_TOKEN_CONTROL"
+size = 0x28

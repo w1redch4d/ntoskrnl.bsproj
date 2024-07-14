@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_REQUEST_MAILBOX"
+size = 0x40
+
+[members.0x0]
+name = "Next"
+offset = 0x0
+type = "_REQUEST_MAILBOX *"
+size = 0x8
+
+[members.0x8]
+name = "RequestSummary"
+offset = 0x8
+type = "unsigned long long"
+size = 0x8
+
+[members.0x10]
+name = "RequestPacket"
+offset = 0x10
+type = "_KREQUEST_PACKET"
+size = 0x20
+
+[members.0x30]
+name = "SubNodeTargetCountAddr"
+offset = 0x30
+type = "volatile int *"
+size = 0x8
+
+[members.0x38]
+name = "SubNodeTargetCount"
+offset = 0x38
+type = "volatile int"
+size = 0x4

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_CREATE_DISK::$E6D8F73FA11FE79B0BBE7B30BDE20C7B"
+size = 0x14
+
+[members.0x0]
+name = "Mbr"
+offset = 0x0
+type = "CREATE_DISK_MBR"
+size = 0x4
+
+[members.0x1]
+name = "Gpt"
+offset = 0x1
+type = "CREATE_DISK_GPT"
+size = 0x14

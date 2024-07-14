@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "SE_ADT_PARAMETER_ARRAY_ENTRY"
+size = 0x20
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "SE_ADT_PARAMETER_TYPE"
+size = 0x4
+
+[members.0x4]
+name = "Length"
+offset = 0x4
+type = "ULONG"
+size = 0x4
+
+[members.0x8]
+name = "Data"
+offset = 0x8
+type = "ULONG_PTR[2]"
+size = 0x10
+
+[members.0x18]
+name = "Address"
+offset = 0x18
+type = "PVOID"
+size = 0x8

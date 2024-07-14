@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "CLFS_LSN"
+size = 0x8
+
+[members.0x0]
+name = "offset"
+offset = 0x0
+type = "$EFBE57641E4B47C85D1EEC6588DBDF0B"
+size = 0x8
+
+[members.0x1]
+name = "ullOffset"
+offset = 0x1
+type = "unsigned long long"
+size = 0x8

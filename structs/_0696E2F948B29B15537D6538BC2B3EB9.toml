@@ -1,0 +1,87 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$0696E2F948B29B15537D6538BC2B3EB9"
+size = 0x10
+
+[members.0x0]
+name = "Generic"
+offset = 0x0
+type = "$25FDEB30A5BA9A90CC672977E58E42F1"
+size = 0xc
+
+[members.0x1]
+name = "Port"
+offset = 0x1
+type = "$25FDEB30A5BA9A90CC672977E58E42F1"
+size = 0xc
+
+[members.0x2]
+name = "Interrupt"
+offset = 0x2
+type = "$A4C8F98C438ECB53B11C8817B10C66B5"
+size = 0x10
+
+[members.0x3]
+name = "MessageInterrupt"
+offset = 0x3
+type = "$8D29D1E0334E6A517CE8101424301158"
+size = 0x10
+
+[members.0x4]
+name = "Memory"
+offset = 0x4
+type = "$25FDEB30A5BA9A90CC672977E58E42F1"
+size = 0xc
+
+[members.0x5]
+name = "Dma"
+offset = 0x5
+type = "$72748C417E05990EBECC6BB8D043D8B0"
+size = 0xc
+
+[members.0x6]
+name = "DmaV3"
+offset = 0x6
+type = "$CC0360DD0852F9AAB36A2B2BBC2DF141"
+size = 0xc
+
+[members.0x7]
+name = "DevicePrivate"
+offset = 0x7
+type = "$B14DB811EDFC1214B110A98B000FF49B"
+size = 0xc
+
+[members.0x8]
+name = "BusNumber"
+offset = 0x8
+type = "$6C467299E1DD150E8FDAFB428553E9E9"
+size = 0xc
+
+[members.0x9]
+name = "DeviceSpecificData"
+offset = 0x9
+type = "$D735038633D506DCA1748B01FF7747C2"
+size = 0xc
+
+[members.0xa]
+name = "Memory40"
+offset = 0xa
+type = "$817B9A36EDEA78B757C36D2404B1769A"
+size = 0xc
+
+[members.0xb]
+name = "Memory48"
+offset = 0xb
+type = "$A68B3007D5DA0803669645789F7A1509"
+size = 0xc
+
+[members.0xc]
+name = "Memory64"
+offset = 0xc
+type = "$ACF6FAF797AE3E5A2288AD828BBD8EE4"
+size = 0xc
+
+[members.0xd]
+name = "Connection"
+offset = 0xd
+type = "$EDAC022CDA01C704ED739E663C6F28A2"
+size = 0xc

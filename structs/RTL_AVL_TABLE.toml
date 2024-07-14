@@ -1,0 +1,69 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "RTL_AVL_TABLE"
+size = 0x68
+
+[members.0x0]
+name = "BalancedRoot"
+offset = 0x0
+type = "_RTL_BALANCED_LINKS"
+size = 0x20
+
+[members.0x20]
+name = "OrderedPointer"
+offset = 0x20
+type = "void *"
+size = 0x8
+
+[members.0x28]
+name = "WhichOrderedElement"
+offset = 0x28
+type = "unsigned int"
+size = 0x4
+
+[members.0x2c]
+name = "NumberGenericTableElements"
+offset = 0x2c
+type = "unsigned int"
+size = 0x4
+
+[members.0x30]
+name = "DepthOfTree"
+offset = 0x30
+type = "unsigned int"
+size = 0x4
+
+[members.0x38]
+name = "RestartKey"
+offset = 0x38
+type = "_RTL_BALANCED_LINKS *"
+size = 0x8
+
+[members.0x40]
+name = "DeleteCount"
+offset = 0x40
+type = "unsigned int"
+size = 0x4
+
+[members.0x48]
+name = "CompareRoutine"
+offset = 0x48
+type = "_RTL_GENERIC_COMPARE_RESULTS (__fastcall *)(_RTL_AVL_TABLE *, void *, void *)"
+size = 0x8
+
+[members.0x50]
+name = "AllocateRoutine"
+offset = 0x50
+type = "void *(__fastcall *)(_RTL_AVL_TABLE *, unsigned int)"
+size = 0x8
+
+[members.0x58]
+name = "FreeRoutine"
+offset = 0x58
+type = "void (__fastcall *)(_RTL_AVL_TABLE *, void *)"
+size = 0x8
+
+[members.0x60]
+name = "TableContext"
+offset = 0x60
+type = "void *"
+size = 0x8

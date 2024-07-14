@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "ACL"
+size = 0x8
+
+[members.0x0]
+name = "AclRevision"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "Sbz1"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "AclSize"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "AceCount"
+offset = 0x4
+type = "unsigned short"
+size = 0x2
+
+[members.0x6]
+name = "Sbz2"
+offset = 0x6
+type = "unsigned short"
+size = 0x2

@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_LOOKASIDE_LIST_EX"
+size = 0x60
+
+[members.0x0]
+name = "L"
+offset = 0x0
+type = "_GENERAL_LOOKASIDE_POOL"
+size = 0x60

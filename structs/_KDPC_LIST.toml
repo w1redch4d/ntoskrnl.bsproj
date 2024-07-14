@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KDPC_LIST"
+size = 0x10
+
+[members.0x0]
+name = "ListHead"
+offset = 0x0
+type = "_SINGLE_LIST_ENTRY"
+size = 0x8
+
+[members.0x8]
+name = "LastEntry"
+offset = 0x8
+type = "_SINGLE_LIST_ENTRY *"
+size = 0x8

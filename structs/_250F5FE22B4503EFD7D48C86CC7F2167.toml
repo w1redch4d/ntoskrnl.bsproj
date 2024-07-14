@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$250F5FE22B4503EFD7D48C86CC7F2167"
+size = 0x8
+
+[members.0x0]
+name = "Status"
+offset = 0x0
+type = "int"
+size = 0x4
+
+[members.0x1]
+name = "Pointer"
+offset = 0x1
+type = "void *"
+size = 0x8

@@ -1,0 +1,111 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$25277136AEA084485C7259795083A8D2"
+size = 0x1a0
+
+[members.0x0]
+name = "Header"
+offset = 0x0
+type = "_M128A[2]"
+size = 0x20
+
+[members.0x20]
+name = "Legacy"
+offset = 0x20
+type = "_M128A[8]"
+size = 0x80
+
+[members.0xa0]
+name = "_Xmm0"
+offset = 0xa0
+type = "_M128A"
+size = 0x10
+
+[members.0xb0]
+name = "_Xmm1"
+offset = 0xb0
+type = "_M128A"
+size = 0x10
+
+[members.0xc0]
+name = "_Xmm2"
+offset = 0xc0
+type = "_M128A"
+size = 0x10
+
+[members.0xd0]
+name = "_Xmm3"
+offset = 0xd0
+type = "_M128A"
+size = 0x10
+
+[members.0xe0]
+name = "_Xmm4"
+offset = 0xe0
+type = "_M128A"
+size = 0x10
+
+[members.0xf0]
+name = "_Xmm5"
+offset = 0xf0
+type = "_M128A"
+size = 0x10
+
+[members.0x100]
+name = "_Xmm6"
+offset = 0x100
+type = "_M128A"
+size = 0x10
+
+[members.0x110]
+name = "_Xmm7"
+offset = 0x110
+type = "_M128A"
+size = 0x10
+
+[members.0x120]
+name = "_Xmm8"
+offset = 0x120
+type = "_M128A"
+size = 0x10
+
+[members.0x130]
+name = "_Xmm9"
+offset = 0x130
+type = "_M128A"
+size = 0x10
+
+[members.0x140]
+name = "_Xmm10"
+offset = 0x140
+type = "_M128A"
+size = 0x10
+
+[members.0x150]
+name = "_Xmm11"
+offset = 0x150
+type = "_M128A"
+size = 0x10
+
+[members.0x160]
+name = "_Xmm12"
+offset = 0x160
+type = "_M128A"
+size = 0x10
+
+[members.0x170]
+name = "_Xmm13"
+offset = 0x170
+type = "_M128A"
+size = 0x10
+
+[members.0x180]
+name = "_Xmm14"
+offset = 0x180
+type = "_M128A"
+size = 0x10
+
+[members.0x190]
+name = "_Xmm15"
+offset = 0x190
+type = "_M128A"
+size = 0x10

@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KDEVICE_QUEUE_ENTRY"
+size = 0x18
+
+[members.0x0]
+name = "DeviceListEntry"
+offset = 0x0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x10]
+name = "SortKey"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x14]
+name = "Inserted"
+offset = 0x14
+type = "unsigned char"
+size = 0x1

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_PP_LOOKASIDE_LIST"
+size = 0x10
+
+[members.0x0]
+name = "P"
+offset = 0x0
+type = "_GENERAL_LOOKASIDE *"
+size = 0x8
+
+[members.0x8]
+name = "L"
+offset = 0x8
+type = "_GENERAL_LOOKASIDE *"
+size = 0x8

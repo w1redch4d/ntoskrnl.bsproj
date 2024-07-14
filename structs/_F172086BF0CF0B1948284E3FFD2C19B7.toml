@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$F172086BF0CF0B1948284E3FFD2C19B7"
+size = 0x10
+
+[members.0x0]
+name = "AsynchronousParameters"
+offset = 0x0
+type = "$13C47006537A9EA1190DE83D2FE804F8"
+size = 0x10
+
+[members.0x1]
+name = "AllocationSize"
+offset = 0x1
+type = "_LARGE_INTEGER"
+size = 0x8

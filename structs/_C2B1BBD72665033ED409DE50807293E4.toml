@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$C2B1BBD72665033ED409DE50807293E4"
+size = 0x4
+
+[members.0x0]
+name = "_bf_0"
+offset = 0x0
+type = "int"
+size = 0x4

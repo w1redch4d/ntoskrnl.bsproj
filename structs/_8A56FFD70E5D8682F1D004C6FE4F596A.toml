@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$8A56FFD70E5D8682F1D004C6FE4F596A"
+size = 0x8
+
+[members.0x0]
+name = "MasterIrp"
+offset = 0x0
+type = "_IRP *"
+size = 0x8
+
+[members.0x1]
+name = "IrpCount"
+offset = 0x1
+type = "int"
+size = 0x4
+
+[members.0x2]
+name = "SystemBuffer"
+offset = 0x2
+type = "void *"
+size = 0x8

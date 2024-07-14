@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$D9FA1796A198ABBC9AD0021BFE0717B8"
+size = 0x7
+
+[members.0x0]
+name = "gap0"
+offset = 0x0
+type = "_BYTE[4]"
+size = 0x4
+
+[members.0x4]
+name = "_bf_4"
+offset = 0x4
+type = "char"
+size = 0x1
+
+[members.0x5]
+name = "_bf_5"
+offset = 0x5
+type = "char"
+size = 0x1
+
+[members.0x6]
+name = "_bf_6"
+offset = 0x6
+type = "char"
+size = 0x1

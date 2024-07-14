@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KPROCESSOR_STATE"
+size = 0x5c0
+
+[members.0x0]
+name = "SpecialRegisters"
+offset = 0x0
+type = "_KSPECIAL_REGISTERS"
+size = 0xf0
+
+[members.0xf0]
+name = "ContextFrame"
+offset = 0xf0
+type = "_CONTEXT"
+size = 0x4d0

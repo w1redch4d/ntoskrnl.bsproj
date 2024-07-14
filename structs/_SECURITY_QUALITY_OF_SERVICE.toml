@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SECURITY_QUALITY_OF_SERVICE"
+size = 0xc
+
+[members.0x0]
+name = "Length"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "ImpersonationLevel"
+offset = 0x4
+type = "_SECURITY_IMPERSONATION_LEVEL"
+size = 0x4
+
+[members.0x8]
+name = "ContextTrackingMode"
+offset = 0x8
+type = "unsigned char"
+size = 0x1
+
+[members.0x9]
+name = "EffectiveOnly"
+offset = 0x9
+type = "unsigned char"
+size = 0x1

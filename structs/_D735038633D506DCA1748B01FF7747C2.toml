@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$D735038633D506DCA1748B01FF7747C2"
+size = 0xc
+
+[members.0x0]
+name = "DataSize"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "Reserved1"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Reserved2"
+offset = 0x8
+type = "unsigned int"
+size = 0x4

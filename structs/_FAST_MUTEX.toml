@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_FAST_MUTEX"
+size = 0x38
+
+[members.0x0]
+name = "Count"
+offset = 0x0
+type = "int"
+size = 0x4
+
+[members.0x8]
+name = "Owner"
+offset = 0x8
+type = "void *"
+size = 0x8
+
+[members.0x10]
+name = "Contention"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "Event"
+offset = 0x18
+type = "_KEVENT"
+size = 0x18
+
+[members.0x30]
+name = "OldIrql"
+offset = 0x30
+type = "unsigned int"
+size = 0x4

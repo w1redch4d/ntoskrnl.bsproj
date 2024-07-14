@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_TARGET_DEVICE_CUSTOM_NOTIFICATION"
+size = 0x28
+
+[members.0x0]
+name = "Version"
+offset = 0x0
+type = "USHORT"
+size = 0x2
+
+[members.0x2]
+name = "Size"
+offset = 0x2
+type = "USHORT"
+size = 0x2
+
+[members.0x4]
+name = "Event"
+offset = 0x4
+type = "GUID"
+size = 0x10
+
+[members.0x18]
+name = "FileObject"
+offset = 0x18
+type = "PFILE_OBJECT"
+size = 0x8
+
+[members.0x20]
+name = "NameBufferOffset"
+offset = 0x20
+type = "LONG"
+size = 0x4
+
+[members.0x24]
+name = "CustomDataBuffer"
+offset = 0x24
+type = "UCHAR[1]"
+size = 0x1

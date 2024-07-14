@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_PCW_REGISTRATION_INFORMATION"
+size = 0x38
+
+[members.0x0]
+name = "Version"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Name"
+offset = 0x8
+type = "const _UNICODE_STRING *"
+size = 0x8
+
+[members.0x10]
+name = "CounterCount"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "Counters"
+offset = 0x18
+type = "_PCW_COUNTER_DESCRIPTOR *"
+size = 0x8
+
+[members.0x20]
+name = "Callback"
+offset = 0x20
+type = "int (__fastcall *)(_PCW_CALLBACK_TYPE, _PCW_CALLBACK_INFORMATION *, void *)"
+size = 0x8
+
+[members.0x28]
+name = "CallbackContext"
+offset = 0x28
+type = "void *"
+size = 0x8
+
+[members.0x30]
+name = "Flags"
+offset = 0x30
+type = "PCW_REGISTRATION_FLAGS"
+size = 0x4

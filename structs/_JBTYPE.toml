@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_JBTYPE"
+size = 0x10
+
+[members.0x0]
+name = "Part"
+offset = 0x0
+type = "unsigned long long[2]"
+size = 0x10

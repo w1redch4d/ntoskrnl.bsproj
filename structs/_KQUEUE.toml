@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KQUEUE"
+size = 0x40
+
+[members.0x0]
+name = "Header"
+offset = 0x0
+type = "_DISPATCHER_HEADER"
+size = 0x18
+
+[members.0x18]
+name = "EntryListHead"
+offset = 0x18
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x28]
+name = "CurrentCount"
+offset = 0x28
+type = "volatile unsigned int"
+size = 0x4
+
+[members.0x2c]
+name = "MaximumCount"
+offset = 0x2c
+type = "unsigned int"
+size = 0x4
+
+[members.0x30]
+name = "ThreadListHead"
+offset = 0x30
+type = "_LIST_ENTRY"
+size = 0x10

@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_RTL_DYNAMIC_HASH_TABLE_ENUMERATOR"
+size = 0x28
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$AC117747BC554509E8A831DF3432CA7F"
+size = 0x18
+
+[members.0x18]
+name = "ChainHead"
+offset = 0x18
+type = "_LIST_ENTRY *"
+size = 0x8
+
+[members.0x20]
+name = "BucketIndex"
+offset = 0x20
+type = "unsigned int"
+size = 0x4

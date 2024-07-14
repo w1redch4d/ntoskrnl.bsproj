@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$F9F9EB832D628D73E611400623F67F2B"
+size = 0x10
+
+[members.0x0]
+name = "_bf_0"
+offset = 0x0
+type = "long long"
+size = 0x8
+
+[members.0x8]
+name = "_bf_8"
+offset = 0x8
+type = "long long"
+size = 0x8

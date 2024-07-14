@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$E091D7557411D3ED686F6955A035A433"
+size = 0x1
+
+[members.0x0]
+name = "UserApcPendingAll"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$A85FE12DE136A601A0C0FDA7C2290F98"
+size = 0x1

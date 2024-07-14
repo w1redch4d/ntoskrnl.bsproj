@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_IOP_IRP_STACK_PROFILER"
+size = 0x54
+
+[members.0x0]
+name = "Profile"
+offset = 0x0
+type = "unsigned int[20]"
+size = 0x50
+
+[members.0x50]
+name = "TotalIrps"
+offset = 0x50
+type = "unsigned int"
+size = 0x4

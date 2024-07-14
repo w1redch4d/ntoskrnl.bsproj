@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$184FE7817EEDFA9BFAEAEE12425C0D4D"
+size = 0x48
+
+[members.0x0]
+name = "ListEntry"
+offset = 0x0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x1]
+name = "Wcb"
+offset = 0x1
+type = "_WAIT_CONTEXT_BLOCK"
+size = 0x48

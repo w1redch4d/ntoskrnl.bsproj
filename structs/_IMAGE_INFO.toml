@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_IMAGE_INFO"
+size = 0x28
+
+[members.0x0]
+name = "anonymous_0"
+offset = 0x0
+type = "union _IMAGE_INFO::$6E0B822A917B30724BC1484F30FAF622"
+size = 0x4
+
+[members.0x8]
+name = "ImageBase"
+offset = 0x8
+type = "PVOID"
+size = 0x8
+
+[members.0x10]
+name = "ImageSelector"
+offset = 0x10
+type = "ULONG"
+size = 0x4
+
+[members.0x18]
+name = "ImageSize"
+offset = 0x18
+type = "SIZE_T"
+size = 0x8
+
+[members.0x20]
+name = "ImageSectionNumber"
+offset = 0x20
+type = "ULONG"
+size = 0x4

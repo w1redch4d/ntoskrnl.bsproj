@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$F7D3806E4DA35A893781FF7D30642B20"
+size = 0x38
+
+[members.0x0]
+name = "NtTib"
+offset = 0x0
+type = "_NT_TIB"
+size = 0x38
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$9E404EE15DEF3EDCBDC9C6CFB42A825E"
+size = 0x38

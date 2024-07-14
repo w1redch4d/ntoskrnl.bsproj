@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_I386_LOADER_BLOCK"
+size = 0x10
+
+[members.0x0]
+name = "CommonDataArea"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x8]
+name = "MachineType"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "VirtualBias"
+offset = 0xc
+type = "unsigned int"
+size = 0x4

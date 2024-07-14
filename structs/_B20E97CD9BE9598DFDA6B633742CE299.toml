@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$B20E97CD9BE9598DFDA6B633742CE299"
+size = 0x20
+
+[members.0x0]
+name = "DeviceQueueEntry"
+offset = 0x0
+type = "_KDEVICE_QUEUE_ENTRY"
+size = 0x18
+
+[members.0x1]
+name = "DriverContext"
+offset = 0x1
+type = "void *[4]"
+size = 0x20

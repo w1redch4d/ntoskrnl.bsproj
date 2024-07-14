@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$B38C3B1372D6E954799962D5DD404846"
+size = 0x100
+
+[members.0x0]
+name = "Bitmap"
+offset = 0x0
+type = "unsigned long long[1]"
+size = 0x8
+
+[members.0x1]
+name = "StaticBitmap"
+offset = 0x1
+type = "unsigned long long[32]"
+size = 0x100

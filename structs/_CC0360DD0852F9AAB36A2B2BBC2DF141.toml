@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$CC0360DD0852F9AAB36A2B2BBC2DF141"
+size = 0xc
+
+[members.0x0]
+name = "Channel"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "RequestLine"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "TransferWidth"
+offset = 0x8
+type = "unsigned char"
+size = 0x1
+
+[members.0x9]
+name = "Reserved1"
+offset = 0x9
+type = "unsigned char"
+size = 0x1
+
+[members.0xa]
+name = "Reserved2"
+offset = 0xa
+type = "unsigned char"
+size = 0x1
+
+[members.0xb]
+name = "Reserved3"
+offset = 0xb
+type = "unsigned char"
+size = 0x1

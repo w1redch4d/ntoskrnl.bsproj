@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_TOKEN_CONTROL"
+size = 0x28
+
+[members.0x0]
+name = "TokenId"
+offset = 0x0
+type = "_LUID"
+size = 0x8
+
+[members.0x8]
+name = "AuthenticationId"
+offset = 0x8
+type = "_LUID"
+size = 0x8
+
+[members.0x10]
+name = "ModifiedId"
+offset = 0x10
+type = "_LUID"
+size = 0x8
+
+[members.0x18]
+name = "TokenSource"
+offset = 0x18
+type = "_TOKEN_SOURCE"
+size = 0x10

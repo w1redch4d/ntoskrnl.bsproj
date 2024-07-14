@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KAPC_STATE"
+size = 0x30
+
+[members.0x0]
+name = "ApcListHead"
+offset = 0x0
+type = "_LIST_ENTRY[2]"
+size = 0x20
+
+[members.0x20]
+name = "Process"
+offset = 0x20
+type = "_KPROCESS *"
+size = 0x8
+
+[members.0x28]
+name = "___u2"
+offset = 0x28
+type = "$D2803ED815AA658F1D637140EB195AB4"
+size = 0x1
+
+[members.0x29]
+name = "KernelApcPending"
+offset = 0x29
+type = "unsigned char"
+size = 0x1
+
+[members.0x2a]
+name = "___u4"
+offset = 0x2a
+type = "$E091D7557411D3ED686F6955A035A433"
+size = 0x1

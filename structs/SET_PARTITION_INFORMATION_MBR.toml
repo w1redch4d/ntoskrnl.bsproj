@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "SET_PARTITION_INFORMATION_MBR"
+size = 0x1
+
+[members.0x0]
+name = "PartitionType"
+offset = 0x0
+type = "UCHAR"
+size = 0x1

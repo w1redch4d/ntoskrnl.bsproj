@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_PRIVILEGE_SET"
+size = 0x14
+
+[members.0x0]
+name = "PrivilegeCount"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "Control"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Privilege"
+offset = 0x8
+type = "_LUID_AND_ATTRIBUTES[1]"
+size = 0xc

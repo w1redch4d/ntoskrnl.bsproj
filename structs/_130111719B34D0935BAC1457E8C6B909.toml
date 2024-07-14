@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$130111719B34D0935BAC1457E8C6B909"
+size = 0x2
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$587E166413A0BC9D4B6487D1ABA99C2F"
+size = 0x2
+
+[members.0x1]
+name = "CombinedNmiMceActive"
+offset = 0x1
+type = "unsigned short"
+size = 0x2

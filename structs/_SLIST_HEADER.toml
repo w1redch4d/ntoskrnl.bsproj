@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SLIST_HEADER"
+size = 0x10
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$37C35E5C8CCF236A60767E3040AC49D0"
+size = 0x10
+
+[members.0x1]
+name = "HeaderX64"
+offset = 0x1
+type = "$F9F9EB832D628D73E611400623F67F2B"
+size = 0x10

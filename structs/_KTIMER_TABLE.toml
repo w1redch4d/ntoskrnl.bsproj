@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KTIMER_TABLE"
+size = 0x4218
+
+[members.0x0]
+name = "TimerExpiry"
+offset = 0x0
+type = "_KTIMER *[64]"
+size = 0x200
+
+[members.0x200]
+name = "TimerEntries"
+offset = 0x200
+type = "_KTIMER_TABLE_ENTRY[2][256]"
+size = 0x4000
+
+[members.0x4200]
+name = "TableState"
+offset = 0x4200
+type = "_KTIMER_TABLE_STATE"
+size = 0x18

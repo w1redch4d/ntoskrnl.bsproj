@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "RUNTIME_FUNCTION"
+size = 0xc
+
+[members.0x0]
+name = "FunctionStart"
+offset = 0x0
+type = ""
+size = 0x4
+
+[members.0x4]
+name = "FunctionEnd"
+offset = 0x4
+type = ""
+size = 0x4
+
+[members.0x8]
+name = "UnwindInfo"
+offset = 0x8
+type = ""
+size = 0x4

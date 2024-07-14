@@ -1,0 +1,141 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "IRP"
+size = 0xd0
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x2]
+name = "Size"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "AllocationProcessorNumber"
+offset = 0x4
+type = "unsigned short"
+size = 0x2
+
+[members.0x6]
+name = "Reserved"
+offset = 0x6
+type = "unsigned short"
+size = 0x2
+
+[members.0x8]
+name = "MdlAddress"
+offset = 0x8
+type = "_MDL *"
+size = 0x8
+
+[members.0x10]
+name = "Flags"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "AssociatedIrp"
+offset = 0x18
+type = "$8A56FFD70E5D8682F1D004C6FE4F596A"
+size = 0x8
+
+[members.0x20]
+name = "ThreadListEntry"
+offset = 0x20
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x30]
+name = "IoStatus"
+offset = 0x30
+type = "_IO_STATUS_BLOCK"
+size = 0x10
+
+[members.0x40]
+name = "RequestorMode"
+offset = 0x40
+type = "char"
+size = 0x1
+
+[members.0x41]
+name = "PendingReturned"
+offset = 0x41
+type = "unsigned char"
+size = 0x1
+
+[members.0x42]
+name = "StackCount"
+offset = 0x42
+type = "char"
+size = 0x1
+
+[members.0x43]
+name = "CurrentLocation"
+offset = 0x43
+type = "char"
+size = 0x1
+
+[members.0x44]
+name = "Cancel"
+offset = 0x44
+type = "unsigned char"
+size = 0x1
+
+[members.0x45]
+name = "CancelIrql"
+offset = 0x45
+type = "unsigned char"
+size = 0x1
+
+[members.0x46]
+name = "ApcEnvironment"
+offset = 0x46
+type = "char"
+size = 0x1
+
+[members.0x47]
+name = "AllocationFlags"
+offset = 0x47
+type = "unsigned char"
+size = 0x1
+
+[members.0x48]
+name = "___u17"
+offset = 0x48
+type = "$691F31E4784ED8799E7825D9042CAADE"
+size = 0x8
+
+[members.0x50]
+name = "UserEvent"
+offset = 0x50
+type = "_KEVENT *"
+size = 0x8
+
+[members.0x58]
+name = "Overlay"
+offset = 0x58
+type = "$F172086BF0CF0B1948284E3FFD2C19B7"
+size = 0x10
+
+[members.0x68]
+name = "CancelRoutine"
+offset = 0x68
+type = "void (__fastcall *)(_DEVICE_OBJECT *, _IRP *)"
+size = 0x8
+
+[members.0x70]
+name = "UserBuffer"
+offset = 0x70
+type = "void *"
+size = 0x8
+
+[members.0x78]
+name = "Tail"
+offset = 0x78
+type = "$4F7E2E9AD0AAC3DC67468D82206E8C5C"
+size = 0x58

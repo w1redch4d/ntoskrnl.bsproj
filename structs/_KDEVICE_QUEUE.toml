@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KDEVICE_QUEUE"
+size = 0x28
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x2]
+name = "Size"
+offset = 0x2
+type = "short"
+size = 0x2
+
+[members.0x8]
+name = "DeviceListHead"
+offset = 0x8
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x18]
+name = "Lock"
+offset = 0x18
+type = "unsigned long long"
+size = 0x8
+
+[members.0x20]
+name = "___u4"
+offset = 0x20
+type = "$130FE6DD2988B5149B5CF6FA6DA1B2D0"
+size = 0x8

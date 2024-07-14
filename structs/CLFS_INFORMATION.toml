@@ -1,0 +1,105 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "CLFS_INFORMATION"
+size = 0x78
+
+[members.0x0]
+name = "TotalAvailable"
+offset = 0x0
+type = "LONGLONG"
+size = 0x8
+
+[members.0x8]
+name = "CurrentAvailable"
+offset = 0x8
+type = "LONGLONG"
+size = 0x8
+
+[members.0x10]
+name = "TotalReservation"
+offset = 0x10
+type = "LONGLONG"
+size = 0x8
+
+[members.0x18]
+name = "BaseFileSize"
+offset = 0x18
+type = "ULONGLONG"
+size = 0x8
+
+[members.0x20]
+name = "ContainerSize"
+offset = 0x20
+type = "ULONGLONG"
+size = 0x8
+
+[members.0x28]
+name = "TotalContainers"
+offset = 0x28
+type = "ULONG"
+size = 0x4
+
+[members.0x2c]
+name = "FreeContainers"
+offset = 0x2c
+type = "ULONG"
+size = 0x4
+
+[members.0x30]
+name = "TotalClients"
+offset = 0x30
+type = "ULONG"
+size = 0x4
+
+[members.0x34]
+name = "Attributes"
+offset = 0x34
+type = "ULONG"
+size = 0x4
+
+[members.0x38]
+name = "FlushThreshold"
+offset = 0x38
+type = "ULONG"
+size = 0x4
+
+[members.0x3c]
+name = "SectorSize"
+offset = 0x3c
+type = "ULONG"
+size = 0x4
+
+[members.0x40]
+name = "MinArchiveTailLsn"
+offset = 0x40
+type = "CLS_LSN"
+size = 0x8
+
+[members.0x48]
+name = "BaseLsn"
+offset = 0x48
+type = "CLS_LSN"
+size = 0x8
+
+[members.0x50]
+name = "LastFlushedLsn"
+offset = 0x50
+type = "CLS_LSN"
+size = 0x8
+
+[members.0x58]
+name = "LastLsn"
+offset = 0x58
+type = "CLS_LSN"
+size = 0x8
+
+[members.0x60]
+name = "RestartLsn"
+offset = 0x60
+type = "CLS_LSN"
+size = 0x8
+
+[members.0x68]
+name = "Identity"
+offset = 0x68
+type = "GUID"
+size = 0x10

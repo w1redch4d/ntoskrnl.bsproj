@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$88310E69955DC76FEF86CFA7EEE45395"
+size = 0x2
+
+[members.0x0]
+name = "CpuStep"
+offset = 0x0
+type = "unsigned short"
+size = 0x2
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$765B7FFCC4FB01A5AB0EE4EE9D978908"
+size = 0x2

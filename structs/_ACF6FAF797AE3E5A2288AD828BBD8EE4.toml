@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$ACF6FAF797AE3E5A2288AD828BBD8EE4"
+size = 0xc
+
+[members.0x0]
+name = "Start"
+offset = 0x0
+type = "_LARGE_INTEGER"
+size = 0x8
+
+[members.0x8]
+name = "Length64"
+offset = 0x8
+type = "unsigned int"
+size = 0x4

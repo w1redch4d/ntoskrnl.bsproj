@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$72748C417E05990EBECC6BB8D043D8B0"
+size = 0xc
+
+[members.0x0]
+name = "Channel"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "Port"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Reserved1"
+offset = 0x8
+type = "unsigned int"
+size = 0x4

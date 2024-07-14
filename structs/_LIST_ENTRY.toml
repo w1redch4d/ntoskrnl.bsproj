@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x0]
+name = "Flink"
+offset = 0x0
+type = "_LIST_ENTRY *"
+size = 0x8
+
+[members.0x8]
+name = "Blink"
+offset = 0x8
+type = "_LIST_ENTRY *"
+size = 0x8

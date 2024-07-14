@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "SET_PARTITION_INFORMATION_GPT"
+size = 0x70
+
+[members.0x0]
+name = "PartitionType"
+offset = 0x0
+type = "GUID"
+size = 0x10
+
+[members.0x10]
+name = "PartitionId"
+offset = 0x10
+type = "GUID"
+size = 0x10
+
+[members.0x20]
+name = "Attributes"
+offset = 0x20
+type = "ULONG64"
+size = 0x8
+
+[members.0x28]
+name = "Name"
+offset = 0x28
+type = "WCHAR[36]"
+size = 0x48

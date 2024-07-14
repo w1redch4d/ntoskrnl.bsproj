@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$EDAC022CDA01C704ED739E663C6F28A2"
+size = 0xc
+
+[members.0x0]
+name = "Class"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "Type"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "Reserved1"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "Reserved2"
+offset = 0x3
+type = "unsigned char"
+size = 0x1
+
+[members.0x4]
+name = "IdLowPart"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "IdHighPart"
+offset = 0x8
+type = "unsigned int"
+size = 0x4

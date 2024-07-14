@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$A14E8C9598FEC320F05702613B784A64"
+size = 0x4
+
+[members.0x0]
+name = "NormalDpcState"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x2]
+name = "ThreadDpcState"
+offset = 0x2
+type = "short"
+size = 0x2

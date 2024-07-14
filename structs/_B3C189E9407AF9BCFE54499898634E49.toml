@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$B3C189E9407AF9BCFE54499898634E49"
+size = 0x200
+
+[members.0x0]
+name = "FltSave"
+offset = 0x0
+type = "_XSAVE_FORMAT"
+size = 0x200
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$25277136AEA084485C7259795083A8D2"
+size = 0x1a0

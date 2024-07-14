@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$9F7F127E95F8E23294AC6DBA7EBC47F5"
+size = 0x18
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$74A749D08003D8EA6488D13162AFD0DD"
+size = 0x18
+
+[members.0x1]
+name = "PrcbPad12c"
+offset = 0x1
+type = "unsigned long long[3]"
+size = 0x18
+
+[members.0x2]
+name = "__s2"
+offset = 0x2
+type = "$0ADC9AF287843203AE121F96F87BCA44"
+size = 0xb

@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "IO_CONNECT_INTERRUPT_MESSAGE_BASED_PARAMETERS"
+size = 0x38
+
+[members.0x0]
+name = "PhysicalDeviceObject"
+offset = 0x0
+type = "PDEVICE_OBJECT"
+size = 0x8
+
+[members.0x8]
+name = "ConnectionContext"
+offset = 0x8
+type = "union _IO_CONNECT_INTERRUPT_MESSAGE_BASED_PARAMETERS::$9D9C737CB8CAAA408C0677004DFD02D8"
+size = 0x8
+
+[members.0x10]
+name = "MessageServiceRoutine"
+offset = 0x10
+type = "PKMESSAGE_SERVICE_ROUTINE"
+size = 0x8
+
+[members.0x18]
+name = "ServiceContext"
+offset = 0x18
+type = "PVOID"
+size = 0x8
+
+[members.0x20]
+name = "SpinLock"
+offset = 0x20
+type = "PKSPIN_LOCK"
+size = 0x8
+
+[members.0x28]
+name = "SynchronizeIrql"
+offset = 0x28
+type = "KIRQL"
+size = 0x1
+
+[members.0x29]
+name = "FloatingSave"
+offset = 0x29
+type = "BOOLEAN"
+size = 0x1
+
+[members.0x30]
+name = "FallBackServiceRoutine"
+offset = 0x30
+type = "PKSERVICE_ROUTINE"
+size = 0x8

@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_IO_CONNECT_INTERRUPT_MESSAGE_BASED_PARAMETERS::$9D9C737CB8CAAA408C0677004DFD02D8"
+size = 0x8
+
+[members.0x0]
+name = "Generic"
+offset = 0x0
+type = "PVOID *"
+size = 0x8
+
+[members.0x1]
+name = "InterruptMessageTable"
+offset = 0x1
+type = "PIO_INTERRUPT_MESSAGE_INFO *"
+size = 0x8
+
+[members.0x2]
+name = "InterruptObject"
+offset = 0x2
+type = "PKINTERRUPT *"
+size = 0x8

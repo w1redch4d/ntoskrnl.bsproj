@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "OBJECT_ATTRIBUTES"
+size = 0x30
+
+[members.0x0]
+name = "Length"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "RootDirectory"
+offset = 0x8
+type = "void *"
+size = 0x8
+
+[members.0x10]
+name = "ObjectName"
+offset = 0x10
+type = "_UNICODE_STRING *"
+size = 0x8
+
+[members.0x18]
+name = "Attributes"
+offset = 0x18
+type = "unsigned int"
+size = 0x4
+
+[members.0x20]
+name = "SecurityDescriptor"
+offset = 0x20
+type = "void *"
+size = 0x8
+
+[members.0x28]
+name = "SecurityQualityOfService"
+offset = 0x28
+type = "void *"
+size = 0x8

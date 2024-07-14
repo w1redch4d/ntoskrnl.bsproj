@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$37C35E5C8CCF236A60767E3040AC49D0"
+size = 0x10
+
+[members.0x0]
+name = "Alignment"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "Region"
+offset = 0x8
+type = "unsigned long long"
+size = 0x8

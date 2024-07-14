@@ -1,0 +1,123 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KPCR"
+size = 0xc080
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$F7D3806E4DA35A893781FF7D30642B20"
+size = 0x38
+
+[members.0x38]
+name = "IdtBase"
+offset = 0x38
+type = "_KIDTENTRY64 *"
+size = 0x8
+
+[members.0x40]
+name = "Unused"
+offset = 0x40
+type = "unsigned long long[2]"
+size = 0x10
+
+[members.0x50]
+name = "Irql"
+offset = 0x50
+type = "unsigned char"
+size = 0x1
+
+[members.0x51]
+name = "SecondLevelCacheAssociativity"
+offset = 0x51
+type = "unsigned char"
+size = 0x1
+
+[members.0x52]
+name = "ObsoleteNumber"
+offset = 0x52
+type = "unsigned char"
+size = 0x1
+
+[members.0x53]
+name = "Fill0"
+offset = 0x53
+type = "unsigned char"
+size = 0x1
+
+[members.0x54]
+name = "Unused0"
+offset = 0x54
+type = "unsigned int[3]"
+size = 0xc
+
+[members.0x60]
+name = "MajorVersion"
+offset = 0x60
+type = "unsigned short"
+size = 0x2
+
+[members.0x62]
+name = "MinorVersion"
+offset = 0x62
+type = "unsigned short"
+size = 0x2
+
+[members.0x64]
+name = "StallScaleFactor"
+offset = 0x64
+type = "unsigned int"
+size = 0x4
+
+[members.0x68]
+name = "Unused1"
+offset = 0x68
+type = "void *[3]"
+size = 0x18
+
+[members.0x80]
+name = "KernelReserved"
+offset = 0x80
+type = "unsigned int[15]"
+size = 0x3c
+
+[members.0xbc]
+name = "SecondLevelCacheSize"
+offset = 0xbc
+type = "unsigned int"
+size = 0x4
+
+[members.0xc0]
+name = "HalReserved"
+offset = 0xc0
+type = "unsigned int[16]"
+size = 0x40
+
+[members.0x100]
+name = "Unused2"
+offset = 0x100
+type = "unsigned int"
+size = 0x4
+
+[members.0x108]
+name = "KdVersionBlock"
+offset = 0x108
+type = "void *"
+size = 0x8
+
+[members.0x110]
+name = "Unused3"
+offset = 0x110
+type = "void *"
+size = 0x8
+
+[members.0x118]
+name = "PcrAlign1"
+offset = 0x118
+type = "unsigned int[24]"
+size = 0x60
+
+[members.0x180]
+name = "Prcb"
+offset = 0x180
+type = "_KPRCB"
+size = 0xbf00

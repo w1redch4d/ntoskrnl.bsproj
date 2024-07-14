@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$4C0D29959C2537B70A4EE9FE3BDDA353"
+size = 0x4
+
+[members.0x0]
+name = "gap0"
+offset = 0x0
+type = "_BYTE"
+size = 0x1
+
+[members.0x1]
+name = "ThreadReserved"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "gap2"
+offset = 0x2
+type = "_BYTE"
+size = 0x1
+
+[members.0x3]
+name = "MutantReserved"
+offset = 0x3
+type = "unsigned char"
+size = 0x1

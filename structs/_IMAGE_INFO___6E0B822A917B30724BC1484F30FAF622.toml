@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_IMAGE_INFO::$6E0B822A917B30724BC1484F30FAF622"
+size = 0x4
+
+[members.0x0]
+name = "Properties"
+offset = 0x0
+type = "ULONG"
+size = 0x4
+
+[members.0x1]
+name = "anonymous_0"
+offset = 0x1
+type = "struct _IMAGE_INFO::$6E0B822A917B30724BC1484F30FAF622::$6D5F5A2B5A6173E841A9F8B7F1F92242"
+size = 0x4

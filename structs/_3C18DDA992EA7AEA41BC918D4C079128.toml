@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$3C18DDA992EA7AEA41BC918D4C079128"
+size = 0x2
+
+[members.0x0]
+name = "PairRemote"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$65F3014B83CBA7D0B98DA1788953A33A"
+size = 0x2

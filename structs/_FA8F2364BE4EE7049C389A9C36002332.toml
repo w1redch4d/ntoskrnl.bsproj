@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$FA8F2364BE4EE7049C389A9C36002332"
+size = 0x8
+
+[members.0x0]
+name = "Address"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x1]
+name = "CreatorBackTraceIndex"
+offset = 0x1
+type = "unsigned long long"
+size = 0x8

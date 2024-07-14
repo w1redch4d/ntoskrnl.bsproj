@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SID_IDENTIFIER_AUTHORITY"
+size = 0x6
+
+[members.0x0]
+name = "Value"
+offset = 0x0
+type = "unsigned char[6]"
+size = 0x6

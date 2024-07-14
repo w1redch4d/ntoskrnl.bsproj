@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$60E8A10C53829A6D3131D8B285338153"
+size = 0x10
+
+[members.0x0]
+name = "ListHead"
+offset = 0x0
+type = "_SLIST_HEADER"
+size = 0x10
+
+[members.0x1]
+name = "SingleListHead"
+offset = 0x1
+type = "_SINGLE_LIST_ENTRY"
+size = 0x8

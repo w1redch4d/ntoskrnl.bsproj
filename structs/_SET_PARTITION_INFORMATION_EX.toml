@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SET_PARTITION_INFORMATION_EX"
+size = 0x78
+
+[members.0x0]
+name = "PartitionStyle"
+offset = 0x0
+type = "PARTITION_STYLE"
+size = 0x4
+
+[members.0x8]
+name = "anonymous_0"
+offset = 0x8
+type = "union _SET_PARTITION_INFORMATION_EX::$ECBF70424E32A71371BB3749E7C6F2EC"
+size = 0x70

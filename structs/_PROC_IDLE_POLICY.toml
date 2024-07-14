@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_PROC_IDLE_POLICY"
+size = 0x6
+
+[members.0x0]
+name = "PromotePercent"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "DemotePercent"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "PromotePercentBase"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "DemotePercentBase"
+offset = 0x3
+type = "unsigned char"
+size = 0x1
+
+[members.0x4]
+name = "AllowScaling"
+offset = 0x4
+type = "unsigned char"
+size = 0x1
+
+[members.0x5]
+name = "ForceLightIdle"
+offset = 0x5
+type = "unsigned char"
+size = 0x1

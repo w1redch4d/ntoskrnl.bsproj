@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KDPC_WATCHDOG_INFORMATION"
+size = 0x14
+
+[members.0x0]
+name = "DpcTimeLimit"
+offset = 0x0
+type = "ULONG"
+size = 0x4
+
+[members.0x4]
+name = "DpcTimeCount"
+offset = 0x4
+type = "ULONG"
+size = 0x4
+
+[members.0x8]
+name = "DpcWatchdogLimit"
+offset = 0x8
+type = "ULONG"
+size = 0x4
+
+[members.0xc]
+name = "DpcWatchdogCount"
+offset = 0xc
+type = "ULONG"
+size = 0x4
+
+[members.0x10]
+name = "Reserved"
+offset = 0x10
+type = "ULONG"
+size = 0x4

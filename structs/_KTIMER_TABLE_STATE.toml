@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KTIMER_TABLE_STATE"
+size = 0x18
+
+[members.0x0]
+name = "LastTimerExpiration"
+offset = 0x0
+type = "unsigned long long[2]"
+size = 0x10
+
+[members.0x10]
+name = "LastTimerHand"
+offset = 0x10
+type = "unsigned int[2]"
+size = 0x8

@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KSTATIC_AFFINITY_BLOCK"
+size = 0x420
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$4BA25E86B587B402AB189CE0A07A54CF"
+size = 0x108
+
+[members.0x108]
+name = "KeFlushTbDeepIdleAffinity"
+offset = 0x108
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x210]
+name = "KeIpiSendAffinity"
+offset = 0x210
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x318]
+name = "KeIpiSendIpiSet"
+offset = 0x318
+type = "_KAFFINITY_EX"
+size = 0x108

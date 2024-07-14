@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_WORK_QUEUE_ITEM"
+size = 0x20
+
+[members.0x0]
+name = "List"
+offset = 0x0
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x10]
+name = "WorkerRoutine"
+offset = 0x10
+type = "void (__fastcall *)(void *)"
+size = 0x8
+
+[members.0x18]
+name = "Parameter"
+offset = 0x18
+type = "void *"
+size = 0x8

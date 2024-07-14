@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$B137EB06C295D44A0C04F3CFD8FD4313"
+size = 0x1
+
+[members.0x0]
+name = "PendingTickFlags"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$77895C0986AC25977C4D7841AB2A3C85"
+size = 0x1

@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SECURITY_SUBJECT_CONTEXT"
+size = 0x20
+
+[members.0x0]
+name = "ClientToken"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x8]
+name = "ImpersonationLevel"
+offset = 0x8
+type = "_SECURITY_IMPERSONATION_LEVEL"
+size = 0x4
+
+[members.0x10]
+name = "PrimaryToken"
+offset = 0x10
+type = "void *"
+size = 0x8
+
+[members.0x18]
+name = "ProcessAuditId"
+offset = 0x18
+type = "void *"
+size = 0x8

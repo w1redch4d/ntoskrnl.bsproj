@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$CE75DB885226D39F124D3879F0DBAC5E"
+size = 0x1
+
+[members.0x0]
+name = "TypeFlags"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$10E718CA8402549036D8CFC8F9BCFEDC"
+size = 0x1

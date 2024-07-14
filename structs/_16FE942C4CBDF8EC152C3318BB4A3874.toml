@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$16FE942C4CBDF8EC152C3318BB4A3874"
+size = 0x58
+
+[members.0x0]
+name = "___u0"
+offset = 0x0
+type = "$B20E97CD9BE9598DFDA6B633742CE299"
+size = 0x20
+
+[members.0x20]
+name = "Thread"
+offset = 0x20
+type = "_ETHREAD *"
+size = 0x8
+
+[members.0x28]
+name = "AuxiliaryBuffer"
+offset = 0x28
+type = "char *"
+size = 0x8
+
+[members.0x30]
+name = "ListEntry"
+offset = 0x30
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x40]
+name = "___u4"
+offset = 0x40
+type = "$5C4ADDEA2BFAF8433592EE691D38ECCB"
+size = 0x8
+
+[members.0x48]
+name = "OriginalFileObject"
+offset = 0x48
+type = "_FILE_OBJECT *"
+size = 0x8
+
+[members.0x50]
+name = "IrpExtension"
+offset = 0x50
+type = "void *"
+size = 0x8

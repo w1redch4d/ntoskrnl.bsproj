@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$6B6FDF1548AFAFD54C6FAB98FFD236C0"
+size = 0x2
+
+[members.0x0]
+name = "Flag"
+offset = 0x0
+type = "unsigned short"
+size = 0x2
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$9959C6898638794B7A02F04E7F980F81"
+size = 0x2

@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$2CAFE3728FA39B45DF8FC71175F64CB1"
+size = 0x14
+
+[members.0x0]
+name = "ProcessorId"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "CoreId"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "ModuleId"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "DieId"
+offset = 0xc
+type = "unsigned int"
+size = 0x4
+
+[members.0x10]
+name = "PackageId"
+offset = 0x10
+type = "unsigned int"
+size = 0x4

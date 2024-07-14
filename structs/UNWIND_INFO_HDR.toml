@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "UNWIND_INFO_HDR"
+size = 0x4
+
+[members.0x0]
+name = "Ver3_Flags"
+offset = 0x0
+type = ""
+size = 0x1
+
+[members.0x1]
+name = "PrologSize"
+offset = 0x1
+type = ""
+size = 0x1
+
+[members.0x2]
+name = "CntUnwindCodes"
+offset = 0x2
+type = ""
+size = 0x1
+
+[members.0x3]
+name = "FrReg_FrRegOff"
+offset = 0x3
+type = ""
+size = 0x1

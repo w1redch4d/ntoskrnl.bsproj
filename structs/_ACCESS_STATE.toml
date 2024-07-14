@@ -1,0 +1,99 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_ACCESS_STATE"
+size = 0xa0
+
+[members.0x0]
+name = "OperationID"
+offset = 0x0
+type = "_LUID"
+size = 0x8
+
+[members.0x8]
+name = "SecurityEvaluated"
+offset = 0x8
+type = "unsigned char"
+size = 0x1
+
+[members.0x9]
+name = "GenerateAudit"
+offset = 0x9
+type = "unsigned char"
+size = 0x1
+
+[members.0xa]
+name = "GenerateOnClose"
+offset = 0xa
+type = "unsigned char"
+size = 0x1
+
+[members.0xb]
+name = "PrivilegesAllocated"
+offset = 0xb
+type = "unsigned char"
+size = 0x1
+
+[members.0xc]
+name = "Flags"
+offset = 0xc
+type = "unsigned int"
+size = 0x4
+
+[members.0x10]
+name = "RemainingDesiredAccess"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x14]
+name = "PreviouslyGrantedAccess"
+offset = 0x14
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "OriginalDesiredAccess"
+offset = 0x18
+type = "unsigned int"
+size = 0x4
+
+[members.0x20]
+name = "SubjectSecurityContext"
+offset = 0x20
+type = "_SECURITY_SUBJECT_CONTEXT"
+size = 0x20
+
+[members.0x40]
+name = "SecurityDescriptor"
+offset = 0x40
+type = "void *"
+size = 0x8
+
+[members.0x48]
+name = "AuxData"
+offset = 0x48
+type = "void *"
+size = 0x8
+
+[members.0x50]
+name = "Privileges"
+offset = 0x50
+type = "$AB35347129CE6ACDD88E37965D6574BC"
+size = 0x2c
+
+[members.0x7c]
+name = "AuditPrivileges"
+offset = 0x7c
+type = "unsigned char"
+size = 0x1
+
+[members.0x80]
+name = "ObjectName"
+offset = 0x80
+type = "_UNICODE_STRING"
+size = 0x10
+
+[members.0x90]
+name = "ObjectTypeName"
+offset = 0x90
+type = "_UNICODE_STRING"
+size = 0x10

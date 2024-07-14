@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_ULARGE_INTEGER"
+size = 0x8
+
+[members.0x0]
+name = "__s0"
+offset = 0x0
+type = "$B950AFB169DC87688B328897744C612F"
+size = 0x8
+
+[members.0x1]
+name = "u"
+offset = 0x1
+type = "$B950AFB169DC87688B328897744C612F"
+size = 0x8
+
+[members.0x2]
+name = "QuadPart"
+offset = 0x2
+type = "unsigned long long"
+size = 0x8

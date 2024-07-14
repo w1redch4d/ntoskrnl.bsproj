@@ -1,0 +1,153 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "_DEVICE_OBJECT"
+size = 0x150
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x2]
+name = "Size"
+offset = 0x2
+type = "unsigned short"
+size = 0x2
+
+[members.0x4]
+name = "ReferenceCount"
+offset = 0x4
+type = "int"
+size = 0x4
+
+[members.0x8]
+name = "DriverObject"
+offset = 0x8
+type = "_DRIVER_OBJECT *"
+size = 0x8
+
+[members.0x10]
+name = "NextDevice"
+offset = 0x10
+type = "_DEVICE_OBJECT *"
+size = 0x8
+
+[members.0x18]
+name = "AttachedDevice"
+offset = 0x18
+type = "_DEVICE_OBJECT *"
+size = 0x8
+
+[members.0x20]
+name = "CurrentIrp"
+offset = 0x20
+type = "_IRP *"
+size = 0x8
+
+[members.0x28]
+name = "Timer"
+offset = 0x28
+type = "_IO_TIMER *"
+size = 0x8
+
+[members.0x30]
+name = "Flags"
+offset = 0x30
+type = "unsigned int"
+size = 0x4
+
+[members.0x34]
+name = "Characteristics"
+offset = 0x34
+type = "unsigned int"
+size = 0x4
+
+[members.0x38]
+name = "Vpb"
+offset = 0x38
+type = "_VPB *"
+size = 0x8
+
+[members.0x40]
+name = "DeviceExtension"
+offset = 0x40
+type = "void *"
+size = 0x8
+
+[members.0x48]
+name = "DeviceType"
+offset = 0x48
+type = "unsigned int"
+size = 0x4
+
+[members.0x4c]
+name = "StackSize"
+offset = 0x4c
+type = "char"
+size = 0x1
+
+[members.0x50]
+name = "Queue"
+offset = 0x50
+type = "$184FE7817EEDFA9BFAEAEE12425C0D4D"
+size = 0x48
+
+[members.0x98]
+name = "AlignmentRequirement"
+offset = 0x98
+type = "unsigned int"
+size = 0x4
+
+[members.0xa0]
+name = "DeviceQueue"
+offset = 0xa0
+type = "_KDEVICE_QUEUE"
+size = 0x28
+
+[members.0xc8]
+name = "Dpc"
+offset = 0xc8
+type = "_KDPC"
+size = 0x40
+
+[members.0x108]
+name = "ActiveThreadCount"
+offset = 0x108
+type = "unsigned int"
+size = 0x4
+
+[members.0x110]
+name = "SecurityDescriptor"
+offset = 0x110
+type = "void *"
+size = 0x8
+
+[members.0x118]
+name = "DeviceLock"
+offset = 0x118
+type = "_KEVENT"
+size = 0x18
+
+[members.0x130]
+name = "SectorSize"
+offset = 0x130
+type = "unsigned short"
+size = 0x2
+
+[members.0x132]
+name = "Spare1"
+offset = 0x132
+type = "unsigned short"
+size = 0x2
+
+[members.0x138]
+name = "DeviceObjectExtension"
+offset = 0x138
+type = "_DEVOBJ_EXTENSION *"
+size = 0x8
+
+[members.0x140]
+name = "Reserved"
+offset = 0x140
+type = "void *"
+size = 0x8

@@ -1,0 +1,207 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_LOADER_PARAMETER_BLOCK"
+size = 0xc070
+
+[members.0x0]
+name = "OsMajorVersion"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "OsMinorVersion"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Size"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "OsLoaderSecurityVersion"
+offset = 0xc
+type = "unsigned int"
+size = 0x4
+
+[members.0x10]
+name = "LoadOrderListHead"
+offset = 0x10
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x20]
+name = "MemoryDescriptorListHead"
+offset = 0x20
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x30]
+name = "BootDriverListHead"
+offset = 0x30
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x40]
+name = "EarlyLaunchListHead"
+offset = 0x40
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x50]
+name = "CoreDriverListHead"
+offset = 0x50
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x60]
+name = "CoreExtensionsDriverListHead"
+offset = 0x60
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x70]
+name = "TpmCoreDriverListHead"
+offset = 0x70
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x80]
+name = "KernelStack"
+offset = 0x80
+type = "unsigned long long"
+size = 0x8
+
+[members.0x88]
+name = "Prcb"
+offset = 0x88
+type = "_KPRCB"
+size = 0xbf00
+
+[members.0xbf88]
+name = "Process"
+offset = 0xbf88
+type = "unsigned long long"
+size = 0x8
+
+[members.0xbf90]
+name = "Thread"
+offset = 0xbf90
+type = "unsigned long long"
+size = 0x8
+
+[members.0xbf98]
+name = "KernelStackSize"
+offset = 0xbf98
+type = "unsigned int"
+size = 0x4
+
+[members.0xbf9c]
+name = "RegistryLength"
+offset = 0xbf9c
+type = "unsigned int"
+size = 0x4
+
+[members.0xbfa0]
+name = "RegistryBase"
+offset = 0xbfa0
+type = "void *"
+size = 0x8
+
+[members.0xbfa8]
+name = "ConfigurationRoot"
+offset = 0xbfa8
+type = "_CONFIGURATION_COMPONENT_DATA *"
+size = 0x8
+
+[members.0xbfb0]
+name = "ArcBootDeviceName"
+offset = 0xbfb0
+type = "char *"
+size = 0x8
+
+[members.0xbfb8]
+name = "ArcHalDeviceName"
+offset = 0xbfb8
+type = "char *"
+size = 0x8
+
+[members.0xbfc0]
+name = "NtBootPathName"
+offset = 0xbfc0
+type = "char *"
+size = 0x8
+
+[members.0xbfc8]
+name = "NtHalPathName"
+offset = 0xbfc8
+type = "char *"
+size = 0x8
+
+[members.0xbfd0]
+name = "OemFontFile"
+offset = 0xbfd0
+type = "void *"
+size = 0x8
+
+[members.0xbfd8]
+name = "LoadOptions"
+offset = 0xbfd8
+type = "char *"
+size = 0x8
+
+[members.0xbfe0]
+name = "NlsData"
+offset = 0xbfe0
+type = "_NLS_DATA_BLOCK *"
+size = 0x8
+
+[members.0xbfe8]
+name = "ArcDiskInformation"
+offset = 0xbfe8
+type = "_ARC_DISK_INFORMATION *"
+size = 0x8
+
+[members.0xbff0]
+name = "Extension"
+offset = 0xbff0
+type = "_LOADER_PARAMETER_EXTENSION *"
+size = 0x8
+
+[members.0xbff8]
+name = "u"
+offset = 0xbff8
+type = "$78392C2BA742610E3BFB172EAD7248B1"
+size = 0x10
+
+[members.0xc008]
+name = "FirmwareInformation"
+offset = 0xc008
+type = "_FIRMWARE_INFORMATION_LOADER_BLOCK"
+size = 0x40
+
+[members.0xc048]
+name = "OsBootstatPathName"
+offset = 0xc048
+type = "char *"
+size = 0x8
+
+[members.0xc050]
+name = "ArcOSDataDeviceName"
+offset = 0xc050
+type = "char *"
+size = 0x8
+
+[members.0xc058]
+name = "ArcWindowsSysPartName"
+offset = 0xc058
+type = "char *"
+size = 0x8
+
+[members.0xc060]
+name = "MemoryDescriptorTree"
+offset = 0xc060
+type = "_RTL_RB_TREE"
+size = 0x10

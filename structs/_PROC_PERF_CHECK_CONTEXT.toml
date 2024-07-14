@@ -1,0 +1,87 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_PROC_PERF_CHECK_CONTEXT"
+size = 0x48
+
+[members.0x0]
+name = "Domain"
+offset = 0x0
+type = "_PROC_PERF_DOMAIN *"
+size = 0x8
+
+[members.0x8]
+name = "Constraint"
+offset = 0x8
+type = "_PROC_PERF_CONSTRAINT *"
+size = 0x8
+
+[members.0x10]
+name = "PerfCheck"
+offset = 0x10
+type = "_PROC_PERF_CHECK *"
+size = 0x8
+
+[members.0x18]
+name = "Load"
+offset = 0x18
+type = "_PROC_PERF_LOAD *"
+size = 0x8
+
+[members.0x20]
+name = "PerfHistory"
+offset = 0x20
+type = "_PROC_PERF_HISTORY *"
+size = 0x8
+
+[members.0x28]
+name = "Utility"
+offset = 0x28
+type = "unsigned int"
+size = 0x4
+
+[members.0x2c]
+name = "AffinitizedUtility"
+offset = 0x2c
+type = "unsigned int"
+size = 0x4
+
+[members.0x30]
+name = "MediaUtility"
+offset = 0x30
+type = "unsigned int"
+size = 0x4
+
+[members.0x34]
+name = "ImportantUtility"
+offset = 0x34
+type = "unsigned int"
+size = 0x4
+
+[members.0x38]
+name = "IdealUtility"
+offset = 0x38
+type = "unsigned int"
+size = 0x4
+
+[members.0x3c]
+name = "LatestAffinitizedPercent"
+offset = 0x3c
+type = "unsigned short"
+size = 0x2
+
+[members.0x3e]
+name = "AveragePerformancePercent"
+offset = 0x3e
+type = "unsigned short"
+size = 0x2
+
+[members.0x40]
+name = "RelativePerformance"
+offset = 0x40
+type = "unsigned int"
+size = 0x4
+
+[members.0x44]
+name = "NtProcessor"
+offset = 0x44
+type = "unsigned char"
+size = 0x1

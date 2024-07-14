@@ -1,0 +1,87 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KAPC"
+size = 0x58
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "___u1"
+offset = 0x1
+type = "$01C9DB75482F2D2036976BA8D32E162C"
+size = 0x1
+
+[members.0x2]
+name = "Size"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "SpareByte1"
+offset = 0x3
+type = "unsigned char"
+size = 0x1
+
+[members.0x4]
+name = "SpareLong0"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "Thread"
+offset = 0x8
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x10]
+name = "ApcListEntry"
+offset = 0x10
+type = "_LIST_ENTRY"
+size = 0x10
+
+[members.0x20]
+name = "___u7"
+offset = 0x20
+type = "$971F41BB11FAC5722FDA36EC0F8EDA06"
+size = 0x18
+
+[members.0x38]
+name = "NormalContext"
+offset = 0x38
+type = "void *"
+size = 0x8
+
+[members.0x40]
+name = "SystemArgument1"
+offset = 0x40
+type = "void *"
+size = 0x8
+
+[members.0x48]
+name = "SystemArgument2"
+offset = 0x48
+type = "void *"
+size = 0x8
+
+[members.0x50]
+name = "ApcStateIndex"
+offset = 0x50
+type = "char"
+size = 0x1
+
+[members.0x51]
+name = "ApcMode"
+offset = 0x51
+type = "char"
+size = 0x1
+
+[members.0x52]
+name = "Inserted"
+offset = 0x52
+type = "unsigned char"
+size = 0x1

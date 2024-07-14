@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "FILE"
+size = 0x30
+
+[members.0x0]
+name = "_ptr"
+offset = 0x0
+type = "char *"
+size = 0x8
+
+[members.0x8]
+name = "_cnt"
+offset = 0x8
+type = "int"
+size = 0x4
+
+[members.0x10]
+name = "_base"
+offset = 0x10
+type = "char *"
+size = 0x8
+
+[members.0x18]
+name = "_flag"
+offset = 0x18
+type = "int"
+size = 0x4
+
+[members.0x1c]
+name = "_file"
+offset = 0x1c
+type = "int"
+size = 0x4
+
+[members.0x20]
+name = "_charbuf"
+offset = 0x20
+type = "int"
+size = 0x4
+
+[members.0x24]
+name = "_bufsiz"
+offset = 0x24
+type = "int"
+size = 0x4
+
+[members.0x28]
+name = "_tmpfname"
+offset = 0x28
+type = "char *"
+size = 0x8

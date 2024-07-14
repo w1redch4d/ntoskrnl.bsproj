@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SE_ADT_PARAMETER_ARRAY"
+size = 0x418
+
+[members.0x0]
+name = "CategoryId"
+offset = 0x0
+type = "ULONG"
+size = 0x4
+
+[members.0x4]
+name = "AuditId"
+offset = 0x4
+type = "ULONG"
+size = 0x4
+
+[members.0x8]
+name = "ParameterCount"
+offset = 0x8
+type = "ULONG"
+size = 0x4
+
+[members.0xc]
+name = "Length"
+offset = 0xc
+type = "ULONG"
+size = 0x4
+
+[members.0x10]
+name = "FlatSubCategoryId"
+offset = 0x10
+type = "USHORT"
+size = 0x2
+
+[members.0x12]
+name = "Type"
+offset = 0x12
+type = "USHORT"
+size = 0x2
+
+[members.0x14]
+name = "Flags"
+offset = 0x14
+type = "ULONG"
+size = 0x4
+
+[members.0x18]
+name = "Parameters"
+offset = 0x18
+type = "SE_ADT_PARAMETER_ARRAY_ENTRY[32]"
+size = 0x400

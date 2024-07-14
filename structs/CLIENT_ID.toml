@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "CLIENT_ID"
+size = 0x10
+
+[members.0x0]
+name = "UniqueProcess"
+offset = 0x0
+type = "void *"
+size = 0x8
+
+[members.0x8]
+name = "UniqueThread"
+offset = 0x8
+type = "void *"
+size = 0x8

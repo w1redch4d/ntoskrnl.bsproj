@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "LUID"
+size = 0x8
+
+[members.0x0]
+name = "LowPart"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "HighPart"
+offset = 0x4
+type = "int"
+size = 0x4

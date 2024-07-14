@@ -1,0 +1,9 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KEVENT"
+size = 0x18
+
+[members.0x0]
+name = "Header"
+offset = 0x0
+type = "_DISPATCHER_HEADER"
+size = 0x18

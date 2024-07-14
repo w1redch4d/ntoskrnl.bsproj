@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$4BA25E86B587B402AB189CE0A07A54CF"
+size = 0x108
+
+[members.0x0]
+name = "KeFlushTbAffinity"
+offset = 0x0
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x1]
+name = "KeFlushWbAffinity"
+offset = 0x1
+type = "_KAFFINITY_EX"
+size = 0x108
+
+[members.0x2]
+name = "KeSyncContextAffinity"
+offset = 0x2
+type = "_KAFFINITY_EX"
+size = 0x108

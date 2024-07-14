@@ -1,0 +1,33 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_TraceLoggingMetadata_t"
+size = 0x10
+
+[members.0x0]
+name = "Signature"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "Size"
+offset = 0x4
+type = "unsigned short"
+size = 0x2
+
+[members.0x6]
+name = "Version"
+offset = 0x6
+type = "unsigned char"
+size = 0x1
+
+[members.0x7]
+name = "Flags"
+offset = 0x7
+type = "unsigned char"
+size = 0x1
+
+[members.0x8]
+name = "Magic"
+offset = 0x8
+type = "unsigned long long"
+size = 0x8

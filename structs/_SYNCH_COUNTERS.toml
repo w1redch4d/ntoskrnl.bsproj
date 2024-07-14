@@ -1,0 +1,279 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_SYNCH_COUNTERS"
+size = 0xb8
+
+[members.0x0]
+name = "SpinLockAcquireCount"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "SpinLockContentionCount"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "SpinLockSpinCount"
+offset = 0x8
+type = "unsigned int"
+size = 0x4
+
+[members.0xc]
+name = "IpiSendRequestBroadcastCount"
+offset = 0xc
+type = "unsigned int"
+size = 0x4
+
+[members.0x10]
+name = "IpiSendRequestRoutineCount"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x14]
+name = "IpiSendSoftwareInterruptCount"
+offset = 0x14
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "ExInitializeResourceCount"
+offset = 0x18
+type = "unsigned int"
+size = 0x4
+
+[members.0x1c]
+name = "ExReInitializeResourceCount"
+offset = 0x1c
+type = "unsigned int"
+size = 0x4
+
+[members.0x20]
+name = "ExDeleteResourceCount"
+offset = 0x20
+type = "unsigned int"
+size = 0x4
+
+[members.0x24]
+name = "ExecutiveResourceAcquiresCount"
+offset = 0x24
+type = "unsigned int"
+size = 0x4
+
+[members.0x28]
+name = "ExecutiveResourceContentionsCount"
+offset = 0x28
+type = "unsigned int"
+size = 0x4
+
+[members.0x2c]
+name = "ExecutiveResourceReleaseExclusiveCount"
+offset = 0x2c
+type = "unsigned int"
+size = 0x4
+
+[members.0x30]
+name = "ExecutiveResourceReleaseSharedCount"
+offset = 0x30
+type = "unsigned int"
+size = 0x4
+
+[members.0x34]
+name = "ExecutiveResourceConvertsCount"
+offset = 0x34
+type = "unsigned int"
+size = 0x4
+
+[members.0x38]
+name = "ExAcqResExclusiveAttempts"
+offset = 0x38
+type = "unsigned int"
+size = 0x4
+
+[members.0x3c]
+name = "ExAcqResExclusiveAcquiresExclusive"
+offset = 0x3c
+type = "unsigned int"
+size = 0x4
+
+[members.0x40]
+name = "ExAcqResExclusiveAcquiresExclusiveRecursive"
+offset = 0x40
+type = "unsigned int"
+size = 0x4
+
+[members.0x44]
+name = "ExAcqResExclusiveWaits"
+offset = 0x44
+type = "unsigned int"
+size = 0x4
+
+[members.0x48]
+name = "ExAcqResExclusiveNotAcquires"
+offset = 0x48
+type = "unsigned int"
+size = 0x4
+
+[members.0x4c]
+name = "ExAcqResSharedAttempts"
+offset = 0x4c
+type = "unsigned int"
+size = 0x4
+
+[members.0x50]
+name = "ExAcqResSharedAcquiresExclusive"
+offset = 0x50
+type = "unsigned int"
+size = 0x4
+
+[members.0x54]
+name = "ExAcqResSharedAcquiresShared"
+offset = 0x54
+type = "unsigned int"
+size = 0x4
+
+[members.0x58]
+name = "ExAcqResSharedAcquiresSharedRecursive"
+offset = 0x58
+type = "unsigned int"
+size = 0x4
+
+[members.0x5c]
+name = "ExAcqResSharedWaits"
+offset = 0x5c
+type = "unsigned int"
+size = 0x4
+
+[members.0x60]
+name = "ExAcqResSharedNotAcquires"
+offset = 0x60
+type = "unsigned int"
+size = 0x4
+
+[members.0x64]
+name = "ExAcqResSharedStarveExclusiveAttempts"
+offset = 0x64
+type = "unsigned int"
+size = 0x4
+
+[members.0x68]
+name = "ExAcqResSharedStarveExclusiveAcquiresExclusive"
+offset = 0x68
+type = "unsigned int"
+size = 0x4
+
+[members.0x6c]
+name = "ExAcqResSharedStarveExclusiveAcquiresShared"
+offset = 0x6c
+type = "unsigned int"
+size = 0x4
+
+[members.0x70]
+name = "ExAcqResSharedStarveExclusiveAcquiresSharedRecursive"
+offset = 0x70
+type = "unsigned int"
+size = 0x4
+
+[members.0x74]
+name = "ExAcqResSharedStarveExclusiveWaits"
+offset = 0x74
+type = "unsigned int"
+size = 0x4
+
+[members.0x78]
+name = "ExAcqResSharedStarveExclusiveNotAcquires"
+offset = 0x78
+type = "unsigned int"
+size = 0x4
+
+[members.0x7c]
+name = "ExAcqResSharedWaitForExclusiveAttempts"
+offset = 0x7c
+type = "unsigned int"
+size = 0x4
+
+[members.0x80]
+name = "ExAcqResSharedWaitForExclusiveAcquiresExclusive"
+offset = 0x80
+type = "unsigned int"
+size = 0x4
+
+[members.0x84]
+name = "ExAcqResSharedWaitForExclusiveAcquiresShared"
+offset = 0x84
+type = "unsigned int"
+size = 0x4
+
+[members.0x88]
+name = "ExAcqResSharedWaitForExclusiveAcquiresSharedRecursive"
+offset = 0x88
+type = "unsigned int"
+size = 0x4
+
+[members.0x8c]
+name = "ExAcqResSharedWaitForExclusiveWaits"
+offset = 0x8c
+type = "unsigned int"
+size = 0x4
+
+[members.0x90]
+name = "ExAcqResSharedWaitForExclusiveNotAcquires"
+offset = 0x90
+type = "unsigned int"
+size = 0x4
+
+[members.0x94]
+name = "ExSetResOwnerPointerExclusive"
+offset = 0x94
+type = "unsigned int"
+size = 0x4
+
+[members.0x98]
+name = "ExSetResOwnerPointerSharedNew"
+offset = 0x98
+type = "unsigned int"
+size = 0x4
+
+[members.0x9c]
+name = "ExSetResOwnerPointerSharedOld"
+offset = 0x9c
+type = "unsigned int"
+size = 0x4
+
+[members.0xa0]
+name = "ExTryToAcqExclusiveAttempts"
+offset = 0xa0
+type = "unsigned int"
+size = 0x4
+
+[members.0xa4]
+name = "ExTryToAcqExclusiveAcquires"
+offset = 0xa4
+type = "unsigned int"
+size = 0x4
+
+[members.0xa8]
+name = "ExBoostExclusiveOwner"
+offset = 0xa8
+type = "unsigned int"
+size = 0x4
+
+[members.0xac]
+name = "ExBoostSharedOwners"
+offset = 0xac
+type = "unsigned int"
+size = 0x4
+
+[members.0xb0]
+name = "ExEtwSynchTrackingNotificationsCount"
+offset = 0xb0
+type = "unsigned int"
+size = 0x4
+
+[members.0xb4]
+name = "ExEtwSynchTrackingNotificationsAccountedCount"
+offset = 0xb4
+type = "unsigned int"
+size = 0x4

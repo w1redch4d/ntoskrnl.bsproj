@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$7282BFE866C989AE960A9E4ED78AEFA8"
+size = 0x8
+
+[members.0x0]
+name = "Thread"
+offset = 0x0
+type = "_KTHREAD *"
+size = 0x8
+
+[members.0x1]
+name = "NotificationQueue"
+offset = 0x1
+type = "_KQUEUE *"
+size = 0x8
+
+[members.0x2]
+name = "Dpc"
+offset = 0x2
+type = "_KDPC *"
+size = 0x8

@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$989B0F9A45EFCD1711A047E87BE07791"
+size = 0x2
+
+[members.0x0]
+name = "PairLocal"
+offset = 0x0
+type = "short"
+size = 0x2
+
+[members.0x1]
+name = "__s1"
+offset = 0x1
+type = "$437EDEAFE33DAFED4793B8A3A762EFC4"
+size = 0x2

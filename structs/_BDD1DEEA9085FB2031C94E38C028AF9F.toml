@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$BDD1DEEA9085FB2031C94E38C028AF9F"
+size = 0x4
+
+[members.0x0]
+name = "TimerType"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "TimerControlFlags"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "Hand"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "TimerMiscFlags"
+offset = 0x3
+type = "unsigned char"
+size = 0x1

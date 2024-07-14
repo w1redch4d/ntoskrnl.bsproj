@@ -1,0 +1,27 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$02F1E2651E9D26351CD44793F2F78E1F"
+size = 0x4
+
+[members.0x0]
+name = "Timer2Type"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "_bf_1"
+offset = 0x1
+type = "char"
+size = 0x1
+
+[members.0x2]
+name = "Timer2ComponentId"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "_bf_3"
+offset = 0x3
+type = "char"
+size = 0x1

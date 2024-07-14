@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_KBUGCHECK_REASON_CALLBACK_RECORD"
+size = 0x30
+
+[members.0x0]
+name = "Entry"
+offset = 0x0
+type = "LIST_ENTRY"
+size = 0x10
+
+[members.0x10]
+name = "CallbackRoutine"
+offset = 0x10
+type = "PKBUGCHECK_REASON_CALLBACK_ROUTINE"
+size = 0x8
+
+[members.0x18]
+name = "Component"
+offset = 0x18
+type = "PUCHAR"
+size = 0x8
+
+[members.0x20]
+name = "Checksum"
+offset = 0x20
+type = "ULONG_PTR"
+size = 0x8
+
+[members.0x28]
+name = "Reason"
+offset = 0x28
+type = "KBUGCHECK_CALLBACK_REASON"
+size = 0x4
+
+[members.0x2c]
+name = "State"
+offset = 0x2c
+type = "UCHAR"
+size = 0x1

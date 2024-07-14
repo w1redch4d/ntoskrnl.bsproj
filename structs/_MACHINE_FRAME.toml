@@ -1,0 +1,51 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_MACHINE_FRAME"
+size = 0x28
+
+[members.0x0]
+name = "_Rip"
+offset = 0x0
+type = "unsigned long long"
+size = 0x8
+
+[members.0x8]
+name = "SegCs"
+offset = 0x8
+type = "unsigned short"
+size = 0x2
+
+[members.0xa]
+name = "Fill1"
+offset = 0xa
+type = "unsigned short[3]"
+size = 0x6
+
+[members.0x10]
+name = "EFlags"
+offset = 0x10
+type = "unsigned int"
+size = 0x4
+
+[members.0x14]
+name = "Fill2"
+offset = 0x14
+type = "unsigned int"
+size = 0x4
+
+[members.0x18]
+name = "_Rsp"
+offset = 0x18
+type = "unsigned long long"
+size = 0x8
+
+[members.0x20]
+name = "SegSs"
+offset = 0x20
+type = "unsigned short"
+size = 0x2
+
+[members.0x22]
+name = "Fill3"
+offset = 0x22
+type = "unsigned short[3]"
+size = 0x6

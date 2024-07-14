@@ -1,0 +1,45 @@
+last_change = 2024-07-14T14:49:42.461633Z
+name = "$8A980C0CC9608CC3620036A06A337053"
+size = 0x38
+
+[members.0x0]
+name = "UpdateCycle"
+offset = 0x0
+type = "unsigned int"
+size = 0x4
+
+[members.0x4]
+name = "___u1"
+offset = 0x4
+type = "$989B0F9A45EFCD1711A047E87BE07791"
+size = 0x2
+
+[members.0x6]
+name = "___u2"
+offset = 0x6
+type = "$3C18DDA992EA7AEA41BC918D4C079128"
+size = 0x2
+
+[members.0x8]
+name = "Trace"
+offset = 0x8
+type = "unsigned char[24]"
+size = 0x18
+
+[members.0x20]
+name = "LocalDomain"
+offset = 0x20
+type = "unsigned long long"
+size = 0x8
+
+[members.0x28]
+name = "RemoteDomain"
+offset = 0x28
+type = "unsigned long long"
+size = 0x8
+
+[members.0x30]
+name = "Thread"
+offset = 0x30
+type = "_KTHREAD *"
+size = 0x8

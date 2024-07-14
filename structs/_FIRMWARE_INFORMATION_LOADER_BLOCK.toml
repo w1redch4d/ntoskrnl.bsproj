@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.477285Z
+name = "_FIRMWARE_INFORMATION_LOADER_BLOCK"
+size = 0x40
+
+[members.0x0]
+name = "_bf_0"
+offset = 0x0
+type = "int"
+size = 0x4
+
+[members.0x8]
+name = "u"
+offset = 0x8
+type = "$E9368C31ACCED5B55EDA581ACCB91C72"
+size = 0x38

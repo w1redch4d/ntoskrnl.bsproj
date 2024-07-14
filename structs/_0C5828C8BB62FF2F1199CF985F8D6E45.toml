@@ -1,0 +1,21 @@
+last_change = 2024-07-14T14:49:42.446041Z
+name = "$0C5828C8BB62FF2F1199CF985F8D6E45"
+size = 0x4
+
+[members.0x0]
+name = "Type"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "Reserved1"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "Reserved2"
+offset = 0x2
+type = "unsigned short"
+size = 0x2

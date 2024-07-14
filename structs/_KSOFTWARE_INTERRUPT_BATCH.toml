@@ -1,0 +1,39 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KSOFTWARE_INTERRUPT_BATCH"
+size = 0x110
+
+[members.0x0]
+name = "Level"
+offset = 0x0
+type = "unsigned char"
+size = 0x1
+
+[members.0x1]
+name = "TargetType"
+offset = 0x1
+type = "unsigned char"
+size = 0x1
+
+[members.0x2]
+name = "ReservedBatchInProgress"
+offset = 0x2
+type = "unsigned char"
+size = 0x1
+
+[members.0x3]
+name = "Spare"
+offset = 0x3
+type = "unsigned char"
+size = 0x1
+
+[members.0x4]
+name = "SingleTargetIndex"
+offset = 0x4
+type = "unsigned int"
+size = 0x4
+
+[members.0x8]
+name = "MultipleTargetAffinity"
+offset = 0x8
+type = "_KAFFINITY_EX"
+size = 0x108

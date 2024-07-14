@@ -1,0 +1,15 @@
+last_change = 2024-07-14T14:49:42.493044Z
+name = "_KSPIN_LOCK_QUEUE"
+size = 0x10
+
+[members.0x0]
+name = "Next"
+offset = 0x0
+type = "_KSPIN_LOCK_QUEUE *volatile"
+size = 0x8
+
+[members.0x8]
+name = "Lock"
+offset = 0x8
+type = "unsigned long long *volatile"
+size = 0x8

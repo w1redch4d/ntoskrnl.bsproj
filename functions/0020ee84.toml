@@ -1,11 +1,14 @@
-last_change = 2024-07-14T14:50:30.152122Z
+last_change = 2024-07-14T14:53:52.771499Z
 addr = 0x20ee84
 size = 0x28
 type = "char"
 
 [header]
-last_change = 2024-07-14T14:50:30.152122Z
+last_change = 2024-07-14T14:53:52.771499Z
 addr = 0x20ee84
 type = "char"
 
-[header.args]
+[header.args.0x0]
+offset = 0x0
+name = "TimeUpdateLock"
+size = 0x8

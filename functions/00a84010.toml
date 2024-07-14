@@ -1,0 +1,17 @@
+last_change = 2024-07-14T14:51:50.167041Z
+addr = 0xa84010
+size = 0x2b9
+name = "KiSystemStartup"
+type = "NTSTATUS"
+
+[header]
+last_change = 2024-07-14T14:51:50.167041Z
+name = "KiSystemStartup"
+addr = 0xa84010
+type = "NTSTATUS"
+
+[header.args.0x0]
+offset = 0x0
+name = "LoaderBlock"
+type = "_LOADER_PARAMETER_BLOCK *"
+size = 0x8

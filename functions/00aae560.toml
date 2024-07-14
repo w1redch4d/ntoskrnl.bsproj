@@ -1,0 +1,44 @@
+last_change = 2024-07-14T14:51:50.182637Z
+addr = 0xaae560
+size = 0x55b
+name = "KdInitSystem"
+type = "BOOLEAN"
+
+[header]
+last_change = 2024-07-14T14:51:50.182637Z
+name = "KdInitSystem"
+addr = 0xaae560
+type = "BOOLEAN"
+
+[stack_vars.-0x190]
+offset = 0x0
+name = "v34"
+type = "int[8]"
+size = 0x20
+addr = 0xaae560
+
+[stack_vars.-0x170]
+offset = 0x20
+name = "DestinationString"
+type = "STRING"
+size = 0x10
+addr = 0xaae560
+
+[stack_vars.-0x160]
+offset = 0x30
+name = "SourceString"
+type = "char[256]"
+size = 0x100
+addr = 0xaae560
+
+[header.args.0x0]
+offset = 0x0
+name = "BootPhase"
+type = "ULONG"
+size = 0x4
+
+[header.args.0x1]
+offset = 0x1
+name = "LoaderBlock"
+type = "_LOADER_PARAMETER_BLOCK *"
+size = 0x8

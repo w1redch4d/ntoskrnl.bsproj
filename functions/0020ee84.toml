@@ -1,10 +1,12 @@
-last_change = 2024-07-14T14:56:10.842870Z
+last_change = 2024-07-14T14:57:12.911625Z
 addr = 0x20ee84
 size = 0x28
+name = "RtlWriteTryAcquireTickLock"
 type = "char"
 
 [header]
-last_change = 2024-07-14T14:56:10.842870Z
+last_change = 2024-07-14T14:57:12.911625Z
+name = "RtlWriteTryAcquireTickLock"
 addr = 0x20ee84
 type = "char"
 

@@ -1,0 +1,11 @@
+last_change = 2024-07-14T14:50:30.141825Z
+addr = 0x20e288
+size = 0x1ae
+type = "PVOID"
+
+[header]
+last_change = 2024-07-14T14:50:30.141825Z
+addr = 0x20e288
+type = "PVOID"
+
+[header.args]

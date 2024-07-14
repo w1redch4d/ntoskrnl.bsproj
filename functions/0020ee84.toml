@@ -1,15 +1,15 @@
-last_change = 2024-07-14T14:54:23.344037Z
+last_change = 2024-07-14T14:55:35.672304Z
 addr = 0x20ee84
 size = 0x28
 type = "char"
 
 [header]
-last_change = 2024-07-14T14:54:23.344037Z
+last_change = 2024-07-14T14:55:35.672304Z
 addr = 0x20ee84
 type = "char"
 
 [header.args.0x0]
 offset = 0x0
-name = "TimeUpdateLock"
+name = "UpdateLock"
 type = "_KUSER_SHARED_DATA *"
 size = 0x8

@@ -1,0 +1,11 @@
+last_change = 2024-07-14T14:50:30.104984Z
+addr = 0x20b754
+size = 0x89
+type = "unsigned long long"
+
+[header]
+last_change = 2024-07-14T14:50:30.104984Z
+addr = 0x20b754
+type = "unsigned long long"
+
+[header.args]

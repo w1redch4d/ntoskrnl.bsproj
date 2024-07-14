@@ -1,0 +1,11 @@
+last_change = 2024-07-14T14:50:29.881070Z
+addr = 0x202abc
+size = 0x8b
+type = "_DWORD *"
+
+[header]
+last_change = 2024-07-14T14:50:29.881070Z
+addr = 0x202abc
+type = "_DWORD *"
+
+[header.args]

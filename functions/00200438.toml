@@ -1,0 +1,11 @@
+last_change = 2024-07-14T14:50:29.856036Z
+addr = 0x200438
+size = 0x9e
+type = "struct _KTHREAD *"
+
+[header]
+last_change = 2024-07-14T14:50:29.856036Z
+addr = 0x200438
+type = "struct _KTHREAD *"
+
+[header.args]

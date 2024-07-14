@@ -1,14 +1,14 @@
-last_change = 2024-07-14T14:51:50.182637Z
+last_change = 2024-07-14T17:27:44.432048Z
 addr = 0xaae560
 size = 0x55b
 name = "KdInitSystem"
-type = "BOOLEAN"
+type = "char"
 
 [header]
-last_change = 2024-07-14T14:51:50.182637Z
+last_change = 2024-07-14T17:27:44.432048Z
 name = "KdInitSystem"
 addr = 0xaae560
-type = "BOOLEAN"
+type = "char"
 
 [stack_vars.-0x190]
 offset = 0x0

@@ -1,0 +1,313 @@
+last_change = 2024-07-20T08:47:54.098991Z
+addr = 0x78bef0
+size = 0x42b
+name = "PsOpenProcess"
+type = "NTSTATUS"
+
+[header]
+last_change = 2024-07-20T08:47:54.098991Z
+name = "PsOpenProcess"
+addr = 0x78bef0
+type = "NTSTATUS"
+
+[stack_vars.-0x8]
+offset = 0x370
+name = "ProbeMode"
+type = "KPROCESSOR_MODE"
+size = 0x1
+addr = 0x78bef0
+
+[stack_vars.0x0]
+offset = 0x378
+name = "AccessType"
+type = "KPROCESSOR_MODE"
+size = 0x1
+addr = 0x78bef0
+
+[stack_vars.-0x336]
+offset = 0x42
+name = "v23"
+type = "KPROCESSOR_MODE"
+size = 0x1
+addr = 0x78bef0
+
+[stack_vars.-0x335]
+offset = 0x43
+name = "v24"
+type = "char"
+size = 0x1
+addr = 0x78bef0
+
+[stack_vars.-0x334]
+offset = 0x44
+name = "HandleAttributes"
+type = "ULONG"
+size = 0x4
+addr = 0x78bef0
+
+[stack_vars.-0x330]
+offset = 0x48
+name = "v26"
+type = "int"
+size = 0x4
+addr = 0x78bef0
+
+[stack_vars.-0x328]
+offset = 0x50
+name = "ProcId"
+type = "unsigned int"
+size = 0x4
+addr = 0x78bef0
+
+[stack_vars.-0x320]
+offset = 0x58
+name = "v28"
+type = "ACCESS_MASK"
+size = 0x4
+addr = 0x78bef0
+
+[stack_vars.-0x318]
+offset = 0x60
+name = "v29"
+type = "ULONG"
+size = 0x4
+addr = 0x78bef0
+
+[stack_vars.-0x310]
+offset = 0x68
+name = "Process"
+type = "_EPROCESS *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x308]
+offset = 0x70
+name = "UniqueProcessId"
+type = "ULONG"
+size = 0x4
+addr = 0x78bef0
+
+[stack_vars.-0x300]
+offset = 0x78
+name = "Object"
+type = "PVOID"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x2f8]
+offset = 0x80
+name = "Handle"
+type = "HANDLE"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x2f0]
+offset = 0x88
+name = "ProcessId"
+type = "HANDLE[2]"
+size = 0x10
+addr = 0x78bef0
+
+[stack_vars.-0x2e0]
+offset = 0x98
+name = "v35"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x2d8]
+offset = 0xa0
+name = "ProcHandle"
+type = "PHANDLE"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x2d0]
+offset = 0xa8
+name = "SubjectContext"
+type = "struct _SECURITY_SUBJECT_CONTEXT"
+size = 0x20
+addr = 0x78bef0
+
+[stack_vars.-0x2a8]
+offset = 0xd0
+name = "PassedAccessState"
+type = "struct _ACCESS_STATE"
+size = 0xa0
+addr = 0x78bef0
+
+[stack_vars.-0x208]
+offset = 0x170
+name = "AuxData"
+type = "char[224]"
+size = 0xe0
+addr = 0x78bef0
+
+[stack_vars.-0x128]
+offset = 0x250
+name = "UserData"
+type = "struct _EVENT_DATA_DESCRIPTOR"
+size = 0x10
+addr = 0x78bef0
+
+[stack_vars.-0x118]
+offset = 0x260
+name = "v41"
+type = "ACCESS_MASK *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x110]
+offset = 0x268
+name = "v42"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x108]
+offset = 0x270
+name = "v43"
+type = "unsigned int *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x100]
+offset = 0x278
+name = "v44"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xf8]
+offset = 0x280
+name = "EventData"
+type = "char[32]"
+size = 0x20
+addr = 0x78bef0
+
+[stack_vars.-0xd8]
+offset = 0x2a0
+name = "pProcId"
+type = "unsigned int *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xd0]
+offset = 0x2a8
+name = "v47"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xc8]
+offset = 0x2b0
+name = "v48"
+type = "ACCESS_MASK *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xc0]
+offset = 0x2b8
+name = "v49"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xb8]
+offset = 0x2c0
+name = "v50"
+type = "ULONG *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xb0]
+offset = 0x2c8
+name = "v51"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xa8]
+offset = 0x2d0
+name = "v52"
+type = "KPROCESSOR_MODE *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0xa0]
+offset = 0x2d8
+name = "v53"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x98]
+offset = 0x2e0
+name = "v54"
+type = "char *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x90]
+offset = 0x2e8
+name = "v55"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x88]
+offset = 0x2f0
+name = "v56"
+type = "long long *"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x80]
+offset = 0x2f8
+name = "v57"
+type = "long long"
+size = 0x8
+addr = 0x78bef0
+
+[stack_vars.-0x20]
+offset = 0x358
+name = ""
+type = "int"
+size = 0x4
+addr = 0x78bef0
+
+[header.args.0x0]
+offset = 0x0
+name = "ProcessHandle"
+type = "PHANDLE"
+size = 0x8
+
+[header.args.0x1]
+offset = 0x1
+name = "DesiredAccess"
+type = "ACCESS_MASK"
+size = 0x4
+
+[header.args.0x2]
+offset = 0x2
+name = "ObjectAttributes"
+type = "POBJECT_ATTRIBUTES"
+size = 0x8
+
+[header.args.0x3]
+offset = 0x3
+name = "ClientId"
+type = "PCLIENT_ID"
+size = 0x8
+
+[header.args.0x4]
+offset = 0x4
+name = "ProbeMode"
+type = "KPROCESSOR_MODE"
+size = 0x1
+
+[header.args.0x5]
+offset = 0x5
+name = "AccessType"
+type = "KPROCESSOR_MODE"
+size = 0x1

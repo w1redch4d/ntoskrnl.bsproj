@@ -1,0 +1,427 @@
+last_change = 2024-07-20T08:45:06.050108Z
+addr = 0x6a08f0
+size = 0xd38
+name = "NtCreateUserProcess"
+type = "long long"
+
+[header]
+last_change = 2024-07-20T08:45:06.050108Z
+name = "NtCreateUserProcess"
+addr = 0x6a08f0
+type = "long long"
+
+[stack_vars.-0x30]
+offset = 0x7e0
+name = "ProcessObjectAttributes"
+type = "POBJECT_ATTRIBUTES"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x28]
+offset = 0x7e8
+name = "ThreadObjectAttributes"
+type = "POBJECT_ATTRIBUTES"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x20]
+offset = 0x7f0
+name = "ProcessFlags"
+type = "ULONG"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x18]
+offset = 0x7f8
+name = "ThreadFlags"
+type = "ULONG"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x10]
+offset = 0x800
+name = "ProcessParameters"
+type = "_RTL_USER_PROCESS_PARAMETERS *"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x8]
+offset = 0x808
+name = "CreateInfo"
+type = "PPS_CREATE_INFO"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.0x0]
+offset = 0x810
+name = "AttributeList"
+type = "PPS_ATTRIBUTE_LIST"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x790]
+offset = 0x80
+name = "v72"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x78f]
+offset = 0x81
+name = "v73"
+type = "unsigned char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x78e]
+offset = 0x82
+name = "v74"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x78d]
+offset = 0x83
+name = "v75"
+type = "bool"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x78c]
+offset = 0x84
+name = "v76"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x78b]
+offset = 0x85
+name = "v77"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x78a]
+offset = 0x86
+name = "v78"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x788]
+offset = 0x88
+name = "v79"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x780]
+offset = 0x90
+name = "v80"
+type = "PVOID"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x778]
+offset = 0x98
+name = "v81"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[stack_vars.-0x774]
+offset = 0x9c
+name = "v82"
+type = "int"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x770]
+offset = 0xa0
+name = "v83"
+type = "char[4]"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x768]
+offset = 0xa8
+name = "v84"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x760]
+offset = 0xb0
+name = "v85"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x758]
+offset = 0xb8
+name = "v86"
+type = "unsigned int"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x754]
+offset = 0xbc
+name = "v87"
+type = "int"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x750]
+offset = 0xc0
+name = "v88"
+type = "ACCESS_MASK"
+size = 0x4
+addr = 0x6a08f0
+
+[stack_vars.-0x748]
+offset = 0xc8
+name = "v89"
+type = "PVOID"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x740]
+offset = 0xd0
+name = "v90"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x738]
+offset = 0xd8
+name = "v91"
+type = "_ETHREAD *"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x730]
+offset = 0xe0
+name = "v92"
+type = "PVOID"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x728]
+offset = 0xe8
+name = "v93"
+type = "PVOID"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x720]
+offset = 0xf0
+name = "v94"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x718]
+offset = 0xf8
+name = "v95"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x710]
+offset = 0x100
+name = "v96"
+type = "PVOID"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x708]
+offset = 0x108
+name = "v97"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x700]
+offset = 0x110
+name = "v98"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x6f8]
+offset = 0x118
+name = "v99"
+type = "PHANDLE"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x6f0]
+offset = 0x120
+name = "Object"
+type = "PVOID"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x6e8]
+offset = 0x128
+name = "ObjectAttributes"
+type = "OBJECT_ATTRIBUTES"
+size = 0x30
+addr = 0x6a08f0
+
+[stack_vars.-0x6b8]
+offset = 0x158
+name = "v102"
+type = "long long[3]"
+size = 0x18
+addr = 0x6a08f0
+
+[stack_vars.-0x6a0]
+offset = 0x170
+name = "DriverContext"
+type = "struct _IO_DRIVER_CREATE_CONTEXT"
+size = 0x28
+addr = 0x6a08f0
+
+[stack_vars.-0x678]
+offset = 0x198
+name = "v104"
+type = "__int128"
+size = 0x10
+addr = 0x6a08f0
+
+[stack_vars.-0x668]
+offset = 0x1a8
+name = "IoStatusBlock"
+type = "struct _IO_STATUS_BLOCK"
+size = 0x10
+addr = 0x6a08f0
+
+[stack_vars.-0x658]
+offset = 0x1b8
+name = "v106"
+type = "long long[2]"
+size = 0x10
+addr = 0x6a08f0
+
+[stack_vars.-0x648]
+offset = 0x1c8
+name = "v107"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0x640]
+offset = 0x1d0
+name = "v108"
+type = "char[80]"
+size = 0x50
+addr = 0x6a08f0
+
+[stack_vars.-0x5f0]
+offset = 0x220
+name = "v109"
+type = "long long[64]"
+size = 0x200
+addr = 0x6a08f0
+
+[stack_vars.-0x3f0]
+offset = 0x420
+name = "v110"
+type = "_BYTE[400]"
+size = 0x190
+addr = 0x6a08f0
+
+[stack_vars.-0x260]
+offset = 0x5b0
+name = "AccessState"
+type = "_BYTE[400]"
+size = 0x190
+addr = 0x6a08f0
+
+[stack_vars.-0xd0]
+offset = 0x740
+name = "v112"
+type = "long long[2]"
+size = 0x10
+addr = 0x6a08f0
+
+[stack_vars.-0xc0]
+offset = 0x750
+name = "v113"
+type = "long long"
+size = 0x8
+addr = 0x6a08f0
+
+[stack_vars.-0xb8]
+offset = 0x758
+name = "v114"
+type = "char"
+size = 0x1
+addr = 0x6a08f0
+
+[header.args.0x0]
+offset = 0x0
+name = "ProcessHandle"
+type = "PHANDLE"
+size = 0x8
+
+[header.args.0x1]
+offset = 0x1
+name = "ThreadHandle"
+type = "PHANDLE"
+size = 0x8
+
+[header.args.0x2]
+offset = 0x2
+name = "ProcessDesiredAccess"
+type = "ACCESS_MASK"
+size = 0x4
+
+[header.args.0x3]
+offset = 0x3
+name = "ThreadDesiredAccess"
+type = "ACCESS_MASK"
+size = 0x4
+
+[header.args.0x4]
+offset = 0x4
+name = "ProcessObjectAttributes"
+type = "POBJECT_ATTRIBUTES"
+size = 0x8
+
+[header.args.0x5]
+offset = 0x5
+name = "ThreadObjectAttributes"
+type = "POBJECT_ATTRIBUTES"
+size = 0x8
+
+[header.args.0x6]
+offset = 0x6
+name = "ProcessFlags"
+type = "ULONG"
+size = 0x4
+
+[header.args.0x7]
+offset = 0x7
+name = "ThreadFlags"
+type = "ULONG"
+size = 0x4
+
+[header.args.0x8]
+offset = 0x8
+name = "ProcessParameters"
+type = "_RTL_USER_PROCESS_PARAMETERS *"
+size = 0x8
+
+[header.args.0x9]
+offset = 0x9
+name = "CreateInfo"
+type = "PPS_CREATE_INFO"
+size = 0x8
+
+[header.args.0xa]
+offset = 0xa
+name = "AttributeList"
+type = "PPS_ATTRIBUTE_LIST"
+size = 0x8
